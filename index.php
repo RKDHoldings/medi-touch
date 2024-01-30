@@ -36,11 +36,6 @@ to enjoy and relax</p>
        
           <img src="assets/img/polygon.png" class="polygon-icon" alt="">
       
-       <a href="#why-us">
-         <div class="mouse-icon">
-            <div class="wheel"></div>
-         </div>
-       </a>
 
   </section><!-- End Hero -->
 
@@ -123,8 +118,8 @@ to enjoy and relax</p>
      <section id="main-services">
          <div class="container">
               <div class="row">
-                 <h3>What services we provide you</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+                 <h3 class="text-center">What services we provide you</h3>
+                 <p  class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
                    Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
 
                    <div class="col-lg-6">
@@ -136,6 +131,9 @@ to enjoy and relax</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit aucto</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque.</p>   
                         </div>
+                        <a href="" class="btn btn-primary">
+                            explore more
+                        </a>
                       
                    </div>
                    <div class="col-lg-6">
@@ -144,6 +142,9 @@ to enjoy and relax</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit aucto</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque.</p>   
                         </div>
+                        <a href="" class="btn btn-primary">
+                            explore more
+                        </a>
                       
                    </div>
                    <div class="col-lg-6">

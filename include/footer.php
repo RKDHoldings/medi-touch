@@ -4,47 +4,35 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>About us</h3>
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h3>Get in touch</h3>
             <p>
-            There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs condmentum leo massamollis its estiegittis miristum.
-            </p>
+              <i class="bi bi-map"></i>
+              Newroad, 
+             Pokhara Kaski
+              </p>
+             <p>  <i class="bi bi-phone"></i> ff</p>
+             
+             <p><i class="bi bi-envelope"></i>dddd </p> 
 
                <ul class="footer-social d-flex p-0">
                   <li><a href=""><i class="bi bi-facebook"></i></a></li>
                   <li><a href=""><i class="bt bi-envelope"></i></a></li>
                </ul>
           </div>
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Our Location</h3>
-            <p>
-              <i class="bi bi-map"></i>
-              Ranipauwa, 
-             Pokhara Kaski
-              </p>
-             <p>  <i class="bi bi-phone"></i> ff</p>
-             
-             <p><i class="bi bi-envelope"></i>dddd </p> 
-            
-          </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-4 col-md-6 footer-contact">
             <h3>Useful Links</h3>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="about.php">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.php">Services</a></li>
-             
+              <li><i class="bx bx-chevron-right"></i> <a href="services.php">Services</a></li>        
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Our Services</h3>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i><a href="">Catering services</a>  </li>
-              <li><i class="bx bx-chevron-right"></i><a href="">Banquet hall</a>  </li>
-              
-            </ul>
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <img src="assets/img/logo.png" class="logo" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit auctor,</p>
           </div>
 
          
@@ -57,11 +45,9 @@
   <div class="footer-bottom">
     <div class="container d-md-flex justify-content-between">     
         <div class="copyright">
-          &copy; Copyright <strong><span>Company</span></strong>. All Rights Reserved
+        Copyright @2024 Medi-Touch
         </div>
-        <div class="credits">
-          Developed by 
-        </div>     
+    
     </div>
   </div>
    
