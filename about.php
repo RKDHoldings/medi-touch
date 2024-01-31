@@ -89,14 +89,14 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up">
               <div class="member-img">
-                <img src="assets/img/team/md.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/doctorTeam.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>Sabi Sherchan</h4>
+              <div class="member-info ">
+                <h4 class="">Sabi Sherchan</h4>
                 <span>Managing Director</span>
               </div>
             </div>
@@ -105,7 +105,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/anju-bg.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/doctorTeam.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
@@ -121,7 +121,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/team/neelam2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/doctorTeam.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
@@ -137,7 +137,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/team/isha.png" class="img-fluid" alt="">
+                <img src="assets/img/team/doctorTeam.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
@@ -154,7 +154,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/team/kanchan.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/doctorTeam.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>

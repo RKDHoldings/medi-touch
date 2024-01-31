@@ -154,7 +154,7 @@ to enjoy and relax</p>
      </section>
     <!-- services section end  -->
      
-     <!-- Contact section -->
+     <!-- Contact section start -->
      <section id="" class="contact">
            <div class="container"  data-aos="fade-up">
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -193,6 +193,13 @@ to enjoy and relax</p>
                 </div>
            </div>
      </section>
+     <!-- Contact section end-->
+
+
+
+
+
+
 
 
   </main><!-- End #main -->
