@@ -50,11 +50,11 @@
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background:red; 
+  background: var(--color-primary); 
   border-radius: 12px;
 }
 ::-webkit-scrollbar-thumb :hover{
-  background: red;
+  background:  var(--color-primary);
 }
 body {
   font-family:  'Quicksand', sans-serif;
@@ -661,79 +661,7 @@ ul.top-contact li a{
   }
 }
 
-/* ---------------------------------------------- /*
- * Mouse animate icon
-/* ---------------------------------------------- */
-.mouse-icon {
-  position: absolute;
-  bottom: 30px;
-  border: 2px solid var(--color-text);
-  left: 50%;
-  border-radius: 16px;
-  height: 40px;
-  width: 24px;
-  display: block;
-  z-index: 10;
-  opacity: 0.7;
-}
-.mouse-icon .wheel {
-  -webkit-animation-name: drop;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-play-state: running;
-  -webkit-animation-name: drop;
-          animation-name: drop;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
-}
-.mouse-icon .wheel {
-  position: relative;
-  border-radius: 10px;
-  background: #000;
-  width: 2px;
-  height: 6px;
-  top: 4px;
-  margin-left: auto;
-  margin-right: auto;
-}
-@-webkit-keyframes drop {
-  0% {
-    top: 5px;
-    opacity: 0;
-  }
-  30% {
-    top: 10px;
-    opacity: 1;
-  }
-  100% {
-    top: 25px;
-    opacity: 0;
-  }
-}
-@keyframes drop {
-  0% {
-    top: 5px;
-    opacity: 0;
-  }
-  30% {
-    top: 10px;
-    opacity: 1;
-  }
-  100% {
-    top: 25px;
-    opacity: 0;
-  }
-}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -2066,6 +1994,10 @@ ul.story-list{
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.testimonials .testimonial-wrap {
+  padding-left: 50px;
+}
+
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -2073,18 +2005,20 @@ ul.story-list{
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  padding: 40px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 30px 30px 30px 60px;
+  margin: 30px 15px;
+  min-height: 200px;
+  box-shadow: 0px 2px 12px rgba(44, 73, 100, 0.08);
   position: relative;
   background: #fff;
 }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
-  border-radius: 50px;
+  border-radius: 10px;
   border: 6px solid #fff;
-  float: left;
-  margin: 0 10px 0 0;
+  position: absolute;
+  left: -45px;
 }
 
 .testimonials .testimonial-item h3 {
@@ -2102,7 +2036,7 @@ ul.story-list{
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #dddddd;
+  color: #badaf7;
   font-size: 26px;
 }
 
@@ -2121,10 +2055,46 @@ ul.story-list{
 
 .testimonials .testimonial-item p {
   font-style: italic;
-  margin: 15px 0 0 0;
-  padding: 0;
+  margin: 15px auto 15px auto;
 }
 
+.testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #1977cc;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #1977cc;
+}
+
+@media (max-width: 767px) {
+  .testimonials .testimonial-wrap {
+    padding-left: 0;
+  }
+
+  .testimonials .testimonials-carousel,
+  .testimonials .testimonials-slider {
+    overflow: hidden;
+  }
+
+  .testimonials .testimonial-item {
+    padding: 30px;
+    margin: 15px;
+  }
+
+  .testimonials .testimonial-item .testimonial-img {
+    position: static;
+    left: auto;
+  }
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -2822,7 +2792,7 @@ ul.story-list{
   bottom: -6px;
 }
 #footer .footer-top .footer-contact p {
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 24px;
   /* margin-bottom: 0; */
   color: var(--color-secondary);
