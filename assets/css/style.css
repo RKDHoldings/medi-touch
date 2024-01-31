@@ -16,6 +16,8 @@
   --color-secondary: #006241;
   --color-alternate-bg: #fff8f6;
   --color-text: #212529;
+  --color-dark-blue: #084596;
+  --color-lighter-blue: #01a9f2;
   --color-secondary-rgb: 50, 53, 58;
   --color-box-background: #ffffff;
   --color-box-background-rgb: 255, 255, 255;
@@ -756,7 +758,7 @@ section {
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -1719,11 +1721,20 @@ ul.story-list {
 /*--------------------------------------------------------------
 # Our Team
 --------------------------------------------------------------*/
+.team {
+  background: linear-gradient(
+    180deg,
+    rgba(1, 169, 242, 0.11) 1.26%,
+    rgba(1, 169, 242, 0.05) 42.85%,
+    rgba(194, 129, 107, 0.04) 100%
+  );
+}
+
 .team .member {
   margin-bottom: 20px;
   width: 100%;
   overflow: hidden;
- 
+  text-align: center;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1780,28 +1791,60 @@ ul.story-list {
 
 .team .member .member-info {
   padding: 25px 15px;
+  text-align: left;
 }
 
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  text-align: left;
+  color: var(--color-primary);
 }
 
 .team .member .member-info span {
   display: block;
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 500;
   color: #b4aca8;
-  text-align: left;
+  margin-bottom: 12px;
 }
 
 .team .member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #847872;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: justify;
+  hyphens: auto;
+  color: var(--color-primary);
+}
+.team .member .member-info a {
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+.team .member .member-info a::after {
+  display: inline-block;
+  -moz-transform: scale(0.5, 1);
+  -ms-transform: scale(0.5, 1);
+  -o-transform: scale(0.5, 1);
+  transform: scale(0.5, 1);
+  content: ">";
+  font-size: 24px;
+  top: 2px;
+  position: relative;
+  margin-left: 4px;
+  transition: all 0.3s ease-in-out;
+  
+}
+.team .member .member-info a:hover::after{
+  margin-left: 8px;
+}
+.team .member .member-info a:hover, .team .member .member-info a:hover::after{
+  background: linear-gradient(90deg, #01a9f2, #02a64d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .team .member:hover .social {
@@ -2142,10 +2185,15 @@ ul.story-list {
   padding: 30px;
   margin-top: 5rem;
 }
-.contact .contact-form-section{
-  background: linear-gradient(180deg, rgba(1, 169, 242, 0.05) 0%, rgba(194, 129, 107, 0.09) 72.5%, rgba(194, 129, 107, 0.02) 120.2%);
+.contact .contact-form-section {
+  background: linear-gradient(
+    180deg,
+    rgba(1, 169, 242, 0.05) 0%,
+    rgba(194, 129, 107, 0.09) 72.5%,
+    rgba(194, 129, 107, 0.02) 120.2%
+  );
 }
-.contact h3{
+.contact h3 {
   font-size: 2rem;
 }
 .contact .contact-us-img {
@@ -2153,14 +2201,19 @@ ul.story-list {
   object-fit: cover;
 }
 .contact .form-control {
- background-color: transparent;
- border-top: 0;
- border-left: 0;
- border-right: 0;
+  background-color: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
 }
 
-.contact .contact-info{
-  background: linear-gradient(180deg, rgba(1, 169, 242, 0.11) 0%, rgba(194, 129, 107, 0.06) 66.53%, rgba(194, 129, 107, 0.20) 127.94%);
+.contact .contact-info {
+  background: linear-gradient(
+    180deg,
+    rgba(1, 169, 242, 0.11) 0%,
+    rgba(194, 129, 107, 0.06) 66.53%,
+    rgba(194, 129, 107, 0.2) 127.94%
+  );
 }
 
 .contact .info {
