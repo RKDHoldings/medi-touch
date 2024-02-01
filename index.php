@@ -249,21 +249,25 @@ to enjoy and relax</p>
      <section id="" class="contact">
            <div class="container"  data-aos="fade-up">
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
-                     <div class="heading-wrapper">
-                            <h4>
-                                Book us
-                            </h4>
-                            <h2>
-                                Where you want Our Services
-                            </h2>
+                  
+                     <div class="col-lg-6">
+                         
+                        <img src="assets/img/feedback.png" alt="">
                      </div>
-                     <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                          <div class="heading-wrapper">
+                                  <h2>
+                                    Give Us Suggestions
+                                  </h2>
+                                  <p>Please leave a  message of a suggestion </p>
+                          </div>
+
                         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                           <div class="row">
-                            <div class="col-md-6 form-group">
+                            <div class="form-group">
                               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
                             </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <div class="form-group mt-3 mt-md-0">
                               <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
                             </div>
                           </div>
@@ -271,14 +275,12 @@ to enjoy and relax</p>
                             <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
                           </div>
                           <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                            <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
                           </div>
-                          <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+  
+                          <div>
+                            <button type="submit">Submit</button>
                           </div>
-                          <div class="text-center"><button type="submit">Send Message</button></div>
                         </form>
                      </div>
                 </div>
