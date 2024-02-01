@@ -1289,20 +1289,23 @@ ul.story-list {
 
 /* Before and After Section */
 .before-after {
-  background-color: linear-gradient(
+  background: linear-gradient(
     180deg,
-    rgba(1, 169, 242, 0.16) 1.26%,
+    rgba(1, 169, 242, 0.162) 1.26%,
     rgba(194, 129, 107, 0.3) 32.85%,
-    rgba(1, 169, 242, 0.08) 66.43%,
-    rgba(194, 129, 107, 0.06) 100%
+    rgba(1, 169, 242, 0.078) 66.43%,
+    rgba(194, 129, 107, 0.063) 100%
   );
 }
+.before-after p {
+  color: #adadad;
+}
 .before-after .slider-wrapper {
-  width: 750px;
-  height: 500px;
+  width: 650px;
+  height: 485px;
   position: relative;
   overflow: hidden;
-  border: 7px solid #fff;
+  /* border: 7px solid #fff; */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 }
 
@@ -1328,7 +1331,7 @@ ul.story-list {
   position: absolute;
   width: 100%;
   z-index: 99;
-  border-right: 10px solid white;
+  /* border-right: 10px solid white; */
   top: 0;
 }
 .before-after .slider input[type="range"] {
