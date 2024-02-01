@@ -169,22 +169,29 @@ include('include/navbar.php');
 
       <div class="row">
         <div class="slider-wrapper">
+    
+
           <div class="images">
             <div class="img-1"></div>
             <div class="img-2"></div>
           </div>
           <div class="slider">
+            <div class="drag-line">
+              <span></span>
+            </div>
             <input type="range" min="0" max="100" value="50">
           </div>
         </div>
       </div>
   </section>
 
-  <!-- Before and After section end  -->
+  
+    <!-- Before and After section end  -->
 
 
 
-  <!-- services section start  -->
+  
+    <!-- services section start  -->
 
 
   <!-- Contact section start -->

@@ -80,6 +80,9 @@
   <!--  Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <!-- Before and After Slider JS File -->
+  <script src="assets/js/slider.js"></script>
+
 </body>
 
 </html>

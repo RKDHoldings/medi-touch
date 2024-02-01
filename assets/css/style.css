@@ -1288,27 +1288,112 @@ ul.story-list {
 }
 
 /* Before and After Section */
-.before-after{
-  background-color: linear-gradient(180deg, rgba(1, 169, 242, 0.16) 1.26%, rgba(194, 129, 107, 0.30) 32.85%, rgba(1, 169, 242, 0.08) 66.43%, rgba(194, 129, 107, 0.06) 100%);;
-
+.before-after {
+  background-color: linear-gradient(
+    180deg,
+    rgba(1, 169, 242, 0.16) 1.26%,
+    rgba(194, 129, 107, 0.3) 32.85%,
+    rgba(1, 169, 242, 0.08) 66.43%,
+    rgba(194, 129, 107, 0.06) 100%
+  );
 }
-.before-after .wrapper{
-  width: 100%;
+.before-after .slider-wrapper {
+  width: 750px;
   height: 500px;
-} 
-.before-after .wrapper .images{
+  position: relative;
+  overflow: hidden;
+  border: 7px solid #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.before-after .slider-wrapper .images {
   height: 100%;
   width: 100%;
+  display: flex;
 }
-.before-after .images .img-1{
-  
-}
-.before-after .slider{
-  /* width: 100%; */
-} 
-.before-after .slider input{
+.before-after .images .img-1 {
+  height: 100%;
   width: 100%;
+  background: url(../img/before-after/AfterTransplant.png) no-repeat;
+  background-size: cover;
+}
+.before-after .images .img-2 {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background: url(../img/before-after/BeforeTransplant.webp) no-repeat;
+  background-size: cover;
+}
+.before-after .slider {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  border-right: 10px solid white;
+  top: 0;
+}
+.before-after .slider input[type="range"] {
+  width: 100%;
+  outline: none;
+  -webkit-appearance: none;
+  background: none;
+}
+.before-after .slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 486px;
+  width: 3px;
 
+  cursor: col-resize;
+}
+.before-after .drag-line {
+  width: 3px;
+  height: 486px;
+  position: absolute;
+  background: none;
+  left: 49.85%;
+  pointer-events: none;
+}
+.before-after .drag-line::before,
+.slider .drag-line::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 222px;
+  background: #fff;
+}
+.slider .drag-line::before {
+  top: 0;
+}
+.slider .drag-line::after {
+  bottom: 0;
+}
+.slider .drag-line span {
+  height: 42px;
+  width: 42px;
+  border: 3px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.slider .drag-line span::before,
+.slider .drag-line span::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  border: 10px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.slider .drag-line span::before {
+  left: 40%;
+  border-left-color: #fff;
+}
+.slider .drag-line span::after {
+  left: 60%;
+  border-top-color: #fff;
 }
 
 /* Gallery */
@@ -1859,12 +1944,12 @@ ul.story-list {
   position: relative;
   margin-left: 4px;
   transition: all 0.3s ease-in-out;
-  
 }
-.team .member .member-info a:hover::after{
+.team .member .member-info a:hover::after {
   margin-left: 8px;
 }
-.team .member .member-info a:hover, .team .member .member-info a:hover::after{
+.team .member .member-info a:hover,
+.team .member .member-info a:hover::after {
   background: linear-gradient(90deg, #01a9f2, #02a64d);
   -webkit-background-clip: text;
   background-clip: text;
