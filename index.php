@@ -10,8 +10,7 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row align-items-center">
         <div class="col-lg-6">
-          <h1>We Are Ready <span>For Your Skin</span>
-Care Help! </h1>
+          <h1>We Are Ready <span>For Your Skin</span>Care Help! </h1>
          
           <p>Follow us to improve health, <br/>
 to enjoy and relax</p>
@@ -155,6 +154,30 @@ to enjoy and relax</p>
      </section>
     <!-- services section end  -->
 
+    <!-- ceo section start -->
+    <section id="ceo-message">
+        <div class="container">
+            <div class="row">
+                 <div class="col-lg-6">
+                     <div class="ceo-content">
+                          <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo alias error, voluptate neque et consequuntur
+                            iusto reiciendis architecto maxime mollitia beatae quasi delectus nesciunt molestiae deserunt maiores doloremque non hic!
+                          </p>
+                     </div>
+                 </div>
+                 <div class="col-lg-6">
+                     <div class="ceo-img">
+                          
+                     </div>
+                 </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ceo section start -->
+
+
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container">
@@ -246,7 +269,7 @@ to enjoy and relax</p>
     <!-- End Testimonials Section -->
 
      <!-- Contact section -->
-     <section id="" class="contact">
+     <section id="feedback" class="feedback contact">
            <div class="container"  data-aos="fade-up">
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
                   
