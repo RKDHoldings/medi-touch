@@ -25,27 +25,8 @@ include('include/navbar.php');
 
 
 
-    <!-- Book an appointment banner section Start  -->
-    <!-- <section id="appointment" class="appointment">
-        <div class="container p-0">
-            <div class="appointment-banner">
-                <div class="row">
-                    <div class="col-6 me-auto text-content">
-                        <div class="px-4">
-                            <h3 class="title">Book an appointment today</h3>
-                            <p class="subtitle">Transform your look with our expert care</p>
-                            <button type="button" class="cta">Book Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- Book an appointment banner section end  -->
-
-
     <!-- Book an appointment section Start  -->
-    <section class="appointment-form-section my-3">
+    <section class="appointment-form-section py-3">
         <div class="container">
             <h5 class="form-title py-4 mt-4 mb-4 bottom-border bold">Book an Appointment</h5>
             <form>
@@ -131,7 +112,7 @@ include('include/navbar.php');
                             <input type="text" class="form-control" id="preferredStylist">
                         </div>
 
-                        <button type="submit" class="cta">Submit</button>
+                        <div class="row mt-3 pt-3"><button type="submit" class="cta py-2">Submit</button></div>
                     </div>
                 </div>
             </form>

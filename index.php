@@ -199,7 +199,23 @@ include('include/navbar.php');
   <!-- Contact section end-->
 
 
-
+  <!-- Book an appointment banner section Start  -->
+    <section id="appointment" class="appointment">
+        <div class="container p-0">
+            <div class="appointment-banner">
+                <div class="row">
+                    <div class="col-6 me-auto text-content">
+                        <div class="px-4">
+                            <h3 class="title">Book an appointment today</h3>
+                            <p class="subtitle">Transform your look with our expert care</p>
+                            <button type="button" onclick="window.location.href='appointment.php';" class="cta">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Book an appointment banner section end  -->
 
 
 
