@@ -11,12 +11,11 @@ include('include/navbar.php');
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
-
             <div class="d-flex justify-content-between align-items-center">
-                <h2>Book an appointment</h2>
+                <h2>Book an Appointment</h2>
                 <ol>
                     <li><a href="index.html">Home</a></li>
-                    <li>Book an appointment</li>
+                    <li>Book an Appointment</li>
                 </ol>
             </div>
 
@@ -26,9 +25,11 @@ include('include/navbar.php');
 
 
     <!-- Book an appointment section Start  -->
-    <section class="appointment-form-section py-3">
-        <div class="container">
-            <h5 class="form-title py-4 mt-4 mb-4 bottom-border bold">Book an Appointment</h5>
+    <section class="appointment-form-section">
+    <div class="top-img"></div>
+        <div class="row">
+        <div class="container appointment-form-col pt-4 my-5 px-5 col-md-9 mx-auto">
+            <h5 class="form-title py-4 mt-3 mb-5 bottom-border bold text-center">Book an Appointment</h5>
             <form>
                 <div class="row bottom-border pb-4 mb-5">
                     <div class="col-md-4">
@@ -116,6 +117,7 @@ include('include/navbar.php');
                     </div>
                 </div>
             </form>
+        </div>
         </div>
     </section>
     <!-- Book an appointment section end  -->
