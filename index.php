@@ -155,26 +155,126 @@ to enjoy and relax</p>
     <!-- services section end  -->
 
     <!-- ceo section start -->
-    <section id="ceo-message">
+    <section id="ceo-message" class="ceo-message">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Message from CEO</h2>
+        </div>
+
+        <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid post-img" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Gautam </h3>
+                  <div class="post">
+                    <p><span>CEO</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img//testimonials/testimonials-3.jpg" class="img-fluid post-img" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>John Doe</h3>
+                  <div class="post">
+                    <p><span>Dr</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid post-img" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Rita doe </h3>
+                  <div class="post">
+                    <p><span>Dr</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    <!-- <section id="ceo-message">
         <div class="container">
             <div class="row">
                  <div class="col-lg-6">
                      <div class="ceo-content">
+                      <h3>John Doe</h3>
                           <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo alias error, voluptate neque et consequuntur
                             iusto reiciendis architecto maxime mollitia beatae quasi delectus nesciunt molestiae deserunt maiores doloremque non hic!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vero provident reiciendis fugit, quisquam in nam, obcaecati impedit
+                             aliquam beatae ipsum vitae similique debitis exercitationem dolorum sunt ea tenetur ullam!
                           </p>
                      </div>
                  </div>
                  <div class="col-lg-6">
                      <div class="ceo-img">
-                          
+                          <img src="assets/img/team/02.jpg" alt="">
                      </div>
                  </div>
             </div>
         </div>
 
-    </section>
+    </section> -->
     <!-- ceo section start -->
 
 
