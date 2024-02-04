@@ -18,6 +18,7 @@
   --color-text: #212529;
   --color-dark-blue: #084596;
   --color-lighter-blue: #01a9f2;
+  --color-grey-blue: #6c757d;
   --color-secondary-rgb: 50, 53, 58;
   --color-box-background: #ffffff;
   --color-box-background-rgb: 255, 255, 255;
@@ -1405,7 +1406,7 @@ ul.story-list {
   background: url(../img/appointment-banner.jpg);
   height: 464px;
 }
-.appointment .appointment-banner .cta {
+.appointment .appointment-banner .cta, .appointment-form-section .cta {
   background-color: var(--color-lighter-blue);
   border-radius: 3px;
   border: none;
@@ -1428,12 +1429,46 @@ ul.story-list {
   font-size: 36px;
   color: var(--color-default);
 }
-.appointment .subtitle{
+.appointment .subtitle {
   font-size: 28px;
   /* color: var(--color-dark-blue); */
 }
-
 /* Book an appointment Section ends */
+
+/* Appointment form start */
+.appointment-form-section .form-title {
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  /* color: var(--color-dark-blue) !important; */
+}
+.appointment-form-section .form-section-title {
+  letter-spacing: 0.4px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  /* color: var(--color-dark-blue) !important; */
+}
+.appointment-form-section .form-section-subtitle {
+  letter-spacing: 0.4px;
+  color: var(--color-grey-blue);
+}
+.appointment-form-section .bottom-border{
+  border: 2px solid hsl(210, 23%, 95%);
+  border-top:none;
+  border-right: none;
+  border-left: none;
+}
+.appointment-form-section .bold{
+  color: var(--color-default);
+}
+.appointment-form-section label{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.appointment .form-control:focus{
+  color:red;
+}
+/* Appointment form end */
 
 /* Gallery */
 .gallery .gallery-item {
@@ -2461,7 +2496,9 @@ ul.story-list {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: var(--color-primary);
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
 }
 
 .contact .php-email-form input {
