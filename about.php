@@ -28,7 +28,7 @@ include('include/navbar.php');
       <div class="row align-items-center">
         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
           <div class="about-img" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/about.png" alt="">
+            <img src="assets/img/office.jpg" alt="">
           </div>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -112,7 +112,7 @@ include('include/navbar.php');
               </div>
             </div>
             <div class="member-info ">
-              <h4 class="">Sabi Sherchan</h4>
+              <h4 class="">Gautam</h4>
               <span>BSc (Hons), PhD, FRCSs</span>
               <p>Distinguished dermatologist elevating skincare at renowned clinic.</p>
               <a href="team.php">Learn More</a>
@@ -130,7 +130,7 @@ include('include/navbar.php');
               </div>
             </div>
             <div class="member-info">
-              <h4>Anju Chhantyal</h4>
+              <h4>Jems Pradhan</h4>
               <span>BSc (Hons), PhD, FRCSs</span>
               <p>Distinguished dermatologist elevating skincare at renowned clinic.</p>
               <a href="team-detail.php">Learn More</a>
@@ -148,7 +148,7 @@ include('include/navbar.php');
               </div>
             </div>
             <div class="member-info">
-              <h4>Neelam Thapa</h4>
+              <h4>John Doe</h4>
               <span>BSc (Hons), PhD, FRCSs</span>
               <p>Distinguished dermatologist elevating skincare at renowned clinic.</p>
               <a href="team-detail.php">Learn More</a>
@@ -167,7 +167,7 @@ include('include/navbar.php');
               </div>
             </div>
             <div class="member-info">
-              <h4>Isha Thapa</h4>
+              <h4>John Doe</h4>
               <span>BSc (Hons), PhD, FRCSs</span>
               <p>Distinguished dermatologist at renowned clinic.</p>
               <a href="team-detail.php">Learn More</a>

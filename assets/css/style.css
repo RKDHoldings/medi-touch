@@ -711,7 +711,7 @@ section {
   padding: 15px 0;
   background: var(--color-primary);
   min-height: 40px;
-  margin-top: 72px;
+  /* margin-top: 72px; */
 }
 
 .breadcrumbs h2 {
