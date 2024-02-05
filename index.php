@@ -12,8 +12,7 @@
         <div class="col-lg-6">
           <h1>We Are Ready <span>For Your Skin</span>Care Help! </h1>
          
-          <p>Follow us to improve health, <br/>
-to enjoy and relax</p>
+          <p>Follow us to improve health, <br/> to enjoy and relax</p>
 
           <div class="btns">
             <a href="/" class="btn btn-primary animated fadeInUp scrollto">Contact now
@@ -418,7 +417,32 @@ to enjoy and relax</p>
   </main><!-- End #main -->
 
 
+  <!-- Book an appointment banner section Start  -->
+    <section id="appointment" class="appointment">
+        <div class="container p-0">
+            <div class="appointment-banner">
+                <div class="row">
+                    <div class="col-6 me-auto text-content">
+                        <div class="px-4">
+                            <h3 class="title">Book an appointment today</h3>
+                            <p class="subtitle">Transform your look with our expert care</p>
+                            <button type="button" onclick="window.location.href='appointment.php';" class="cta">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Book an appointment banner section end  -->
 
-  <?php
- include('include/footer.php');
- ?>
+
+
+
+
+</main><!-- End #main -->
+
+
+
+<?php
+include('include/footer.php');
+?>

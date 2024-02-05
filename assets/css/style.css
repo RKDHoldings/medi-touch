@@ -15,6 +15,7 @@
   --color-text: #212529;
   --color-dark-blue: #084596;
   --color-lighter-blue: #01a9f2;
+  --color-grey-blue: #6c757d;
   --color-secondary-rgb: 50, 53, 58;
   --color-box-background: #ffffff;
   --color-box-background-rgb: 255, 255, 255;
@@ -1225,7 +1226,8 @@ ul.story-list {
   color: #adadad;
 }
 .before-after .slider-wrapper {
-  width: 650px;
+  /* width: 650px; */
+  width: 100%;
   height: 485px;
   position: relative;
   overflow: hidden;
@@ -1322,6 +1324,90 @@ ul.story-list {
   left: 60%;
   border-top-color: #fff;
 }
+
+/* Book an appointment Section starts */
+.appointment .appointment-banner {
+  background: url(../img/appointment-banner.jpg);
+  height: 464px;
+}
+.appointment .appointment-banner .cta {
+  background-color: var(--color-lighter-blue);
+  border-radius: 3px;
+  border: none;
+  padding: 5px 15px 5px 15px;
+  font-size: 18px;
+  color: white;
+}
+
+.appointment .text-content {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  height: 464px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appointment .title {
+  font-size: 36px;
+  color: var(--color-default);
+}
+.appointment .subtitle {
+  font-size: 28px;
+  /* color: var(--color-dark-blue); */
+}
+/* Book an appointment Section ends */
+
+/* Appointment form start */
+.appointment-form-section {
+  /* position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url(../img/appointment-form-bg.jpg) no-repeat fixed center;
+  background-size: cover; */
+}
+
+.appointment-form-section .form-title {
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--color-primary) !important;
+}
+.appointment-form-section .form-section-title {
+  letter-spacing: 0.4px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--color-primary) !important;
+}
+.appointment-form-section .form-section-subtitle {
+  letter-spacing: 0.4px;
+  color: var(--color-grey-blue);
+}
+.appointment-form-section .bottom-border{
+  border: 2px solid hsl(210, 23%, 95%);
+  border-top:none;
+  border-right: none;
+  border-left: none;
+}
+.appointment-form-section .bold{
+  font-weight: 600;
+}
+.appointment-form-section .cta {
+  background-color: var(--color-primary);
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+.appointment-form-section label{
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-primary);
+}
+.appointment-form-section .form-control:focus{
+border-color: var(--color-primary);
+}
+/* Appointment form end */
 
 /* Gallery */
 .gallery .gallery-item {
@@ -2526,7 +2612,9 @@ ul.story-list {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: var(--color-primary);
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
 }
 
 .contact .php-email-form input {

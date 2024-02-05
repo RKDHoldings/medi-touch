@@ -62,12 +62,14 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <!--  Main JS File -->
   <script src="assets/js/main.js"></script>
 
   <!-- Before and After Slider JS File -->
   <script src="assets/js/slider.js"></script>
+
 
 </body>
 
