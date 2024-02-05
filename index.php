@@ -63,7 +63,11 @@ to enjoy and relax</p>
                             </p>
                              <div class="more-about">
                                   <h4>Our mission and Vision</h4>
-                                  <p>Follow us to improve health, to enjoy and relax. Follow us to improve health.</p>
+                                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae at eaque cumque minima dolore voluptas sequi reprehenderit possimus,
+                                     impedit ullam et totam accusamus unde sint dolorum? Sapiente inventore fugiat a. Lorem ipsum dolor sit amet 
+                                     consectetur adipisicing elit. Molestiae vitae porro rem commodi cum 
+                                     earum est modi, eaque molestias ipsa!  
+                                  </p>
                                   <a href="" class="btn btn-primary">
                                       Who we are 
                                       <i class="bi bi-chevron-double-right"></i>
@@ -401,7 +405,7 @@ to enjoy and relax</p>
                             <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
                           </div>
   
-                          <div>
+                          <div class="mt-3">
                             <button type="submit">Submit</button>
                           </div>
                         </form>

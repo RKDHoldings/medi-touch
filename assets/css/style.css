@@ -1,5 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Playfair+Display:ital@1&display=swap');
+
 /* Global Colors */
 :root {
   --color-default: #212529;
@@ -81,7 +83,7 @@ h4,
 h5,
 h6 {
   color: var(--color-text);
-  font-family: "Playfair Display", serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
 }
 img {
@@ -3073,7 +3075,8 @@ ul.story-list {
   color: #fff;
  
   /* background: var(--color-alternate-bg); */
-  /* background: #C99B8B3D; */
+  background: #C99B8B3D;
+
 
 }
 
@@ -3083,6 +3086,9 @@ ul.story-list {
   
 }
 
+#footer p{
+  color: var(--color-text);
+}
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
@@ -3113,10 +3119,9 @@ ul.story-list {
   bottom: -6px;
 }
 #footer .footer-top .footer-contact p {
-  /* font-size: 14px; */
+ 
   line-height: 24px;
   /* margin-bottom: 0; */
-  color: var(--color-secondary);
 }
 
 #footer .footer-top h4 {
@@ -3179,6 +3184,8 @@ ul.story-list {
 #footer .footer-bottom {
   position: relative;
   padding: 1rem 0 1rem 0;
+  border-top: 1px solid #C2816B;
+  ;
   /* background-color: var(--color-primary); */
  
 }

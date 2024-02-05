@@ -45,7 +45,7 @@
   <div class="footer-bottom">
     <div class="container d-md-flex justify-content-between">     
         <div class="copyright">
-        Copyright @2024 Medi-Touch
+           <p> Copyright @2024 Medi-Touch</p>
         </div>
     
     </div>
