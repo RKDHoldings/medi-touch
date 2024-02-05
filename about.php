@@ -12,10 +12,10 @@ include('include/navbar.php');
   <section id="breadcrumbs" class="breadcrumbs">
     <div class="container">
 
-      <div class="d-flex justify-content-between align-items-center">
+      <div class="">
         <h2>About</h2>
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li>About</li>
         </ol>
       </div>
@@ -34,55 +34,15 @@ include('include/navbar.php');
         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
           <div class="about-info">
             <div class="heading-wrapper">
-              <h4>
-                Our Story
-              </h4>
               <h2>
                 Trusted By 200 + satisfied clients
               </h2>
             </div>
             <p class="mb-3">
-              Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore eit esdioilore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullaemco laboeeiris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor iesdein reprehendeerit
-              in voluptate velit esse cillum dolore.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ullam saepe laboriosam, qui obcaecati reprehenderit eum
+               perferendis consectetur, voluptates commodi asperiores eligendi, quia reiciendis magnam nesciunt doloremque necessitatibus harum minima!
             </p>
-            <ul class="story-list">
-              <li>
-                <span>
-                  <svg enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                    <g>
-                      <path d="m271.176 121.396c-150.205 7.822-271 132.495-271 284.604v106l37.925-88.29c44.854-89.692 133.847-147.041 233.075-152.314v121.318l240.648-196.714-240.648-196z"></path>
-                    </g>
-                  </svg>
-                </span> Fresh and Fast food Delivery
-              </li>
-              <li>
-                <span>
-                  <svg enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                    <g>
-                      <path d="m271.176 121.396c-150.205 7.822-271 132.495-271 284.604v106l37.925-88.29c44.854-89.692 133.847-147.041 233.075-152.314v121.318l240.648-196.714-240.648-196z"></path>
-                    </g>
-                  </svg>
-                </span> 24/7 Customer Support
-              </li>
-              <li>
-                <span>
-                  <svg enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                    <g>
-                      <path d="m271.176 121.396c-150.205 7.822-271 132.495-271 284.604v106l37.925-88.29c44.854-89.692 133.847-147.041 233.075-152.314v121.318l240.648-196.714-240.648-196z"></path>
-                    </g>
-                  </svg>
-                </span> Easy Customization Options
-              </li>
-              <li>
-                <span>
-                  <svg enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                    <g>
-                      <path d="m271.176 121.396c-150.205 7.822-271 132.495-271 284.604v106l37.925-88.29c44.854-89.692 133.847-147.041 233.075-152.314v121.318l240.648-196.714-240.648-196z"></path>
-                    </g>
-                  </svg>
-                </span> Delicious Deals for Delicious Meals
-              </li>
-            </ul>
+            <a href="" class="btn btn-primary">Book now</a>
           </div>
         </div>
       </div>

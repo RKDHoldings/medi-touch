@@ -426,7 +426,7 @@
                         <div class="px-4">
                             <h3 class="title">Book an appointment today</h3>
                             <p class="subtitle">Transform your look with our expert care</p>
-                            <button type="button" onclick="window.location.href='appointment.php';" class="cta">Book Now</button>
+                            <button type="button" onclick="window.location.href='appointment.php';" class="btn btn-primary">Book Now</button>
                         </div>
                     </div>
                 </div>
