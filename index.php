@@ -204,7 +204,7 @@ include('include/navbar.php');
         <div class="container p-0">
             <div class="appointment-banner">
                 <div class="row">
-                    <div class="col-6 me-auto text-content">
+                    <div class="col-md-6 me-auto text-content">
                         <div class="px-4">
                             <h3 class="title">Book an appointment today</h3>
                             <p class="subtitle">Transform your look with our expert care</p>

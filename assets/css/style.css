@@ -787,7 +787,7 @@ section {
   padding: 15px 0;
   background: var(--color-primary);
   min-height: 40px;
-  margin-top: 72px;
+  /* margin-top: 72px; */
 }
 
 .breadcrumbs h2 {
@@ -1403,8 +1403,14 @@ ul.story-list {
 
 /* Book an appointment Section starts */
 .appointment .appointment-banner {
-  background: url(../img/appointment-banner.jpg);
+  background: url(../img/appointment-banner.jpg) no-repeat;
   height: 464px;
+  @media (max-width: 1400px) {
+    background-position: right 20px;
+  }
+  @media (max-width: 800px) {
+    background-position: left 0px;
+  }
 }
 .appointment .appointment-banner .cta {
   background-color: var(--color-lighter-blue);
@@ -1424,6 +1430,9 @@ ul.story-list {
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 450px) {
+    padding-left: 80px;
+  }
 }
 .appointment .title {
   font-size: 36px;
@@ -1442,7 +1451,18 @@ ul.story-list {
               url(../img/appointment-form-bg.jpg) no-repeat fixed center;
   background-size: cover; */
 }
-
+.appointment-form-section .appointment-form-col {
+  /* border: 1px solid var(--color-primary);
+  border-radius: 8px; */
+}
+.appointment-form-section .top-img{
+  background: url(../img/appointment-banner.jpg) no-repeat;
+  background-size: cover;
+  height: 300px;
+  @media (max-width: 800px) {
+    background-position: right 100px;
+  }
+}
 .appointment-form-section .form-title {
   letter-spacing: 0.5px;
   font-weight: 500;
@@ -1459,13 +1479,13 @@ ul.story-list {
   letter-spacing: 0.4px;
   color: var(--color-grey-blue);
 }
-.appointment-form-section .bottom-border{
+.appointment-form-section .bottom-border {
   border: 2px solid hsl(210, 23%, 95%);
-  border-top:none;
+  border-top: none;
   border-right: none;
   border-left: none;
 }
-.appointment-form-section .bold{
+.appointment-form-section .bold {
   font-weight: 600;
 }
 .appointment-form-section .cta {
@@ -1475,13 +1495,17 @@ ul.story-list {
   font-size: 20px;
   color: white;
 }
-.appointment-form-section label{
+.appointment-form-section label {
   font-size: 1rem;
   font-weight: 500;
   color: var(--color-primary);
 }
-.appointment-form-section .form-control:focus{
-border-color: var(--color-primary);
+.appointment-form-section .form-control:focus {
+  border-color: var(--color-primary);
+}
+.appointment-form-section .CaptchaWarning .icon{
+  height: 1.5rem;
+  width: 1.5rem;
 }
 /* Appointment form end */
 
@@ -2512,7 +2536,8 @@ border-color: var(--color-primary);
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
   border-color: rgba(126, 239, 104, 0.8);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(126, 239, 104, 0.6);
   outline: 0 none;
 }
 
