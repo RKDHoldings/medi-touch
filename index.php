@@ -1,202 +1,420 @@
 <?php
-include('include/html-header.php');
-?>
-<?php
-include('include/navbar.php');
-?>
+ include('include/html-header.php');
+ ?>
+ <?php
+ include('include/navbar.php');
+ ?>
 
-<!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex align-items-center">
-  <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <h1>We Are Ready <span>For Your Skin</span>
-          Care Help! </h1>
-
-        <p>Follow us to improve health, <br />
-          to enjoy and relax</p>
-
-        <div class="btns">
-          <a href="/" class="btn btn-primary animated fadeInUp scrollto">Contact now
-            <i class="bi bi-chevron-double-right"></i>
-          </a>
-        </div>
-      </div>
-      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
-        <img src="assets/img/hero.png" alt="">
-        <!-- <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a> -->
-      </div>
-      <!-- <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
-        
-        </div> -->
-
-    </div>
-  </div>
-
-
-  <img src="assets/img/polygon.png" class="polygon-icon" alt="">
-
-  <a href="#why-us">
-    <div class="mouse-icon">
-      <div class="wheel"></div>
-    </div>
-  </a>
-
-</section><!-- End Hero -->
-
-<main id="main">
-
-  <section class="about-wrapper">
-    <div class="container" data-aos="fade-up">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row align-items-center">
-        <div class="col-lg-7  d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-          <div class="image-stack text-end">
-            <img src="assets/img/about-1.png" alt="" class="stack-front">
-            <img src="assets/img/about-2.png" alt="" class="stack-front">
-            <img src="assets/img/about-3.png" alt="" class="stack-back">
-          </div>
+        <div class="col-lg-6">
+          <h1>We Are Ready <span>For Your Skin</span>Care Help! </h1>
+         
+          <p>Follow us to improve health, <br/> to enjoy and relax</p>
 
-        </div>
-        <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12">
-          <div class="about-info">
-            <div class="heading-wrapper">
-              <h2>
-                We have 7+ Years , <br />Experience.
-              </h2>
-            </div>
-            <p class="mb-3">
-              Follow us to improve health, <br /> to enjoy and relax
-            </p>
-            <div class="more-about">
-              <h4>Our mission and Vision</h4>
-              <p>Follow us to improve health, to enjoy and relax. Follow us to improve health.</p>
-              <a href="" class="btn btn-primary">
-                Who we are
-                <i class="bi bi-chevron-double-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
-
-
-
-  <!-- services section start  -->
-  <section id="what-we-do">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h3 class="text-center">What we provide you</h3>
-          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-            Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
-            Donec libero justo,</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="d-flex video-wrapper w-100">
-          <div class="video-background">
-            <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
-          </div>
-          <div class="video-content">
-            <h3 class="text-start">What we makes different <br /> from others</h3>
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-              Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-            </p>
-
-            <a href="" class="btn btn-secondary mt-4">
-              View More
+          <div class="btns">
+            <a href="/" class="btn btn-primary animated fadeInUp scrollto">Contact now
+               <i class="bi bi-chevron-double-right"></i>
             </a>
           </div>
         </div>
-
-
-
+        <div class="col-lg-6"  data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/img/hero.png" alt="">
+            <!-- <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a> -->
+        </div>
+        <!-- <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+        
+        </div> -->
 
       </div>
     </div>
-  </section>
+    
+       
+          <img src="assets/img/polygon.png" class="polygon-icon" alt="">
+      
 
-  <section id="main-services">
-    <div class="container">
-      <div class="row">
-        <h3>What services we provide you</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-          Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
+  </section><!-- End Hero -->
 
-        <div class="col-lg-6">
-          <img src="assets/img/services/1.png" alt="">
+  <main id="main">
+
+    <section class="about-wrapper">
+            <div class="container" data-aos="fade-up">
+                <div class="row align-items-center">
+                <div class="col-lg-7  d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+                      <div class="image-stack text-end">
+                        <img src="assets/img/about-1.png" alt="" class="stack-front">
+                        <img src="assets/img/about-2.png" alt="" class="stack-front">
+                        <img src="assets/img/about-3.png" alt="" class="stack-back">
+                      </div>
+                    
+                </div>
+                <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="about-info">
+                            <div class="heading-wrapper">
+                                <h2>
+                                We have 7+ Years , <br/>Experience.
+                                </h2>
+                            </div>
+                            <p class="mb-3">
+                            Follow us to improve health, <br/>  to enjoy and relax
+                            </p>
+                             <div class="more-about">
+                                  <h4>Our mission and Vision</h4>
+                                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae at eaque cumque minima dolore voluptas sequi reprehenderit possimus,
+                                     impedit ullam et totam accusamus unde sint dolorum? Sapiente inventore fugiat a. Lorem ipsum dolor sit amet 
+                                     consectetur adipisicing elit. Molestiae vitae porro rem commodi cum 
+                                     earum est modi, eaque molestias ipsa!  
+                                  </p>
+                                  <a href="" class="btn btn-primary">
+                                      Who we are 
+                                      <i class="bi bi-chevron-double-right"></i>
+                                  </a>
+                             </div>
+                        </div>
+                </div>
+            </div>
+    </section>
+
+    
+
+    <!-- services section start  -->
+     <section id="what-we-do">
+         <div class="container">
+             <div class="row">
+                  <div class="col-lg-12">  
+                       <h3 class="text-center">What we provide you</h3>
+                       <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+                         Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
+                          Donec libero justo,</p>
+                  </div>
+             </div>
+
+             <div class="row">
+                  <div class="d-flex video-wrapper w-100">
+                       <div class="video-background">                           
+                            <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
+                       </div>
+                       <div class="video-content">
+                            <h3 class="text-start">What we makes different <br/> from others</h3>
+                            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+                              Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. 
+                            </p>  
+                            
+                            <a href="" class="btn btn-secondary mt-4">
+                            View More
+                            </a>
+                       </div>
+                  </div>
+                 
+                      
+                 
+                  
+             </div>
+         </div>
+     </section>
+
+     <section id="main-services">
+         <div class="container">
+              <div class="row">
+                 <h3 class="text-center">What services we provide you</h3>
+                 <p  class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+                   Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
+
+                   <div class="col-lg-6">
+                        <img src="assets/img/services/1.png" alt="">
+                   </div>
+                   <div class="col-lg-6">
+                        <div class="service-content">
+                            <h5>Facial care treatment</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit aucto</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque.</p>   
+                        </div>
+                        <a href="" class="btn btn-primary">
+                            explore more
+                        </a>
+                      
+                   </div>
+                   <div class="col-lg-6">
+                        <div class="service-content">
+                            <h5>Facial care treatment</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit aucto</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque.</p>   
+                        </div>
+                        <a href="" class="btn btn-primary">
+                            explore more
+                        </a>
+                      
+                   </div>
+                   <div class="col-lg-6">
+                        <img src="assets/img/services/1.png" alt="">
+                   </div>
+              </div>
+         </div>
+     </section>
+    <!-- services section end  -->
+
+    <!-- ceo section start -->
+    <section id="ceo-message" class="ceo-message">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Message from CEO</h2>
         </div>
-        <div class="col-lg-6">
-          <div class="service-content">
-            <h5>Facial care treatment</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit aucto</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque.</p>
+
+        <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="img-fluid post-img" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Gautam </h3>
+                  <div class="post">
+                    <p><span>CEO</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img//testimonials/testimonials-3.jpg" class="img-fluid post-img" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>John Doe</h3>
+                  <div class="post">
+                    <p><span>Dr</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid post-img" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Rita doe </h3>
+                  <div class="post">
+                    <p><span>Dr</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
           </div>
+          <div class="swiper-pagination"></div>
+        </div>
 
-        </div>
-        <div class="col-lg-6">
-          <div class="service-content">
-            <h5>Facial care treatment</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit aucto</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque.</p>
-          </div>
-
-        </div>
-        <div class="col-lg-6">
-          <img src="assets/img/services/1.png" alt="">
-        </div>
       </div>
-    </div>
-  </section>
-
-
-  <!-- services section start  -->
-
-
-  <!-- Contact section start -->
-  <section id="" class="contact">
-    <div class="container" data-aos="fade-up">
-      <div class="row" data-aos="fade-up" data-aos-delay="100">
-        <div class="heading-wrapper">
-          <h4>
-            Book us
-          </h4>
-          <h2>
-            Where you want Our Services
-          </h2>
-        </div>
-        <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+    </section>
+    <!-- <section id="ceo-message">
+        <div class="container">
             <div class="row">
-              <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-              </div>
-              <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-              </div>
+                 <div class="col-lg-6">
+                     <div class="ceo-content">
+                      <h3>John Doe</h3>
+                          <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo alias error, voluptate neque et consequuntur
+                            iusto reiciendis architecto maxime mollitia beatae quasi delectus nesciunt molestiae deserunt maiores doloremque non hic!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vero provident reiciendis fugit, quisquam in nam, obcaecati impedit
+                             aliquam beatae ipsum vitae similique debitis exercitationem dolorum sunt ea tenetur ullam!
+                          </p>
+                     </div>
+                 </div>
+                 <div class="col-lg-6">
+                     <div class="ceo-img">
+                          <img src="assets/img/team/02.jpg" alt="">
+                     </div>
+                 </div>
             </div>
-            <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
-            </div>
-            <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-            </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
         </div>
+
+    </section> -->
+    <!-- ceo section start -->
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
       </div>
-    </div>
-  </section>
-  <!-- Contact section end-->
+    </section>
+    <!-- End Testimonials Section -->
+
+     <!-- Contact section -->
+     <section id="feedback" class="feedback contact">
+           <div class="container"  data-aos="fade-up">
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                  
+                     <div class="col-lg-6">
+                         
+                        <img src="assets/img/feedback.png" alt="">
+                     </div>
+                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                          <div class="heading-wrapper">
+                                  <h2>
+                                    Give Us Suggestions
+                                  </h2>
+                                  <p>Please leave a  message of a suggestion </p>
+                          </div>
+
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                          <div class="row">
+                            <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                            </div>
+                            <div class="form-group mt-3 mt-md-0">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                            </div>
+                          </div>
+                          <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+                          </div>
+                          <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
+                          </div>
+  
+                          <div class="mt-3">
+                            <button type="submit">Submit</button>
+                          </div>
+                        </form>
+                     </div>
+                </div>
+           </div>
+     </section>
+
+
+  </main><!-- End #main -->
 
 
   <!-- Book an appointment banner section Start  -->
@@ -208,7 +426,7 @@ include('include/navbar.php');
                         <div class="px-4">
                             <h3 class="title">Book an appointment today</h3>
                             <p class="subtitle">Transform your look with our expert care</p>
-                            <button type="button" onclick="window.location.href='appointment.php';" class="cta">Book Now</button>
+                            <button type="button" onclick="window.location.href='appointment.php';" class="btn btn-primary">Book Now</button>
                         </div>
                     </div>
                 </div>

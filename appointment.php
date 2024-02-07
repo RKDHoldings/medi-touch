@@ -41,31 +41,31 @@ include('include/navbar.php');
                             <!-- Full Name -->
                             <div class="mb-3 col-md-6">
                                 <label for="fullName" class="form-label">Full Name</label>
-                                <input type="text" class="form-control" id="fullName">
+                                <input type="text" class="form-control" required id="fullName">
                             </div>
                             <!-- Email Address -->
                             <div class="mb-3 col-md-6">
                                 <label for="emailAddress" class="form-label">Email Address</label>
-                                <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp">
+                                <input type="email" class="form-control" required id="emailAddress" aria-describedby="emailHelp">
                             </div>
                         </div>
 
                         <!-- Contact Number -->
                         <div class="mb-3">
                             <label for="contactNumber" class="form-label">Contact Number</label>
-                            <input type="tel" class="form-control" maxlength="10" id="contactNumber">
+                            <input type="tel" class="form-control" required maxlength="10" id="contactNumber">
                         </div>
 
                         <!-- Date of Birth -->
                         <div class="mb-3">
                             <label for="dob" class="form-label">Date of Birth(AD)</label>
-                            <input type="date" class="form-control" id="dob">
+                            <input type="date" class="form-control" required id="dob">
                         </div>
 
                         <!-- Gender -->
                         <div class="mb-3">
                             <label for="gender" class="form-label">Gender</label>
-                            <select class="form-select" id="gender">
+                            <select class="form-select" required id="gender">
                                 <option value="male">Male</option>
                                 <option value="female">Female</option>
                                 <option value="other">Other</option>
@@ -83,28 +83,28 @@ include('include/navbar.php');
                             <!-- Preferred Date -->
                             <div class="mb-3 col-md-6">
                                 <label for="preferredDate" class="form-label">Preferred Date<span class="bold">(Sun - Fri)<span></label>
-                                <input type="date" class="form-control" id="preferredDate">
+                                <input type="date" class="form-control" required id="preferredDate">
                             </div>
 
                             <!-- Preferred Time -->
                             <div class="mb-3 col-md-6">
                                 <label for="preferredTime" class="form-label">Preferred Time<span class="bold">(10 AM - 5 PM)</span></label>
-                                <input type="time" class="form-control" id="preferredTime" name="preferredTime">
+                                <input type="time" class="form-control" required id="preferredTime" name="preferredTime">
                             </div>
                         </div>
 
                         <!-- Type of Appointment -->
                         <div class="mb-3">
                             <label for="appointmentType" class="form-label">Type of Appointment</label>
-                            <select class="form-select" id="appointmentType">
+                            <select class="form-select" required id="appointmentType">
                                 <option value="hair">Hair</option>
                                 <option value="skin">Skin</option>
                                 <option value="custom">Specify Service</option>
                             </select>
                         </div>
                         <div class="mb-3" id="specifyServiceInput" style="display:none;">
-                            <label for="specifyService" class="form-label">Specify Service</label>
-                            <input type="text" class="form-control" id="specifyService">
+                            <label for="specifyService" class="form-label">Service</label>
+                            <input type="text" class="form-control" required id="specifyService">
                         </div>
 
                         <!-- Preferred Stylist/Doctor -->
@@ -112,6 +112,10 @@ include('include/navbar.php');
                             <label for="preferredStylist" class="form-label">Preferred Doctor<span class="bold">(Optional)</span></label>
                             <input type="text" class="form-control" id="preferredStylist">
                         </div>
+
+                        <!-- captcha field and client side captcha field -->
+                        <div class="g-recaptcha" data-sitekey="6LeoNWYpAAAAAKHk_cuRfOucB8NEj_onjoG2rRlF"></div>
+                        <br />
 
                         <div class="row mt-3 pt-3"><button type="submit" class="cta py-2">Submit</button></div>
                     </div>
