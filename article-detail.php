@@ -31,9 +31,16 @@ include('include/navbar.php');
                 <div class="col-lg-8 main-content px-5 py-4 ">
                     <div class="inner-container px-3">
                         <h3 class="mb-4">Your Step-by-Step Guide to NeoGraft® Hair Transplantation</h3>
+                        <div class="publish-and-share d-flex justify-content-between">
                         <div class="publish-info d-flex">
                             <p class="author  me-4">By <u>Dr. David Harrison</u></p>
                             <p class="publish-date">• Published on May 17, 2023</p>
+                        </div>
+                        <div class="share-buttons">
+                            <a target="blank" class="facebook"><i class='bx bxl-facebook-circle' ></i></a>
+                            <a target="blank" class="twitter"><i class='bx bxl-twitter'></i></i></a>
+                            <a target="blank" class="linkedin"><i class='bx bxl-linkedin-square' ></i></a>
+                        </div>
                         </div>
                         <div class="img-container mb-4">
                             <img src="assets/img/article/article.jpg" alt="A medical professional woman working on her laptop" class="">
@@ -79,6 +86,8 @@ include('include/navbar.php');
     </section>
     <!-- News and Blogs Section End -->
 
+  <!-- Share on social media JS File -->
+    <script src="assets/js/social-media.js"></script>
 
 </main><!-- End #main -->
 
