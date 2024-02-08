@@ -1390,10 +1390,31 @@ ul.story-list {
 
 /* Appointment form start */
 .appointment-form-section {
-  /* position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-              url(../img/appointment-form-bg.jpg) no-repeat fixed center;
-  background-size: cover; */
+  position: relative;
+  z-index: 2;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url(../img/appointment-form-bg.jpg) no-repeat fixed center; */
+  background-image: url(../img/book-banner.jpg);            
+  background-size: cover;
+  position: relative;
+}
+.appointment-form-section::before {
+  position: absolute;
+  left: 0;
+  /* top: 0; 
+  */
+  width: 100%;
+  height: 100%;
+ background: #000000B2
+  ;
+  z-index: -1;
+  opacity: .7;
+  content: "";
+}
+.appointment-form-section form{
+  background-color: rgba(142, 221, 255, 0.75);
+  padding: 2rem;
+  border-radius: 11px;
 }
 .appointment-form-section .appointment-form-col {
   /* border: 1px solid var(--color-primary);

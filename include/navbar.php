@@ -14,10 +14,10 @@
                         <div class="topbar-right text-end">
                             <ul class="top-contact">
                                 <li>
-                                  <i class="bi bi-phone"></i> <a href="tel:061-544440"> 061-544440</a>
+                                  <i class="bi bi-phone"></i> <a href="tel:061-590664">  061-590664</a>
                                 </li>
                                 <li>
-                                  <i class="bi bi-envelope"></i> <a href=""> Info@meditouch.com.np</a>
+                                  <i class="bi bi-envelope"></i> <a href="">  clinic.meditouch@gmail.com</a>
                                 </li>
                                 <li>
                                   <i class="bi bi-phone"></i> <a href="tel:061-544440"> 061-544440</a>
