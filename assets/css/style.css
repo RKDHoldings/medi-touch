@@ -2831,6 +2831,22 @@ font-size: 14px;
 
 
 
+/* All packages grid page start */
+.all-packages .icon img{
+  display: block;
+  margin: auto;
+  fill: var(--color-primary);
+}
+
+.all-packages .body .title, .all-packages .body .subtitle, .all-packages .body .cta{
+  text-align: center;
+}
+.all-packages .body .cta{
+  cursor: pointer;
+}
+/* All packages grid page end */
+
+
 
 /*--------------------------------------------------------------
 # Blog
