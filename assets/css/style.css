@@ -2779,6 +2779,9 @@ font-size: 14px;
     border: 0;
   }
 }
+.article-detail .main-content .share-buttons a .bx{
+  color: var(--color-grey-blue);
+}
 .article-detail .main-content .publish-info{
   @media (max-width: 992px ) {
     display: block !important;

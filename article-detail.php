@@ -39,7 +39,7 @@ include('include/navbar.php');
                         <div class="share-buttons">
                             <a target="blank" class="facebook"><i class='bx bxl-facebook-circle' ></i></a>
                             <a target="blank" class="twitter"><i class='bx bxl-twitter'></i></i></a>
-                            <a target="blank" class="linkedin"><i class='bx bxl-linkedin-square' ></i></a>
+                            <a target="blank" class="linkedin"><i class='bx bxl-linkedin-square'></i></a>
                         </div>
                         </div>
                         <div class="img-container mb-4">
@@ -55,7 +55,6 @@ include('include/navbar.php');
                                 Most Honest Hair Restoration hair transplant patients have their surgery completed in one day, with the length of time required dependent on the number of grafts needed for your unique transplant.
                                 Your scalp treatment is completed under local anesthesia, so you're able to drive. However, some patients prefer to have a friend or relative drive them.
                             </p>
-
                             <h5 class="point-title"> Step 2: Extracting donor hair</h5>
                             <p> Instead of the traditional method, which removes strips of hair and scalp, Dr. Maag and the team use the follicular unit extraction (FUE) process to individually remove each hair follicle graft unit using specialized tools.
                                 Grafts of consistent size and quality are taken to increase the success rate of your transplant. And each extraction leaves only a microscopic scar that's one millimeter or smaller in size, so you won't have large, visible scars after your hair transplant.

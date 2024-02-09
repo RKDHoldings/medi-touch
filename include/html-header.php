@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Meditouch</title>
-  <meta content="Nova Computer & Language Institute" name="description">
-  <meta content="Study in Japan" name="keywords">
+  <meta content="Meditouch Hair & Skin Clinic" name="description">
+  <meta content="Meditouch Hair & Skin Clinic" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
