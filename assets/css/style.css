@@ -1432,7 +1432,7 @@ ul.story-list {
   letter-spacing: 0.5px;
   font-weight: 500;
   font-size: 1.5rem;
-  color: var(--color-primary) !important;
+  color: var(--color-bg) !important;
 }
 .appointment-form-section .form-section-title {
   letter-spacing: 0.4px;
@@ -3288,7 +3288,7 @@ ul.story-list {
 }
 #footer .footer-top .footer-contact h3 {
   font-size: 22px;
-  margin: 0 0 20px 0;
+  margin: 0 0 25px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 600;
@@ -3297,17 +3297,34 @@ ul.story-list {
   color: var(--color-primary);
   position: relative;
 }
+#footer .footer-top .footer-contact h3::before {
+  border-bottom: 1px solid #aecfdd;
+  width: 100%;
+}
+#footer .footer-top .footer-contact h3::after, #footer .footer-top .footer-contact h3::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -18px;
+  right: 0;
+}
+#footer .footer-top .footer-contact h3:after {
+  content: "";
+  border: 1px solid var(--color-primary);
+  width: 36px;
+  height: 2px;
+}
+ .footer-text {
+  color: #abb2ba;
+}
+.table-bordered td, .table-bordered th {
+  border: 1px solid var(--color-primary);
+  background-color: transparent;
+}
 #footer .logo{
   width: 130px;
 }
-#footer .footer-top .footer-contact h3:before {
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 60%;
-  background: var(--color-primary);
-  bottom: -6px;
-}
+
 #footer .footer-top .footer-contact p {
  
   line-height: 24px;

@@ -6,7 +6,12 @@
                     <div class="col-lg-4 col-sm-12">
                         <div class="topbar-menu">
                             <ul class="top-contact text-left float-start p-0">
-                                <li>Open Hours : <span class=""> Sun - Fri 10:00-5:00</span></li>
+                                <li>
+                                  <i class="bi bi-facebook"></i>
+                                </li>
+                                <li>
+                                  <i class="bi bi-instagram"></i>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -14,14 +19,15 @@
                         <div class="topbar-right text-end">
                             <ul class="top-contact">
                                 <li>
+                                  <i class="bi bi-house-door"></i> <a href="tel:061-544440"> Newroad-09, Pokhara</a>
+                                </li>
+                                <li>
                                   <i class="bi bi-phone"></i> <a href="tel:061-590664">  061-590664</a>
                                 </li>
                                 <li>
                                   <i class="bi bi-envelope"></i> <a href="">  clinic.meditouch@gmail.com</a>
                                 </li>
-                                <li>
-                                  <i class="bi bi-phone"></i> <a href="tel:061-544440"> 061-544440</a>
-                                </li>
+                               
                             
                           </ul>
                         </div>
