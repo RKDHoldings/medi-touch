@@ -2832,18 +2832,89 @@ font-size: 14px;
 
 
 /* All packages grid page start */
-.all-packages .icon img{
-  display: block;
-  margin: auto;
-  fill: var(--color-primary);
+.all-packages {
+  background: linear-gradient(180deg, rgba(1, 169, 242, 0.1674) 0%, rgba(194, 129, 107, 0.0868) 43.28%, rgba(1, 169, 242, 0.1023) 72.5%, rgba(194, 129, 107, 0.31) 112.41%);
+}
+.all-packages .card{
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+  @media (min-width: 1200px){
+    min-height: 300px;
+  }
+}
+.all-packages .card:hover{
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
 }
 
-.all-packages .body .title, .all-packages .body .subtitle, .all-packages .body .cta{
+.all-packages .card .overlay{
+    position: relative;
+    width: 118px;
+    position: absolute; 
+    height: 118px;
+    border-radius: 50%;
+    top: 70px;
+    left: 50px;
+    background:#f3f8fb;
+    z-index: -1;
+    transition: transform 0.3s ease-out;
+}
+
+.all-packages .card:hover .overlay{
+  transform: scale(4) translateZ(0);
+    background:#f3f8fb;
+}
+
+.all-packages .icon{
+  background-color: var(--color-alternate-bg);
+  width: 60px;
+  border-radius: 50% 50%;
+  padding: 10px;
+  margin: auto;
+}
+.all-packages .card:hover .icon-container{
+}
+.all-packages .icon img{
+  filter:  invert(33%) sepia(96%) saturate(3924%) hue-rotate(185deg) brightness(91%) contrast(101%);
+}
+
+.all-packages .card-body {
   text-align: center;
 }
-.all-packages .body .cta{
-  cursor: pointer;
+.all-packages .card .card-body .card-title{
+  font-weight: 600;
+  font-size: 18px;
 }
+.all-packages .card .card-body .card-text{
+  color: var(--color-grey-blue);
+  font-size: 14px;
+  text-align: center;
+}
+.all-packages .card-body .cta{
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  /* font-weight: 700;
+  color: var(--color-primary); */
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 8px 5px 8px;
+  transition: all 0.5s ease-in-out;
+}
+.all-packages .card-body .cta::after{
+  content: ">";
+ margin-left: 8px;
+ transition: all 0.5s ease-in-out;
+ display: none;
+}
+.all-packages .card:hover .cta::after{
+  display: inline;
+}
+
 /* All packages grid page end */
 
 
