@@ -91,6 +91,10 @@ h6 {
 img {
   max-width: 100%;
 }
+.page-subtitle{
+  color: var(--color-grey-blue);
+  font-weight: 600;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -2891,6 +2895,7 @@ font-size: 14px;
 .all-packages {
   background: linear-gradient(180deg, rgba(1, 169, 242, 0.1674) 0%, rgba(194, 129, 107, 0.0868) 43.28%, rgba(1, 169, 242, 0.1023) 72.5%, rgba(194, 129, 107, 0.31) 112.41%);
 }
+
 .all-packages .card{
   position: relative;
   overflow: hidden;
@@ -2972,6 +2977,35 @@ font-size: 14px;
 }
 
 /* All packages grid page end */
+
+
+
+/* Package detail single page start */
+.package-detail {
+  background: linear-gradient(180deg, rgba(1, 169, 242, 0.1674) 0%, rgba(194, 129, 107, 0.0868) 43.28%, rgba(1, 169, 242, 0.1023) 72.5%, rgba(194, 129, 107, 0.31) 112.41%);
+}
+.package-detail tr{
+  min-height: 60px;
+}
+.package-detail .procedure-td{
+  position: relative;
+}
+.package-detail table span.price{
+  /* padding: 5px;
+  background-color: #9bddc7;
+  color: white;
+  border-radius: .5rem; */
+  /* position: absolute;
+  bottom: 0.8rem; */
+  color: var(--color-grey-blue);
+  font-size: 14px;
+}
+.package-detail table span.price .amount{
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+/* Package detail single page end */
 
 
 

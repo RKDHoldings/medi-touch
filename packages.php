@@ -29,9 +29,14 @@ include('include/navbar.php');
   <!-- News and Blogs Section Start -->
   <section class="all-packages">
     <div class="container">
-      <h3 class="page-title mb-5 text-center">
+      <h3 class="page-title mb-3 text-center">
         Our Packages
       </h3>
+      <div class="row mb-5">
+        <div class="col-8 mx-auto">
+          <p class="page-subtitle text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae distinctio minus perferendias inventore recusandae laudantium corrus aperiam facilis molestias alias inventore recusandae laudantium corrupti?</p>
+        </div>
+      </div>
       <div class="row gy-4">
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card px-3 py-4">
@@ -44,7 +49,7 @@ include('include/navbar.php');
             <div class="card-body">
               <h5 class="card-title">Aesthetic Procedures</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, reiciendis.</p>
-              <a href="#" class="cta">Learn More</a>
+              <a href="/medi-touch/packages/aesthetic.php" class="cta">Learn More</a>
             </div>
           </div>
         </div>
