@@ -20,10 +20,7 @@
   new Swiper('.events-slider', {
     speed: 600,
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
+   
     slidesPerView: 'auto',
     pagination: {
       el: '.swiper-pagination',
@@ -190,7 +187,7 @@
       },
 
       1200: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 20
       }
     }

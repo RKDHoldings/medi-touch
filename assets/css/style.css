@@ -1390,10 +1390,31 @@ ul.story-list {
 
 /* Appointment form start */
 .appointment-form-section {
-  /* position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-              url(../img/appointment-form-bg.jpg) no-repeat fixed center;
-  background-size: cover; */
+  position: relative;
+  z-index: 2;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url(../img/appointment-form-bg.jpg) no-repeat fixed center; */
+  background-image: url(../img/book-banner.jpg);            
+  background-size: cover;
+  position: relative;
+}
+.appointment-form-section::before {
+  position: absolute;
+  left: 0;
+  /* top: 0; 
+  */
+  width: 100%;
+  height: 100%;
+ background: #000000B2
+  ;
+  z-index: -1;
+  opacity: .7;
+  content: "";
+}
+.appointment-form-section form{
+  background-color: rgba(142, 221, 255, 0.75);
+  padding: 2rem;
+  border-radius: 11px;
 }
 .appointment-form-section .appointment-form-col {
   /* border: 1px solid var(--color-primary);
@@ -1411,7 +1432,7 @@ ul.story-list {
   letter-spacing: 0.5px;
   font-weight: 500;
   font-size: 1.5rem;
-  color: var(--color-primary) !important;
+  color: var(--color-bg) !important;
 }
 .appointment-form-section .form-section-title {
   letter-spacing: 0.4px;
@@ -2282,6 +2303,41 @@ ul.story-list {
 }
 
 /*--------------------------------------------------------------
+# Doctors
+--------------------------------------------------------------*/
+.doctor-info {
+  padding-left: 30px;
+}
+.doctor-details li {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-bottom: 15px;
+}
+
+.doctor-details li p {
+  flex-basis: 30%;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+.doctor-bio h2 {
+  font-size: 30px;
+ 
+  letter-spacing: 0;
+  line-height: 40px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+}
+.doctor-details li span {
+  flex: 1;
+  color: #878787;
+  font-size: 16px;
+  padding-left: 20px;
+  letter-spacing: 0;
+}
+/*--------------------------------------------------------------
 # Ceo
 --------------------------------------------------------------*/
 #ceo-message{
@@ -2301,13 +2357,13 @@ ul.story-list {
   border-bottom-left-radius: 95px;
   border-bottom-right-radius: 95px;
 }
-.ceo-img img{
-  /* width: 269px;
+/* .ceo-img img{
+  width: 269px;
   height: 200px;
   border-radius: 50%;
-  border: 4px solid var(--color-primary); */
+  border: 4px solid var(--color-primary);
 
-}
+} */
 
 .ceo-message {
   
@@ -3457,7 +3513,7 @@ font-size: 14px;
 }
 #footer .footer-top .footer-contact h3 {
   font-size: 22px;
-  margin: 0 0 20px 0;
+  margin: 0 0 25px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 600;
@@ -3466,17 +3522,34 @@ font-size: 14px;
   color: var(--color-primary);
   position: relative;
 }
+#footer .footer-top .footer-contact h3::before {
+  border-bottom: 1px solid #aecfdd;
+  width: 100%;
+}
+#footer .footer-top .footer-contact h3::after, #footer .footer-top .footer-contact h3::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -18px;
+  right: 0;
+}
+#footer .footer-top .footer-contact h3:after {
+  content: "";
+  border: 1px solid var(--color-primary);
+  width: 36px;
+  height: 2px;
+}
+ .footer-text {
+  color: #abb2ba;
+}
+.table-bordered td, .table-bordered th {
+  border: 1px solid var(--color-primary);
+  background-color: transparent;
+}
 #footer .logo{
   width: 130px;
 }
-#footer .footer-top .footer-contact h3:before {
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 60%;
-  background: var(--color-primary);
-  bottom: -6px;
-}
+
 #footer .footer-top .footer-contact p {
  
   line-height: 24px;

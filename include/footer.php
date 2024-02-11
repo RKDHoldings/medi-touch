@@ -1,6 +1,5 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -11,9 +10,9 @@
               Newroad, 
              Pokhara Kaski
               </p>
-             <p>  <i class="bi bi-phone"></i> ff</p>
+             <p>  <i class="bi bi-phone"></i> 061-590664</p>
              
-             <p><i class="bi bi-envelope"></i>dddd </p> 
+             <p><i class="bi bi-envelope"></i>clinic.meditouch@gmail.com </p> 
 
                <ul class="footer-social d-flex p-0">
                   <li><a href=""><i class="bi bi-facebook"></i></a></li>
@@ -26,13 +25,31 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="about.php">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="services.php">Services</a></li>        
+              <li><i class="bx bx-chevron-right"></i> <a href="services.php">Services</a></li> 
+              <li><i class="bx bx-chevron-right"></i> <a href="packages.php">Packages</a></li>        
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-contact">
-            <img src="assets/img/logo.png" class="logo" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit auctor,</p>
+            <!-- <img src="assets/img/logo.png" class="logo" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit auctor,</p> -->
+            <div class="office-timings">            <!-- Widget -->
+                            <h3>Hospital Timings</h3>
+                            <table class="table table-bordered footer-text">
+                                <tbody><tr>
+                                    <td>Sun - Fri</td>
+                                    <td>9:00 am to 6:00 pm</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>10:00 am to 1:00 pm</td>
+                                </tr>
+                                <!-- <tr>
+                                    <td>Sunday</td>
+                                    <td>Weekly Off</td>
+                                </tr> -->
+                            </tbody></table>
+                        </div>
           </div>
 
          
@@ -53,7 +70,7 @@
    
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
       <!--  JS Files -->
       <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

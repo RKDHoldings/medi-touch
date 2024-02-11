@@ -6,7 +6,12 @@
                     <div class="col-lg-4 col-sm-12">
                         <div class="topbar-menu">
                             <ul class="top-contact text-left float-start p-0">
-                                <li>Open Hours : <span class=""> Sun - Fri 10:00-5:00</span></li>
+                                <li>
+                                  <i class="bi bi-facebook"></i>
+                                </li>
+                                <li>
+                                  <i class="bi bi-instagram"></i>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -14,14 +19,15 @@
                         <div class="topbar-right text-end">
                             <ul class="top-contact">
                                 <li>
-                                  <i class="bi bi-phone"></i> <a href="tel:061-544440"> 061-544440</a>
+                                  <i class="bi bi-house-door"></i> <a href="tel:061-544440"> Newroad-09, Pokhara</a>
                                 </li>
                                 <li>
-                                  <i class="bi bi-envelope"></i> <a href=""> Info@meditouch.com.np</a>
+                                  <i class="bi bi-phone"></i> <a href="tel:061-590664">  061-590664</a>
                                 </li>
                                 <li>
-                                  <i class="bi bi-phone"></i> <a href="tel:061-544440"> 061-544440</a>
+                                  <i class="bi bi-envelope"></i> <a href="">  clinic.meditouch@gmail.com</a>
                                 </li>
+                               
                             
                           </ul>
                         </div>
@@ -44,21 +50,9 @@
           <li><a class="nav-link scrollto" href="articles.php">News & Blogs</a></li>
          
           <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
-          <li class="dropdown"><a href="#"><span>Events</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="doctors.php"><span>Doctors</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="doctors-detail.php">Doctors Details</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>

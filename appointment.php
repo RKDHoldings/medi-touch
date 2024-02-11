@@ -11,10 +11,10 @@ include('include/navbar.php');
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
+            <div>
                 <h2>Book an Appointment</h2>
                 <ol>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li>Book an Appointment</li>
                 </ol>
             </div>
@@ -26,7 +26,7 @@ include('include/navbar.php');
 
     <!-- Book an appointment section Start  -->
     <section class="appointment-form-section">
-        <div class="top-img"></div>
+        <!-- <div class="top-img"></div> -->
         <div class="row">
             <div class="container appointment-form-col pt-4 my-5 px-5 col-md-9 mx-auto">
                 <h5 class="form-title py-4 mt-3 mb-5 bottom-border bold text-center">Book an Appointment</h5>
@@ -52,19 +52,19 @@ include('include/navbar.php');
                             </div>
 
                             <!-- Contact Number -->
-                            <div class="mb-3">
+                            <div class="mb-3 col-md-6">
                                 <label for="contactNumber" class="form-label">Contact Number</label>
                                 <input type="tel" class="form-control" required maxlength="10" id="contactNumber">
                             </div>
 
                             <!-- Date of Birth -->
-                            <div class="mb-3">
+                            <div class="mb-3 col-md-6">
                                 <label for="dob" class="form-label">Date of Birth(AD)</label>
                                 <input type="date" class="form-control" required id="dob">
                             </div>
 
                             <!-- Gender -->
-                            <div class="mb-3">
+                            <div class="mb-3 col-md-6">
                                 <label for="gender" class="form-label">Gender</label>
                                 <select class="form-select" required id="gender">
                                     <option value="male">Male</option>
@@ -95,7 +95,7 @@ include('include/navbar.php');
                             </div>
 
                             <!-- Type of Appointment -->
-                            <div class="mb-3">
+                            <div class="mb-3 col-md-6">
                                 <label for="appointmentType" class="form-label">Type of Appointment</label>
                                 <select class="form-select" id="appointmentType">
                                     <option value="hair">Hair</option>
@@ -109,7 +109,7 @@ include('include/navbar.php');
                             </div>
 
                             <!-- Preferred Stylist/Doctor -->
-                            <div class="mb-3">
+                            <div class="mb-3 col-md-6">
                                 <label for="preferredStylist" class="form-label">Preferred Doctor<span class="bold">(Optional)</span></label>
                                 <input type="text" class="form-control" id="preferredStylist">
                             </div>
