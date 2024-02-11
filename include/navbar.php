@@ -1,4 +1,7 @@
-    <!-- ======= Header ======= -->
+<?php
+    $basePath = "http://localhost/medi-touch";
+?>
+<!-- ======= Header ======= -->
     <header id="header" class="">
     <div class="topbar-wrapper">
             <div class="container">
@@ -42,12 +45,13 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.php">Who We Are</a></li>
-          <li><a class="nav-link scrollto" href="services.php">What We Do</a></li>
-          <li><a class="nav-link scrollto" href="packages.php">Packages</a></li>
-          <li><a class="nav-link scrollto" href="success-stories.php">Success Stories</a></li>
-          <li><a class="nav-link scrollto" href="articles.php">News & Blogs</a></li>
+
+          <li><a class="nav-link scrollto active" href="<?php echo $basePath; ?>/#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo $basePath; ?>/about.php">Who We Are</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo $basePath; ?>/services.php">What We Do</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo $basePath; ?>/packages.php">Packages</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo $basePath; ?>/success-stories.php">Success Stories</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo $basePath; ?>/articles.php">News & Blogs</a></li>
          
           <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
           <li class="dropdown"><a href="doctors.php"><span>Doctors</span> <i class="bi bi-chevron-down"></i></a>

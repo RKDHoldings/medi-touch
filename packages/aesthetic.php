@@ -1,9 +1,9 @@
 <?php
-include('include/html-header.php');
+include('../include/html-header.php');
 ?>
 
 <?php
-include('include/navbar.php');
+include('../include/navbar.php');
 ?>
 
 <main id="main">
@@ -13,10 +13,10 @@ include('include/navbar.php');
     <div class="container">
 
       <div class="d-flex justify-content-between align-items-center">
-        <h2>News & Blogs</h2>
+        <h2>Our Packages</h2>
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>News & Blogs</li>
+          <li>Our Packages</li>
         </ol>
       </div>
 
@@ -28,9 +28,12 @@ include('include/navbar.php');
   <!-- News and Blogs Section Start -->
   <section class="all-packages">
     <div class="container">
-      <h3 class="page-title">
-        Our Packages
+      <h3 class="page-title mb-5 text-center">
+        Aesthetic Procedures
       </h3>
+      <div class="row">
+        
+      </div>
     </div>
   </section>
   <!-- News and Blogs Section End -->
@@ -39,5 +42,5 @@ include('include/navbar.php');
 </main><!-- End #main -->
 
 <?php
-include('include/footer.php');
+include('../include/footer.php');
 ?>
