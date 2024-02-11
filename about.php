@@ -49,12 +49,36 @@ include('include/navbar.php');
     </div>
   </section>
 
+  <!-- Mission and Vision -->
+  <section class="vission-misson-section bg-four mb-150 rmb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="mission vision-mission bg-alternate">
+                            <h3>Our Mission.</h3>
+                            <h6>Saunas are used all over the world to improve health enjoy relax. During the clients stay in sauna, body is sweating and from harmful substances and toxins.</h6>
+                            <p>It has different attractions – tropical rain, fog, dew, wall jets and it is combined with sound, caribbian storm, aroma and various lighting effects, what makes you have an unforgettable filling.</p>
+                            <a href="services.php" class="btn btn-primary">Our Services</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="vision vision-mission background text-white">
+                            <h3>Our Vission.</h3>
+                            <p>It has different attractions – tropical rain, fog, dew, wall jets and it is combined with sound, caribbian storm, aroma and various lighting effects, what makes you have an unforgettable filling.</p>
+                            <p>It has different attractions – tropical rain, fog, dew, wall jets and it is combined with sound, caribbian storm, aroma and various lighting effects, what makes you have an unforgettable filling.</p>
+                            <a href="team.html" class="theme-btn style-four mt-15">Our Experts</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
   <!-- ======= Our Team Section ======= -->
   <section id="team" class="team section-bg pt-5 mt-5">
     <div class="container">
 
       <div class="section-title" data-aos="fade-up">
-        <h2>Meet the <strong>Specialists</strong></h2>
+        <h2>Our expert and <strong>dedicated Specialists</strong></h2>
         <p>
           Our company thrives with the contribution of our team. We are grateful towards everyone for their continued support to achieve our vision.
         </p>
