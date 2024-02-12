@@ -32,8 +32,8 @@ include('../include/navbar.php');
         Allergy Test and Immunotherapy
       </h3>
       <div class="col-8 mb-5 mx-auto">
-          <!-- <p class="page-subtitle text-center">Embark on a Journey to Timeless Elegance: A Palette of Aesthetic Procedures Crafting Your Radiant Transformation and Beauty Beyond Boundaries.</p> -->
-        </div>
+        <!-- <p class="page-subtitle text-center">Embark on a Journey to Timeless Elegance: A Palette of Aesthetic Procedures Crafting Your Radiant Transformation and Beauty Beyond Boundaries.</p> -->
+      </div>
       <div class="row">
         <table class="table table-striped table-hover">
           <thead>
@@ -44,25 +44,138 @@ include('../include/navbar.php');
             </tr>
           </thead>
           <tbody>
+            <!-- Row 1 -->
             <tr>
               <th scope="row">1</th>
               <td class="procedure-td">
-                <p>Medi-peels(A chemical solution will be applied all over the skin)</p>
-                <span class="price">Rs. <span class="amount">2,500</span>/session</span>
+                <p>Skin Prick Test</p>
+                <span class="price">1-50 allergens: Rs.5000<br>50-100 allergens: Rs.8000<br>100-150 allergens: Rs.10,000</span>
               </td>
               <td>
-                <li> Acene Treatment </li>
-                <li>Skin rejuvenation</li>
-                <li>Hyperpigmentation,melasma</li>
-                <li>Uneven skin tone,scarring 7 sun damage</li>
-                <li>Collagen stimulation</li>
-                <li>Preventive care</li>
+                <li>Allergen Selection</li>
+                <li>Test Site Preparation</li>
+                <li>Allergen Application</li>
+                <li>Skin Prick or Scratch</li>
+                <li>Safe & non-invasive</li>
+                <li>Quick results</li>
+                <li>Allergen identification</li>
               </td>
             </tr>
+
+            <!-- Row 2 -->
+            <tr>
+              <th scope="row">2</th>
+              <td class="procedure-td">
+                <p>Autologous Serum Prick Test</p>
+                <span class="price">Rs.2000</span>
+              </td>
+              <td>
+                <li>Pricking or injecting</li>
+                <li>Patient's own serum</li>
+                <li>Skin's reaction observed</li>
+                <li>Specialized diagnostic tool</li>
+                <li>Autoimmune urticaria</li>
+              </td>
+            </tr>
+
+            <!-- Row 3 -->
+            <tr>
+              <th scope="row">3</th>
+              <td class="procedure-td">
+                <p>Immunotherapy</p>
+                <span class="price">Rs.3000</span>
+              </td>
+              <td>
+                <li>Harnesses & enhances immune system</li>
+                <li>Fight diseases (cancer, autoimmune disorders)</li>
+                <li>Allergen Immunotherapy</li>
+                <li>Precision medicine</li>
+                <li>Cancer treatment</li>
+              </td>
+            </tr>
+
+            <!-- Row 4 -->
+            <tr>
+              <th scope="row">4</th>
+              <td class="procedure-td">
+                <p>Immunotherapy per allergen</p>
+                <span class="price">Rs.5000 per allergen</span>
+              </td>
+              <td>
+                <li>Allergen Immunotherapy for allergies</li>
+                <li>Targeted allergy treatment</li>
+                <li>Effective for allergic rhinitis & asthma</li>
+                <li>Allergen identification</li>
+                <li>Customized treatment plans</li>
+                <li>Symptom reduction</li>
+              </td>
+            </tr>
+
 
           </tbody>
         </table>
       </div>
+
+      <h4 class="mt-5 mb-3">OUTPATIENT CHARGE  </h4>
+      <div class="row">
+        <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th scope="col">S.N</th>
+              <th scope="col">Particular</th>
+              <th scope="col">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Row 1 -->
+            <tr>
+              <th scope="row">1</th>
+              <td class="procedure-td">
+              OPD Consultation charge
+              </td>
+              <td>
+              Rs.675
+              </td>
+            </tr>
+
+            <!-- Row 2 -->
+            <tr>
+              <th scope="row">2</th>
+              <td class="procedure-td">
+              OPD card charge 
+              </td>
+              <td>
+              Rs.25
+              </td>
+            </tr>
+
+            <!-- Row 3 -->
+            <tr>
+              <th scope="row">3</th>
+              <td class="procedure-td">
+              Follow up charge
+              </td>
+              <td>
+               Rs.700
+              </td>
+            </tr>
+
+
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note mt-5 mb-2 p-4 border border-2 border-black">
+      <p>
+        <u>Rule for follow up:</u>
+        <li>First follow up is free up to one month. If the patient comes up to 2 days late, it can be considered. But after that, the patient has to pay Rs. 700.</li>
+        <li>If the patient informs the clinic before 1 week that he/she will be late for follow up, the clinic will consider it.</li>
+        <li>If the patient comes with the complaint of severe side effect or no satisfactory result free, but the consultation card should be brought.</li>
+      </p>
+      </div>
+
+
+
     </div>
   </section>
   <!-- News and Blogs Section End -->
