@@ -2937,11 +2937,11 @@ font-size: 14px;
   margin: auto;
 }
 .all-packages .card:hover .icon-container{
+  
 }
 .all-packages .icon img{
-  filter:  invert(33%) sepia(96%) saturate(3924%) hue-rotate(185deg) brightness(91%) contrast(101%);
+  filter: brightness(0) saturate(100%) invert(51%) sepia(48%) saturate(2402%) hue-rotate(165deg) brightness(97%) contrast(100%);  
 }
-
 .all-packages .card-body {
   text-align: center;
 }
@@ -2960,7 +2960,7 @@ font-size: 14px;
   font-size: 14px;
   /* font-weight: 700;
   color: var(--color-primary); */
-  background-color: var(--color-primary);
+  background-color: var(--color-lighter-blue);
   color: white;
   border-radius: 5px;
   padding: 5px 8px 5px 8px;

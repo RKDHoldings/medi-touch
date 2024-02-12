@@ -58,13 +58,13 @@ include('include/navbar.php');
             <div class="overlay"></div>
             <div class="icon-container">
               <div class="icon">
-                <img src="assets/img/packages/laser.svg" class="icon-image" height="40" alt="An aesthetic tulip icon" class="mt-3" />
+                <img src="assets/img/packages/laser.svg" class="icon-image" height="40" alt="A laser pen icon" class="mt-3" />
               </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">Laser Procedures</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, reiciendis.</p>
-              <a href="#" class="cta">Learn More</a>
+              <a href="/medi-touch/packages/laser.php" class="cta">Learn More</a>
             </div>
           </div>
         </div>
@@ -73,13 +73,13 @@ include('include/navbar.php');
             <div class="overlay"></div>
             <div class="icon-container">
               <div class="icon">
-                <img src="assets/img/packages/dermatology.svg" class="icon-image" height="40" alt="An aesthetic tulip icon" class="mt-3" />
+                <img src="assets/img/packages/dermatology.svg" class="icon-image" height="40" alt="A jar of cream with open lid icon" class="mt-3" />
               </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">Dermatological Procedures</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, reiciendis.</p>
-              <a href="#" class="cta">Learn More</a>
+              <a href="/medi-touch/packages/dermatology.php" class="cta">Learn More</a>
             </div>
           </div>
         </div>
@@ -88,13 +88,13 @@ include('include/navbar.php');
             <div class="overlay"></div>
             <div class="icon-container">
               <div class="icon">
-                <img src="assets/img/packages/co2Laser.svg" class="icon-image" height="40" alt="An aesthetic tulip icon" class="mt-3" />
+                <img src="assets/img/packages/co2Laser.svg" class="icon-image" height="40" alt="Air bubble icon" class="mt-3" />
               </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">Co2 Laser Procedures</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, reiciendis.</p>
-              <a href="#" class="cta">Learn More</a>
+              <a href="/medi-touch/packages/co2-package.php" class="cta">Learn More</a>
             </div>
           </div>
         </div>
@@ -103,13 +103,13 @@ include('include/navbar.php');
             <div class="overlay"></div>
             <div class="icon-container">
               <div class="icon">
-                <img src="assets/img/packages/allergytest.svg" class="icon-image" height="40" alt="An aesthetic tulip icon" class="mt-3" />
+                <img src="assets/img/packages/allergytest.svg" class="icon-image" height="40" alt="An tilted test tube icon" class="mt-3" />
               </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">Allergy Test & Immunotherapy</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, reiciendis.</p>
-              <a href="#" class="cta">Learn More</a>
+              <a href="/medi-touch/packages/allergy-test.php" class="cta">Learn More</a>
             </div>
           </div>
         </div>
@@ -118,13 +118,13 @@ include('include/navbar.php');
             <div class="overlay"></div>
             <div class="icon-container">
               <div class="icon">
-                <img src="assets/img/packages/hair.svg" class="icon-image" height="40" alt="An aesthetic tulip icon" class="mt-3" />
+                <img src="assets/img/packages/hair.svg" class="icon-image" height="40" alt="Human hair icon" class="mt-3" />
               </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">Hair Treatment</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, reiciendis.</p>
-              <a href="#" class="cta">Learn More</a>
+              <a href="/medi-touch/packages/hair-removal.php" class="cta">Learn More</a>
             </div>
           </div>
         </div>
@@ -133,13 +133,13 @@ include('include/navbar.php');
             <div class="overlay"></div>
             <div class="icon-container">
               <div class="icon">
-                <img src="assets/img/packages/leaf.svg" class="icon-image" height="40" alt="An aesthetic tulip icon" class="mt-3" />
+                <img src="assets/img/packages/leaf.svg" class="icon-image" height="40" alt="An aesthetic leaf icon" class="mt-3" />
               </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">General Surgery</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, reiciendis.</p>
-              <a href="#" class="cta">Learn More</a>
+              <a href="/medi-touch/packages/general-surgery.php" class="cta">Learn More</a>
             </div>
           </div>
         </div>
@@ -148,13 +148,13 @@ include('include/navbar.php');
             <div class="overlay"></div>
             <div class="icon-container">
               <div class="icon">
-                <img src="assets/img/packages/laser.svg" class="icon-image" height="40" alt="An aesthetic tulip icon" class="mt-3" />
+                <img src="assets/img/packages/laser.svg" class="icon-image" height="40" alt="A laser pen icon" class="mt-3" />
               </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">Laser Clinic</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, reiciendis.</p>
-              <a href="#" class="cta">Learn More</a>
+              <a href="/medi-touch/packages/laser.php" class="cta">Learn More</a>
             </div>
           </div>
         </div>
