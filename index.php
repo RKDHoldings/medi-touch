@@ -171,16 +171,21 @@
     </section>
      <section id="what-we-do">
           <div class="container">
+          <h3 class="text-center">What services we provide you</h3>
+                 <p  class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+                   Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
                <div class="row">
                    <div class="col-lg-4">
                       <div class="single-service-card">
                           <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
                           <div class="service-content">
                               <h3>
-                                  <a href="/">Hydra facial</a>
+                                  <a href="/">OPD Service </a>
                               </h3>
                               <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
-                              <a href="/" class="department-btn">Read more <i class="flaticon-right-arrow"></i></a>
+                                <div class="bottom">
+                                    <a href="#"><i class="bi bi-arrow-right"></i></a>
+                                </div>
                           </div>
                       </div>
                    </div>
@@ -189,10 +194,13 @@
                           <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
                           <div class="service-content">
                               <h3>
-                                  <a href="/">Hydra facial</a>
+                                  <a href="/">Dermatosurgery</a>
                               </h3>
                               <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
-                              <a href="/" class="department-btn">Read more <i class="flaticon-right-arrow"></i></a>
+                                <div class="bottom">
+                                    <a href="#"><i class="bi bi-arrow-right"></i></a>
+                                </div>
+
                           </div>
                       </div>
                    </div>
@@ -201,10 +209,12 @@
                           <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
                           <div class="service-content">
                               <h3>
-                                  <a href="/">Hydra facial</a>
+                                  <a href="/">Aesthetic Service</a>
                               </h3>
                               <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
-                              <a href="/" class="department-btn">Read more <i class="flaticon-right-arrow"></i></a>
+                                <div class="bottom">
+                                    <a href="#"><i class="bi bi-arrow-right"></i></a>
+                                </div>
                           </div>
                       </div>
                    </div>
@@ -309,7 +319,7 @@
 
       </div>
     </section>
-     <section id="main-services">
+     <!-- <section id="main-services">
          <div class="container">
               <div class="row">
                  <h3 class="text-center">What services we provide you</h3>
@@ -346,7 +356,7 @@
                    </div>
               </div>
          </div>
-     </section>
+     </section> -->
     <!-- services section end  -->
 
     

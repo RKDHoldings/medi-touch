@@ -1215,7 +1215,7 @@ ul.story-list {
   background-color: var(--color-bg);
   -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: 0 25px 25px;
+  /* padding: 0 25px 25px; */
   -webkit-transition: var(--transition);
   transition: var(--transition);
   position: relative;
@@ -1239,13 +1239,65 @@ ul.story-list {
 .single-service-card img{
   border-radius: 11px;
   width: 90%;
-  margin: auto;
+  margin: 1rem auto;
+  
 }
-.single-service-card:hover::before {
+.single-service-card .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.bottom a {
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  background: linear-gradient(90deg, rgb(30, 139, 190) 0%, var(--color-primary) 100%);
+  color: #ffffff;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  font-size: 14px;
+}
+.department-items .item .info .bottom a::after {
+  position: absolute;
+  left: -10%;
+  top: -10%;
+  content: "";
+  height: 120%;
+  width: 120%;
+  background: #1ebeb6;
+  z-index: -1;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.service-content {
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: left;
+}
+.service-content::after {
+  position: absolute;
+  right: -29px;
+  bottom: -58px;
+  content: "";
+  height: 150px;
+  width: 150px;
+  background: url(../img/logo.png);
+  background-size: contain;
+  z-index: -1;
+  background-repeat: no-repeat;
+  transform: rotate(-1deg);
+  opacity: 0.3;
+}
+/* .single-service-card:hover::before {
   opacity: 1;
   visibility: visible;
-}
-.single-service-card:hover .service-content{
+} */
+/* .single-service-card:hover .service-content{
   color: var(--color-bg);
 }
 .single-service-card:hover a{
@@ -1253,7 +1305,7 @@ ul.story-list {
 }
 .single-service-card a{
   color: var(--color-text);
-}
+} */
 .video-background {
   position: relative;
   background-image: url(../img/products-video.png);
