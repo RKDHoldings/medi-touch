@@ -1,6 +1,6 @@
     <!-- ======= Header ======= -->
     <header id="header" class="">
-      <div class="topbar-wrapper">
+      <div class="topbar-wrapper" id="">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-sm-12">
@@ -34,7 +34,7 @@
                </div>
             </div>
       </div>
-    <div id="stickable-header" class="fixed-top">
+    <div  class="">
           <div class="container d-flex align-items-center justify-content-lg-between nav-head ">
             <a href="/" 
                 class="logo me-auto me-lg-0">
@@ -43,7 +43,7 @@
 
               <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                  <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                  <li><a class="nav-link scrollto active" href="">Home</a></li>
                   <li><a class="nav-link scrollto" href="about.php">Who we are</a></li>
                   <li><a class="nav-link scrollto" href="services.php">What we do</a></li>
                   <li><a class="nav-link scrollto" href="package.php">Packages</a></li>
@@ -54,6 +54,9 @@
                     <ul>
                       <li><a href="doctors-detail.php">Doctors Details</a></li>
                     </ul>
+                  </li>
+                  <li>
+                     <a href="Shop.php">Shop</a>
                   </li>
                   <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
                 </ul>

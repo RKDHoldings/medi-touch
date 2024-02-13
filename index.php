@@ -77,7 +77,7 @@
                                         </div>
                                         <div class="text">    
                                             <strong>Call Us Anytime</strong>            
-                                            <a href="tel:+917052101786">+889 34044</a>
+                                            <a href="tel:061-590664"> 061-590664</a>
                                         </div>
                                   </span>
                              </div>
@@ -85,7 +85,7 @@
                 </div>
             </div>
     </section>
-
+  
     
 
     <!-- services section start  -->
@@ -125,6 +125,92 @@
              </div>
          </div>
      </section>
+    
+      <!-- appointment process -->
+   <section class="process-area default-padding-bottom">
+        <!-- Shape -->
+        <!-- <div class="shape">
+            <img src="assets/img/shape/1.png" alt="Shape">
+        </div> -->
+        <!-- End Shape -->
+        <div class="container">
+            <div class="process-items">
+                <div class="row">
+                    <div class="col-lg-5 heading">
+                        <h2>How to get a <br> consultation from us?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eius nisi totam illo reiciendis us, beatae incidunt. Possimus, numquam!</p>
+                        <a class="btn btn-md btn-primary" href="#">Full Process <i class="fas fa-angle-right"></i></a>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="process-items text-center">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 single-item">
+                                    <div class="item">
+                                         <img src="assets/img/icon/schedule.png" alt="">
+                                        <h5>Make Appointment</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 single-item">
+                                    <div class="item">
+                                        <img src="assets/img/icon/doctor.png" alt="">
+                                        <h5>Select Expert Doctor</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 single-item">
+                                    <div class="item">
+                                        <img src="assets/img/icon/consultation.png" alt="">
+                                        <h5>Confirm Consultation</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section id="what-we-do">
+          <div class="container">
+               <div class="row">
+                   <div class="col-lg-4">
+                      <div class="single-service-card">
+                          <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
+                          <div class="service-content">
+                              <h3>
+                                  <a href="/">Hydra facial</a>
+                              </h3>
+                              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
+                              <a href="/" class="department-btn">Read more <i class="flaticon-right-arrow"></i></a>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="col-lg-4">
+                      <div class="single-service-card">
+                          <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
+                          <div class="service-content">
+                              <h3>
+                                  <a href="/">Hydra facial</a>
+                              </h3>
+                              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
+                              <a href="/" class="department-btn">Read more <i class="flaticon-right-arrow"></i></a>
+                          </div>
+                      </div>
+                   </div>
+                   <div class="col-lg-4">
+                      <div class="single-service-card">
+                          <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
+                          <div class="service-content">
+                              <h3>
+                                  <a href="/">Hydra facial</a>
+                              </h3>
+                              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
+                              <a href="/" class="department-btn">Read more <i class="flaticon-right-arrow"></i></a>
+                          </div>
+                      </div>
+                   </div>
+               </div>
+          </div>
+     </section>
      <!-- ceo section start -->
     <section id="ceo-message" class="ceo-message">
       <div class="container" data-aos="fade-up">
@@ -143,9 +229,9 @@
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Gautam </h3>
-                  <div class="post">
+                  <!-- <div class="post">
                     <p><span>CEO</span></p>
-                  </div>
+                  </div> -->
                   <p class="fst-italic">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.

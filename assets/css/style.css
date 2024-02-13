@@ -182,6 +182,9 @@ ul.top-contact li a {
   font-weight: 600;
   color: var(--color-text);
 }
+ul.top-contact i{
+  color: var(--color-primary);
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1015,11 +1018,11 @@ section {
   margin-left: 1rem;
 }
 .call-box a{
-  color: var(--color-text);
+  color: var(--color-primary);
+  font-weight: 600;
 }
 .call-box strong {
   display: block;
-  font-family: Outfit;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -1045,6 +1048,36 @@ ul.story-list {
   margin: 0 10px 0 0;
 }
 
+/* process */
+
+.process-area .item {
+  background: var(--color-bg);
+  padding: 65px 30px;
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+}
+.process-area .item h5 {
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-top: 1rem;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.flaticon-calendar-1:before {
+  content: "\f10c";
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 /* Video wrapper */
 .video-wrapper {
   position: relative;
@@ -1136,6 +1169,9 @@ ul.story-list {
 .background{
   background-color: var(--color-primary);
 }
+.background h3{
+  color: var(--color-bg);
+}
 .bg-alternate{
   background-color: #0079c11f;
   color: var(--color-text);
@@ -1173,6 +1209,50 @@ ul.story-list {
   margin: 0 0 20px;
   display: inline-block;
   font-weight: 600;
+}
+.single-service-card {
+  margin-bottom: 25px;
+  background-color: var(--color-bg);
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 0 25px 25px;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  position: relative;
+  z-index: 1;
+}
+.single-service-card::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 355px;
+  background-color: var(--color-primary);
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+.single-service-card img{
+  border-radius: 11px;
+  width: 90%;
+  margin: auto;
+}
+.single-service-card:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+.single-service-card:hover .service-content{
+  color: var(--color-bg);
+}
+.single-service-card:hover a{
+  color: var(--color-bg);
+}
+.single-service-card a{
+  color: var(--color-text);
 }
 .video-background {
   position: relative;
@@ -2496,7 +2576,7 @@ ul.story-list {
 .ceo-message .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #cda45e;
+  color: var(--color-text);
 }
 
 .ceo-message .event-item .post {
@@ -2533,7 +2613,8 @@ ul.story-list {
   position: relative;
 }
 .ceo-message img.post-img{
-  border-radius: 11px;
+  border-radius: 50%;
+  border: 3px dashed var(--color-bg);
 }
 .ceo-message .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
