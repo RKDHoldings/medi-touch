@@ -44,30 +44,6 @@
               <img src="assets/img/logo.png" alt="" class="img-fluid">
               </a>
 
-<<<<<<< HEAD
-              <nav id="navbar" class="navbar order-last order-lg-0">
-                <ul>
-                  <li><a class="nav-link scrollto active" href="">Home</a></li>
-                  <li><a class="nav-link scrollto" href="about.php">Who we are</a></li>
-                  <li><a class="nav-link scrollto" href="services.php">What we do</a></li>
-                  <li><a class="nav-link scrollto" href="package.php">Packages</a></li>
-                  <li><a class="nav-link scrollto" href="before-after.php">Success Stories</a></li>
-                
-                  <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
-                  <li class="dropdown"><a href="doctors.php"><span>Doctors</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul>
-                      <li><a href="doctors-detail.php">Doctors Details</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                     <a href="Shop.php">Shop</a>
-                  </li>
-                  <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-              </nav><!-- .navbar -->
-          </div>
-=======
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
 
@@ -88,7 +64,6 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
->>>>>>> origin/shiva
 
     </div>
   </header><!-- End Header -->
