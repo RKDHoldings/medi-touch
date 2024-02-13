@@ -1,4 +1,7 @@
   <!-- ======= Footer ======= -->
+  <?php
+    $basePath = "http://localhost/medi-touch";
+?>
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -72,20 +75,24 @@
 
      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
       <!--  JS Files -->
-      <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+      <script src="<?php echo $basePath; ?>/assets/vendor/aos/aos.js"></script>
+  <script src="<?php echo $basePath; ?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo $basePath; ?>/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="<?php echo $basePath; ?>/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?php echo $basePath; ?>/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="<?php echo $basePath; ?>/assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="<?php echo $basePath; ?>/assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+
+
 
   <!--  Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="<?php echo $basePath; ?>/assets/js/main.js"></script>
 
   <!-- Before and After Slider JS File -->
-  <script src="assets/js/slider.js"></script>
+  <script src="<?php echo $basePath; ?>/assets/js/slider.js"></script>
 
 
 </body>
