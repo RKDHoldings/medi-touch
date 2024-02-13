@@ -1,4 +1,7 @@
-    <!-- ======= Header ======= -->
+<?php
+    $basePath = "http://localhost/medi-touch";
+?>
+<!-- ======= Header ======= -->
     <header id="header" class="">
       <div class="topbar-wrapper" id="">
             <div class="container">
@@ -41,6 +44,7 @@
               <img src="assets/img/logo.png" alt="" class="img-fluid">
               </a>
 
+<<<<<<< HEAD
               <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
                   <li><a class="nav-link scrollto active" href="">Home</a></li>
@@ -63,6 +67,28 @@
                 <i class="bi bi-list mobile-nav-toggle"></i>
               </nav><!-- .navbar -->
           </div>
+=======
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+
+          <li><a class="nav-link scrollto active" href="<?php echo $basePath; ?>/#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo $basePath; ?>/about.php">Who We Are</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo $basePath; ?>/services.php">What We Do</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo $basePath; ?>/packages.php">Packages</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo $basePath; ?>/success-stories.php">Success Stories</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo $basePath; ?>/articles.php">News & Blogs</a></li>
+         
+          <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
+          <li class="dropdown"><a href="doctors.php"><span>Doctors</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="doctors-detail.php">Doctors Details</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+>>>>>>> origin/shiva
 
     </div>
   </header><!-- End Header -->
