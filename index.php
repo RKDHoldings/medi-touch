@@ -467,11 +467,11 @@
                 </div>
               </div>
             </div><!-- End testimonial item -->
-
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
+        
+        <img src="assets/img/shape.png" class="polygon-icon img-move" alt="">
       </div>
     </section>
     <!-- End Testimonials Section -->

@@ -553,13 +553,8 @@ ul.top-contact i{
   border: 1px solid var(--color-secondary);
 }
 
-#hero .btn-book {
-  background-color: var(--color-text);
-  color: var(--color-bg);
-  padding: 12px 30px;
-  border-radius: 50px;
-  transition: 0.3s;
-  line-height: 1;
+.btn-primary i{
+  margin: 0 0 0 4px;
 }
 
 #hero .btn-menu:hover,
@@ -2704,12 +2699,13 @@ ul.story-list {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials {
+/* .testimonials {
   background: #4db03b14;
-}
+  } */
 .testimonials .testimonial-wrap {
   padding-left: 50px;
 }
+
 
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
@@ -2721,9 +2717,9 @@ ul.story-list {
   padding: 30px 30px 30px 60px;
   margin: 30px 15px;
   min-height: 200px;
-  box-shadow: 0px 2px 12px rgba(44, 73, 100, 0.08);
+  box-shadow: 0px 2px 12px rgb(44 73 100 / 12%);
   position: relative;
-  background: #fff;
+  background: var(--color-bg);
   text-align: center;
 }
 
