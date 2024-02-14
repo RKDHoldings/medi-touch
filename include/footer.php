@@ -6,7 +6,7 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-6 footer-contact">
+          <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Get in touch</h3>
             <p>
               <i class="bi bi-map"></i>
@@ -23,9 +23,9 @@
                </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-contact">
+          <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Useful Links</h3>
-            <ul>
+            <ul class="ps-0">
               <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="about.php">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="services.php">Services</a></li> 
@@ -33,11 +33,11 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-contact">
+          <div class="col-lg-3 col-md-6 footer-contact">
             <!-- <img src="assets/img/logo.png" class="logo" alt="">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit auctor,</p> -->
-            <div class="office-timings">            <!-- Widget -->
-                            <h3>Hospital Timings</h3>
+            <h3>Hospital Timings</h3>
+            <div class="office-timings mt-5">            <!-- Widget -->
                             <table class="table table-bordered footer-text">
                                 <tbody><tr>
                                     <td>Sun - Fri</td>
@@ -54,6 +54,22 @@
                             </tbody></table>
                         </div>
           </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>Recent News</h3>
+              <div class="footer-news-post">
+                  <div class="footer-news">
+                        <img src="assets/img/store.jpg" alt="News">
+                        <h6><a href="#">How can we help you get the amazing skin results from us?</a></h6>
+                        <p>01 August 2018</p>
+                  </div>
+                  <div class="footer-news">
+                        <img src="assets/img/store.jpg" alt="News">
+                        <h6><a href="#">How can you keep your skin glowing and infection less in sprint</a></h6>
+                        <p class="float-start">01 August 2018</p>
+                  </div>
+              </div>
+          </div>
+           
 
          
 
