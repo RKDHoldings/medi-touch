@@ -129,6 +129,57 @@ include('include/navbar.php');
       </div>
     </div>
   </section>
+  <!-- services section end  -->
+
+
+
+  <!-- why choose us section start  -->
+  <section id="why-choose-us">
+    <div class="container">
+      <div class="row gx-5">
+        <div class="col-md-6 text-container">
+          <div class="div text-sm-center text-md-start section-small-title">
+            <img src="assets/img/meditouch-cropped.png" alt="meditouch logo" width="55px" class=""/>
+            <span class="text-uppercase">why choose us</span>
+          </div>
+          <h2 class="section-title text-sm-center text-md-start">We Are Always Open For Your Health Services</h2>
+          <div class="feature-list">
+            <div class="feature row">
+              <div class="number-box col-2">01</div>
+              <div class="feature-text col">
+                <h3 class="feature-title">Compassionate & Expert Care</h3>
+                <p class="feature-description">Our team of dedicated healthcare professionals combines years of experience with a genuine commitment to providing.</p>
+              </div>
+            </div>
+            <div class="feature row">
+              <div class="number-box col-2">02</div>
+              <div class="feature-text col">
+                <h3 class="feature-title">Compassionate & Expert Care</h3>
+                <p class="feature-description">Our team of dedicated healthcare professionals combines years of experience with a genuine commitment to providing.</p>
+              </div>
+            </div>
+            <div class="feature mb-sm-4 mb-md-0 row">
+              <div class="number-box col-2">03</div>
+              <div class="feature-text col">
+                <h3 class="feature-title">Compassionate & Expert Care</h3>
+                <p class="feature-description">Our team of dedicated healthcare professionals combines years of experience with a genuine commitment to providing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 image-container">
+          <img src="assets/img/Surgeon.jpg" alt="young-female-doctor-prepares-surgery-wears-blue-surgical-gloves-coat-mask"/>
+        </div>
+      </div>
+
+      <div class="row">
+
+      </div>
+    </div>
+  </section>
+  <!-- why choose us section end  -->
+
+
 
   <!-- appointment process -->
   <section class="process-area default-padding-bottom">
@@ -177,11 +228,11 @@ include('include/navbar.php');
     <div class="container">
       <h3 class="text-center mt-3">What services we provide you</h3>
       <div class="row my-4">
-            <div class="col-7 mx-auto">
-              <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-                Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
-                Donec libero justo,</p>
-            </div>
+        <div class="col-7 mx-auto">
+          <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+            Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
+            Donec libero justo,</p>
+        </div>
       </div>
       <div class="row">
         <div class="col-lg-4">
