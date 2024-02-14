@@ -23,8 +23,8 @@ include('include/navbar.php');
     </div>
   </section><!-- End Breadcrumbs -->
   
-  <section class="about-doctor-area">
-        <div class="container">
+  <section class="about-doctor-area py-5">
+        <div class="container mt-4">
             <div class="row">
                <div class="col-lg-5">
                  <div class="doctor-thumb aos-init aos-animate about-img" data-aos="fade-right" data-aos-anchor=".about-doctor-area">
@@ -58,7 +58,7 @@ include('include/navbar.php');
                     </div>
                </div>
             <div class="col-12">
-                <div class="doctor-bio">
+                <div class="doctor-bio mt-5">
                 <h2 data-aos="flip-up" class="aos-init">Biography</h2>
                     <div class="bio-text">
                           <p data-aos="fade-up" class="aos-init">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In illo ea reprehenderit

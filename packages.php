@@ -150,7 +150,7 @@ include('include/navbar.php');
             <div class="overlay"></div>
             <div class="icon-container">
               <div class="icon">
-                <img src="assets/img/packages/co2Laser.svg" class="icon-image" height="40" alt="Air bubble icon" class="mt-3" />
+                <img src="assets/img/packages/hand-heart.svg" class="icon-image" height="40" alt="A hand and a heart" class="mt-3" />
               </div>
             </div>
             <div class="card-body">

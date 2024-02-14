@@ -723,7 +723,7 @@ ul.top-contact i{
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 3rem 0 3rem 0;
+  /* padding: 3rem 0 3rem 0; */
   overflow: hidden;
 }
 
@@ -1197,7 +1197,7 @@ ul.story-list {
     rgba(194, 129, 107, 0.0273) 120.2%
   );
   /* box-shadow: 0 0 30px rgb(0 0 0 / 8%); */
-  margin: 0 0 30px;
+  /* margin: 0 0 30px; */
   padding: 40px 20px 30px;
   text-align: center;
   border-radius: 10px;
@@ -2543,11 +2543,14 @@ ul.story-list {
 .doctor-info {
   padding-left: 30px;
 }
+.doctor-info h4{
+  margin-bottom: 1.5rem;
+}
 .doctor-details li {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-  margin-bottom: 15px;
+  margin-bottom: 4px;
 }
 
 .doctor-details li p {
