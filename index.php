@@ -10,7 +10,7 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row align-items-center">
         <div class="col-lg-6">
-          <h1>We Are Ready <span>For Your Skin</span>Care Help! </h1>
+          <h1>We Are <span> Ready </span> <br/> For Your <span> Skin <br/></span>Care <span>Help!</span>  </h1>
          
           <p>Follow us to improve health, <br/> to enjoy and relax</p>
 
@@ -105,7 +105,7 @@
                        <div class="video-background">                           
                             <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
                        </div>
-                       <div class="video-content">
+                       <div class="video-content background">
                             <h3 class="text-start">What we makes different <br/> from others</h3>
                             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
                               Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
@@ -144,19 +144,20 @@
                     <div class="col-lg-7">
                         <div class="process-items text-center">
                             <div class="row">
-                                <div class="col-lg-4 col-md-4 single-item">
+                                <div class="col-lg-4 col-md-4 single-item"  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                                     <div class="item">
                                          <img src="assets/img/icon/schedule.png" alt="">
                                         <h5>Make Appointment</h5>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 single-item">
+                              
+                                <div class="col-lg-4 col-md-4 single-item"  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                                     <div class="item">
                                         <img src="assets/img/icon/doctor.png" alt="">
                                         <h5>Select Expert Doctor</h5>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 single-item">
+                                <div class="col-lg-4 col-md-4 single-item"  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                                     <div class="item">
                                         <img src="assets/img/icon/consultation.png" alt="">
                                         <h5>Confirm Consultation</h5>
@@ -471,8 +472,9 @@
           <div class="swiper-pagination"></div>
         </div>
         
-        <img src="assets/img/shape.png" class="polygon-icon img-move" alt="">
+        
       </div>
+      <img src="assets/img/shape.png" class="bg-shape" alt="">
     </section>
     <!-- End Testimonials Section -->
 
@@ -524,14 +526,16 @@
 
     <!-- Book an appointment banner section Start  -->
     <section id="appointment" class="appointment">
-        <div class="container p-0">
+        <div class="container">
             <div class="appointment-banner">
                 <div class="row">
-                    <div class="col-md-6 me-auto text-content">
-                        <div class="px-4">
-                            <h3 class="title">Book an appointment today</h3>
-                            <p class="subtitle">Transform your look with our expert care</p>
-                            <button type="button" onclick="window.location.href='appointment.php';" class="btn btn-primary">Book Now</button>
+                    <div class="col-lg-12 text-content">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div>
+                              <h3 class="title">Book an appointment today</h3>
+                              <p class="subtitle">Transform your look with our expert care</p>
+                              <button type="button" onclick="window.location.href='appointment.php';" class="btn btn-primary">Book Now</button>
+                            </div>
                         </div>
                     </div>
                 </div>
