@@ -3136,7 +3136,8 @@ ul.story-list {
 }
 
 .news-blogs .card:hover a {
-  color: var(--color-lighter-blue);
+  /* color: var(--color-lighter-blue); */
+  color: var(--color-primary);
 }
 /* .news-blogs .card-title a::after {
   width: 0;
@@ -3157,7 +3158,8 @@ ul.story-list {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--color-lighter-blue);
+  /* background-color: var(--color-lighter-blue); */
+  background-color: var(--color-primary);
   color: white;
   padding: 0.5rem;
 }

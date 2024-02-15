@@ -139,7 +139,7 @@ include('include/navbar.php');
       <div class="inner-container ">
         <div class=" text-container">
           <div class="div text-sm-center text-md-start section-small-title">
-            <img src="assets/img/meditouch-cropped.png" alt="meditouch logo" width="55px" class=""/>
+            <img src="assets/img/meditouch-cropped.png" alt="meditouch logo" width="55px" class="" />
             <span class="text-uppercase">why choose us</span>
           </div>
           <h2 class="section-title text-sm-center text-md-start">We Are Always Open For Your Health Services</h2>
@@ -168,7 +168,7 @@ include('include/navbar.php');
           </div>
         </div>
         <div class="image-container">
-          <img src="assets/img/Surgeon.jpg" alt="young-female-doctor-prepares-surgery-wears-blue-surgical-gloves-coat-mask" class="ms-md-5"/>
+          <img src="assets/img/Surgeon.jpg" alt="young-female-doctor-prepares-surgery-wears-blue-surgical-gloves-coat-mask" class="ms-md-5" />
         </div>
       </div>
 
@@ -379,6 +379,72 @@ include('include/navbar.php');
 
     </div>
   </section>
+
+
+  <!-- news and articles start -->
+  <section class="news-blogs" id="news-blogs">
+
+    <h3 class="text-center mt-3 mb-5">News & Articles</h3>
+
+    <div class="container">
+      <div class="row gx-5">
+        <div class="col-md-6 col-xl-4">
+          <div onclick="window.location.href='article-detail.php';" class="card border-0 img-date">
+            <div class="img-container">
+              <img src="assets/img/article/article.jpg" class="card-img-top rounded-0" alt="A female medical professional working on laptop">
+              <div class="date">
+                <p class="day">16</p>
+                <p class="month-year">NOV 2019</p>
+              </div>
+            </div>
+            <div class="px-3">
+              <h6 class="card-subtitle my-3 text-body-secondary"><i class='bx bxs-user me-1'></i>Admin</h6>
+              <h5 class="card-title"><a href="#">New hair growth mechanism discovered</a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <div onclick="window.location.href='article-detail.php';" class="card border-0">
+            <div class="img-container">
+              <img src="assets/img/article/article.jpg" class="card-img-top rounded-0" alt="A female medical professional working on laptop">
+              <div class="date">
+                <p class="day">16</p>
+                <p class="month-year">NOV 2019</p>
+              </div>
+            </div>
+            <div class="px-3">
+              <h6 class="card-subtitle my-3 text-body-secondary"><i class='bx bxs-user me-1'></i>Dr. John Doe</h6>
+              <h5 class="card-title"><a href="#">Healthy Skin Matters - How to Take Care of Skin</a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <div onclick="window.location.href='article-detail.php';" class="card border-0">
+            <div class="img-container">
+              <img src="assets/img/article/article.jpg" class="card-img-top rounded-0" alt="A female medical professional working on laptop">
+              <div class="date">
+                <p class="day">16</p>
+                <p class="month-year">NOV 2019</p>
+              </div>
+            </div>
+            <div class="px-3">
+              <h6 class="card-subtitle my-3 text-body-secondary"><i class='bx bxs-user me-1'></i>Admin</h6>
+              <h5 class="card-title"><a href="#">Healthy Skin Matters - How to Take Care of Skin</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-1 mx-auto">
+          <a class="btn btn-md btn-primary" href="#">View More <i class="fas fa-angle-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- news and articles end -->
+
+
   <!-- <section id="main-services">
          <div class="container">
               <div class="row">
@@ -440,7 +506,7 @@ include('include/navbar.php');
                      </div>
                  </div>
             </div>
-        </div>
+        </div> 
 
     </section> -->
   <!-- ceo section start -->
