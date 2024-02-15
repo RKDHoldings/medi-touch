@@ -1462,12 +1462,27 @@ ul.story-list {
 }
 
 /* why choose us start */
+
+.why-choose-us .inner-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  @media (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.why-choose-us .image-container img {
+  border-radius: 20px;
+}
+.why-choose-us .feature {
+  margin-bottom: 23px;
+  transition: all 0.3s ease-in-out;
+}
 .why-choose-us .section-small-title {
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 18px;
   font-weight: 500;
-  color: var(--color-dark-blue);
-  margin-bottom: 24px;
+  color: var(--color-primary);
+  margin-bottom: 10px;
   padding-top: 5px;
   text-transform: uppercase;
   line-height: 28px;
@@ -1476,20 +1491,68 @@ ul.story-list {
   width: 50px;
   height: 50px;
   line-height: 50px;
+  color: var(--color-primary);
   border: 1px solid var(--color-primary);
-  color: red !important;
+  /* border: 1px solid red; */
   text-align: center;
   border-radius: 999px;
   font-size: 24px;
   font-weight: 600;
   background-color: white;
+  position: relative;
+  transition: all 0.3s ease-in-out;
 }
+.why-choose-us .feature:hover .number-box{
+  background-color: var(--color-primary);
+  color: white;
+}
+/* .why-choose-us .feature:not(:last-child) .number-box::after {
+  content: "";
+  position: absolute;
+  top: 49px;
+  left: 25px;
+  width: 1px;
+  height: 115px;
+  background: var(--color-primary);
+} */
+.why-choose-us .feature .number-box::after {
+  content: "";
+  position: absolute;
+  top: 49px;
+  left: 25px;
+  width: 1px;
+  height: 230px;
+  background: var(--color-primary);
+}
+@media (min-width: 400px) {
+  .why-choose-us .feature .number-box::after {
+    height: 180px;
+  }
+}
+
+@media (min-width: 780px) {
+  .why-choose-us .feature .number-box::after {
+    height: 158px;
+  }
+}
+.why-choose-us .feature:last-child .number-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+}
+
 .why-choose-us .feature-text {
-  border-bottom: 1px solid var(--color-grey-blue);
-  padding-bottom: 34px;
 }
-.why-choose-us .feature-text .feature-title{
-  color: red;
+.why-choose-us .feature-description{
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--color-grey-blue);
+}
+.why-choose-us .feature-text .feature-title {
+  /* margin-bottom: 8px;
+  margin-top: 30px; */
 }
 .why-choose-us .section-title {
   font-size: 36px;
@@ -2310,7 +2373,6 @@ ul.story-list {
   font-weight: 700;
   transition: all 0.3s ease-in-out;
   font-size: 16px;
-  transition: all 0.3s ease-in-out;
 }
 .team .member .member-info a::after {
   display: inline-block;
