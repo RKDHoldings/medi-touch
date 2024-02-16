@@ -110,7 +110,7 @@ include('include/navbar.php');
             <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
           </div>
           <div class="video-content">
-            <h3 class="text-start">What we makes different <br /> from others</h3>
+            <h3 class="text-start">What we make different <br /> from others</h3>
             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
               Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
             <p>
@@ -434,11 +434,11 @@ include('include/navbar.php');
           </div>
         </div>
       </div>
-      <div class="row mt-4">
+      <!-- <div class="row mt-4">
         <div class="col-1 mx-auto">
           <a class="btn btn-md btn-primary" href="#">View More <i class="fas fa-angle-right"></i></a>
         </div>
-      </div>
+      </div> -->
     </div>
 
   </section>
