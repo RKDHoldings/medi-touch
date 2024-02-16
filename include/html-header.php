@@ -31,6 +31,8 @@
   <link href="<?php echo $basePath; ?>/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="<?php echo $basePath; ?>/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="<?php echo $basePath; ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"  />
+
 
   <!--  Main CSS File -->
   <link href="<?php echo $basePath; ?>/assets/css/style.css" rel="stylesheet">
