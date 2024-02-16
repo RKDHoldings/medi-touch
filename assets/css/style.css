@@ -1881,14 +1881,14 @@ ul.story-list {
 /* Appointment form end */
 
 /* Gallery */
-.gallery .gallery-item {
+/* .gallery .gallery-item {
   overflow: hidden;
   border-right: 3px solid #454035;
   border-bottom: 3px solid #454035;
 }
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
-}
+} */
 /* Features Section - Home Page
 ------------------------------*/
 .features .features-item {
@@ -3189,6 +3189,22 @@ ul.story-list {
 }
 
 /* News and Articles End */
+.gallery .gallery-row  div.img-container{
+  height: 250px;
+  /* border: 1px solid red; */
+  margin-bottom: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.gallery .gallery-row div.img-container img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery .gallery-row div.img-container:hover{
+  filter: brightness(80%);
+}
+
 
 /*Detail Page of News and Articles Start */
 
