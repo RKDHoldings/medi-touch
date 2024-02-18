@@ -516,7 +516,7 @@ include('include/navbar.php');
   <section id="testimonials" class="testimonials">
     <div class="container">
 
-    <div class="section-title pb-3">
+      <div class="section-title pb-3">
         <h2>Testimonials</h2>
       </div>
 
@@ -648,27 +648,105 @@ include('include/navbar.php');
            </div>
      </section> -->
 
+  <!-- FAQ Section Start -->
+  <section class="faq" id="faq">
 
-</main><!-- End #main -->
 
-
-<!-- Book an appointment banner section Start  -->
-<section id="appointment" class="appointment">
-  <div class="container p-0">
-    <div class="appointment-banner">
-      <div class="row">
-        <div class="col-md-6 me-auto text-content">
-          <div class="px-4">
-            <h3 class="title mb-3">Book an appointment today</h3>
-            <p class="subtitle">Transform your look with our expert care</p>
-            <button type="button" onclick="window.location.href='appointment.php';" class="btn btn-primary">Book Now</button>
+    <div class="container">
+      <div class="row gx-5">
+        <div class="col-12 col-lg-6">
+          <div class="img-container my-auto ">
+            <img src="assets/img/ConsultantDoctor.jpg" class="rounded" alt="An image of senior doctor consulting patient" />
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+        <h3 class="text-center mt-3 ">Frequently Asked Question</h3>
+          <div class="accordion mt-5" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What services does your hair and skin clinic provide?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Our clinic offers a range of services tailored to meet your hair and skin needs. This includes dermatological consultations, hair restoration treatments, advanced skincare procedures, and personalized treatment plans for various conditions.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How do I schedule an appointment at your clinic?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Scheduling an appointment is easy. You can call our clinic during regular business hours or use our online appointment booking system on our website. We strive to accommodate your schedule and provide prompt and convenient consultations.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Are your treatments safe and effective?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Yes, our clinic prioritizes the safety and effectiveness of all treatments. Our dermatologists utilize state-of-the-art technologies and evidence-based practices to ensure optimal results with minimal risk. We will discuss your treatment options, expected outcomes, and any potential side effects during your consultation.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  What conditions do your dermatologists commonly treat?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Our experienced dermatologists specialize in treating a variety of skin and hair conditions, including acne, eczema, psoriasis, hair loss, and more. Whether you have a specific concern or need general skincare advice, our team is here to help.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Do you offer personalized skincare and haircare routines?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Absolutely. We understand that every individual's skin and hair are unique. Our dermatologists will assess your specific needs and create personalized routines that may include recommended products, lifestyle adjustments, and in-clinic treatments to promote the health and beauty of your skin and hair.</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- Book an appointment banner section end  -->
+  </section>
+  <!-- FAQ Section End -->
+
+  <!-- Book an appointment banner section Start  -->
+  <section id="appointment" class="appointment">
+    <div class="container p-0">
+      <div class="appointment-banner">
+        <div class="row">
+          <div class="col-md-6 me-auto text-content">
+            <div class="px-4">
+              <h3 class="title mb-3">Book an appointment today</h3>
+              <p class="subtitle">Transform your look with our expert care</p>
+              <button type="button" onclick="window.location.href='appointment.php';" class="btn btn-primary">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Book an appointment banner section end  -->
+</main><!-- End #main -->
+
+
+
 
 
 
