@@ -1,5 +1,5 @@
 <?php
-    $basePath = "http://localhost/medi-touch";
+    $basePath = "https://meditouch.com.np";
 ?>
 <!-- ======= Header ======= -->
     <header id="header" class="">

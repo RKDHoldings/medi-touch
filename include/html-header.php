@@ -10,7 +10,7 @@
   <meta content="Meditouch Hair & Skin Clinic" name="keywords">
 
   <?php
-    $basePath = "http://localhost/medi-touch";
+    $basePath = "https://meditouch.com.np";
 ?>
 
 
