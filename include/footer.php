@@ -1,6 +1,6 @@
   <!-- ======= Footer ======= -->
   <?php
-    $basePath = "http://localhost/medi-touch";
+    $basePath = "https://meditouch.com.np";
 ?>
   <footer id="footer">
     <div class="footer-top">
