@@ -97,7 +97,7 @@ include('include/navbar.php');
           <div class="row my-4">
             <div class="col-12 col-md-7 mx-auto">
               <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-                Suspendisse mattis, neque sed blandit auctor
+                Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
                 Donec libero justo,</p>
             </div>
           </div>
@@ -190,11 +190,11 @@ include('include/navbar.php');
     <!-- End Shape -->
     <div class="container">
       <div class="process-items">
-        <div class="row ">
+        <div class="row">
           <div class="col-lg-5 heading">
             <h2>How to get a <br> consultation from us?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eius nisi totam illo reiciendis us, beatae incidunt. Possimus, numquam!</p>
-            <a class="btn btn-md btn-primary mb-4 " href="#">Full Process <i class="fas fa-angle-right"></i></a>
+            <a class="btn btn-md btn-primary mb-4" href="#">Full Process <i class="fas fa-angle-right"></i></a>
           </div>
           <div class="col-lg-7">
             <div class="process-items text-center">
@@ -230,7 +230,7 @@ include('include/navbar.php');
       <div class="row my-4">
         <div class="col-12 col-md-7 mx-auto">
           <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-            Suspendisse mattis, 
+            Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
             Donec libero justo,</p>
         </div>
       </div>
