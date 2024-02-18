@@ -67,7 +67,7 @@ include('include/navbar.php');
                 consectetur adipisicing elit. Molestiae vitae porro rem commodi cum
                 earum est modi, eaque molestias ipsa!
               </p>
-              <a href="" class="btn btn-primary">
+              <a href="" class="btn btn-primary mb-4">
                 Who we are
                 <i class="bi bi-chevron-double-right"></i>
               </a>
@@ -95,9 +95,9 @@ include('include/navbar.php');
         <div class="col-lg-12">
           <h3 class="text-center mt-3">What we provide you</h3>
           <div class="row my-4">
-            <div class="col-7 mx-auto">
+            <div class="col-12 col-md-7 mx-auto">
               <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-                Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
+                Suspendisse mattis, neque sed blandit auctor
                 Donec libero justo,</p>
             </div>
           </div>
@@ -190,15 +190,15 @@ include('include/navbar.php');
     <!-- End Shape -->
     <div class="container">
       <div class="process-items">
-        <div class="row">
+        <div class="row ">
           <div class="col-lg-5 heading">
             <h2>How to get a <br> consultation from us?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eius nisi totam illo reiciendis us, beatae incidunt. Possimus, numquam!</p>
-            <a class="btn btn-md btn-primary" href="#">Full Process <i class="fas fa-angle-right"></i></a>
+            <a class="btn btn-md btn-primary mb-4 " href="#">Full Process <i class="fas fa-angle-right"></i></a>
           </div>
           <div class="col-lg-7">
             <div class="process-items text-center">
-              <div class="row">
+              <div class="row gy-3">
                 <div class="col-lg-4 col-md-4 single-item">
                   <div class="item">
                     <img src="assets/img/icon/schedule.png" alt="">
@@ -228,9 +228,9 @@ include('include/navbar.php');
     <div class="container">
       <h3 class="text-center mt-3">What services we provide you</h3>
       <div class="row my-4">
-        <div class="col-7 mx-auto">
+        <div class="col-12 col-md-7 mx-auto">
           <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-            Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
+            Suspendisse mattis, 
             Donec libero justo,</p>
         </div>
       </div>
@@ -387,7 +387,7 @@ include('include/navbar.php');
     <h3 class="text-center mt-3 mb-5">News & Articles</h3>
 
     <div class="container">
-      <div class="row gx-5">
+      <div class="row gx-5 gy-4">
         <div class="col-md-6 col-xl-4">
           <div onclick="window.location.href='article-detail.php';" class="card border-0 img-date">
             <div class="img-container">
@@ -515,6 +515,10 @@ include('include/navbar.php');
   <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials">
     <div class="container">
+
+    <div class="section-title pb-3">
+        <h2>Testimonials</h2>
+      </div>
 
       <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper-wrapper">
@@ -655,7 +659,7 @@ include('include/navbar.php');
       <div class="row">
         <div class="col-md-6 me-auto text-content">
           <div class="px-4">
-            <h3 class="title">Book an appointment today</h3>
+            <h3 class="title mb-3">Book an appointment today</h3>
             <p class="subtitle">Transform your look with our expert care</p>
             <button type="button" onclick="window.location.href='appointment.php';" class="btn btn-primary">Book Now</button>
           </div>

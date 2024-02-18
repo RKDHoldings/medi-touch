@@ -1777,7 +1777,7 @@ ul.story-list {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   height: 464px;
-  margin-left: 10px;
+  margin-left: -15px;
   display: flex;
   align-items: center;
   justify-content: center;
