@@ -103,7 +103,7 @@ include('include/navbar.php');
       </div>
       <div class="row">
         <div class="col-lg-4">
-          <div class="single-service-card">
+          <div class="single-service-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
             <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
             <div class="service-content">
               <h3>
@@ -117,7 +117,7 @@ include('include/navbar.php');
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="single-service-card">
+          <div class="single-service-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
             <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
             <div class="service-content">
               <h3>
@@ -131,7 +131,7 @@ include('include/navbar.php');
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
           <div class="single-service-card">
             <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
             <div class="service-content">
@@ -149,6 +149,56 @@ include('include/navbar.php');
     </div>
   </section>
 
+
+  <!-- services section end  -->
+
+
+
+  <!-- why choose us section start  -->
+  <section id="why-choose-us" class="why-choose-us">
+    <div class="container px-4">
+      <div class="inner-container ">
+        <div class=" text-container" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="200">
+          <div class="div text-sm-center text-md-start section-small-title">
+            <img src="assets/img/meditouch-cropped.png" alt="meditouch logo" width="55px" class="" />
+            <span class="text-uppercase">why choose us</span>
+          </div>
+          <h3 class="section-title text-sm-center text-md-start">We Are Always Open For Your Health Services</h3>
+          <div class="feature-list">
+            <div class="feature row ">
+              <div class="number-box me-4 col-2">01</div>
+              <div class="feature-text col">
+                <h3 class="feature-title mt-0">Compassionate & Expert Care</h3>
+                <p class="feature-description">Our team of dedicated healthcare professionals combines years of experience with a genuine commitment to providing.</p>
+              </div>
+            </div>
+            <div class="feature row ">
+              <div class="number-box me-4 col-2">02</div>
+              <div class="feature-text col">
+                <h3 class="feature-title">Compassionate & Expert Care</h3>
+                <p class="feature-description">Our team of dedicated healthcare professionals combines years of experience with a genuine commitment to providing.</p>
+              </div>
+            </div>
+            <div class="feature row ">
+              <div class="number-box me-4 col-2">03</div>
+              <div class="feature-text border-0 col">
+                <h3 class="feature-title ">Compassionate & Expert Care</h3>
+                <p class="feature-description">Our team of dedicated healthcare professionals combines years of experience with a genuine commitment to providing.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image-container" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="400">
+          <img src="assets/img/Surgeon.jpg" alt="young-female-doctor-prepares-surgery-wears-blue-surgical-gloves-coat-mask" class="ms-md-5" />
+        </div>
+      </div>
+
+      <div class="row">
+
+      </div>
+    </div>
+  </section>
+  <!-- why choose us section end  -->
   <section id="what-we-do">
     <div class="container">
       <div class="row">
@@ -177,9 +227,11 @@ include('include/navbar.php');
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
             </p>
 
-            <a href="" class="btn btn-primary mt-4">
-              View More
-            </a>
+           <div class="d-flex">
+              <a href="" class="btn btn-primary mt-4">
+                View More
+              </a>
+           </div>
           </div>
         </div>
 
@@ -189,56 +241,6 @@ include('include/navbar.php');
       </div>
     </div>
   </section>
-  <!-- services section end  -->
-
-
-
-  <!-- why choose us section start  -->
-  <section id="why-choose-us" class="why-choose-us">
-    <div class="container px-4">
-      <div class="inner-container ">
-        <div class=" text-container">
-          <div class="div text-sm-center text-md-start section-small-title">
-            <img src="assets/img/meditouch-cropped.png" alt="meditouch logo" width="55px" class="" />
-            <span class="text-uppercase">why choose us</span>
-          </div>
-          <h2 class="section-title text-sm-center text-md-start">We Are Always Open For Your Health Services</h2>
-          <div class="feature-list">
-            <div class="feature row ">
-              <div class="number-box me-4 col-2">01</div>
-              <div class="feature-text col">
-                <h3 class="feature-title mt-0">Compassionate & Expert Care</h3>
-                <p class="feature-description">Our team of dedicated healthcare professionals combines years of experience with a genuine commitment to providing.</p>
-              </div>
-            </div>
-            <div class="feature row ">
-              <div class="number-box me-4 col-2">02</div>
-              <div class="feature-text col">
-                <h3 class="feature-title">Compassionate & Expert Care</h3>
-                <p class="feature-description">Our team of dedicated healthcare professionals combines years of experience with a genuine commitment to providing.</p>
-              </div>
-            </div>
-            <div class="feature row ">
-              <div class="number-box me-4 col-2">03</div>
-              <div class="feature-text border-0 col">
-                <h3 class="feature-title ">Compassionate & Expert Care</h3>
-                <p class="feature-description">Our team of dedicated healthcare professionals combines years of experience with a genuine commitment to providing.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="image-container">
-          <img src="assets/img/Surgeon.jpg" alt="young-female-doctor-prepares-surgery-wears-blue-surgical-gloves-coat-mask" class="ms-md-5" />
-        </div>
-      </div>
-
-      <div class="row">
-
-      </div>
-    </div>
-  </section>
-  <!-- why choose us section end  -->
-
 
 
   <!-- appointment process -->
@@ -248,6 +250,7 @@ include('include/navbar.php');
             <img src="assets/img/shape/1.png" alt="Shape">
         </div> -->
     <!-- End Shape -->
+    
     <div class="container">
       <div class="process-items">
         <div class="row">
@@ -259,19 +262,19 @@ include('include/navbar.php');
           <div class="col-lg-7">
             <div class="process-items text-center">
               <div class="row">
-                <div class="col-lg-4 col-md-4 single-item">
+                <div class="col-lg-4 col-md-4 single-item" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                   <div class="item">
                     <img src="assets/img/icon/schedule.png" alt="">
                     <h5>Make Appointment</h5>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 single-item">
+                <div class="col-lg-4 col-md-4 single-item" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                   <div class="item">
                     <img src="assets/img/icon/doctor.png" alt="">
                     <h5>Select Expert Doctor</h5>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 single-item">
+                <div class="col-lg-4 col-md-4 single-item" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                   <div class="item">
                     <img src="assets/img/icon/consultation.png" alt="">
                     <h5>Confirm Consultation</h5>
