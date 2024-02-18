@@ -56,8 +56,8 @@ include('include/navbar.php');
               <div class="col item" >
                 <a href="assets/img/before-after/wrinkle-before.jpg" class="fancybox" data-fancybox="gallery1">
                   <img src="assets/img/before-after/wrinkle-before.jpg" alt="A picture of a woman's face before botox treatment" class="before"/>
-                 </a>
-              </div>
+                 </a> 
+              </div> 
               <div class="col item">
                 <a href="assets/img/before-after/no-wrinkle-after.jpg" class="fancybox" data-fancybox="gallery1">
                   <img src="assets/img/before-after/no-wrinkle-after.jpg" alt="A picture of a woman's face after botox treatment" class="after" />
