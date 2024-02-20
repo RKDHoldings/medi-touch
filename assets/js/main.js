@@ -99,8 +99,8 @@
    /**
    * Initiate glightbox
    */
-   const glightbox = GLightbox({
-    selector: '.glightbox'
+   const galleryLightbox = GLightbox({
+    selector: '.gallery-lightbox'
   });
 
  /**

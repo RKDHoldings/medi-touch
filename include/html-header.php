@@ -31,11 +31,30 @@
   <link href="<?php echo $basePath; ?>/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="<?php echo $basePath; ?>/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="<?php echo $basePath; ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"  />
+
 
   <!--  Main CSS File -->
   <link href="<?php echo $basePath; ?>/assets/css/style.css" rel="stylesheet">
 
 </head>
-
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+		
+		window.addEventListener('scroll', function() {
+	       
+			if (window.scrollY > 200) {
+				document.getElementById('header').classList.add('fixed-top');
+				// add padding top to show content behind navbar
+				navbar_height = document.querySelector('.header').offsetHeight;
+				document.body.style.paddingTop = navbar_height + 'px';
+			} else {
+			 	document.getElementById('header').classList.remove('fixed-top');
+				 // remove padding top from body
+				document.body.style.paddingTop = '0';
+			} 
+		});
+	}); 
+</script>
 <body>
  

@@ -24,14 +24,18 @@ include('include/navbar.php');
   </section><!-- End Breadcrumbs -->
 
     <!-- ======= Our Team Section ======= -->
-  <section id="team" class="team section-bg pt-5 mt-5">
+  <section id="team" class="team section-bg py-5">
     <div class="container">
 
       <div class="section-title" data-aos="fade-up">
         <h2>Meet our <strong>Doctors</strong></h2>
-        <p>
-          Our company thrives with the contribution of our team. We are grateful towards everyone for their continued support to achieve our vision.
-        </p>
+        <div class="row my-4">
+            <div class="col-7 mx-auto">
+              <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+                Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
+                Donec libero justo,</p>
+            </div>
+          </div>
       </div>
 
       <div class="row">
@@ -39,7 +43,7 @@ include('include/navbar.php');
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
           <div class="member" data-aos="fade-up">
             <div class="member-img">
-              <img src="assets/img/team/doctorTeam.jpg" class="img-fluid" alt="">
+              <img src="https://images.unsplash.com/photo-1612349316228-5942a9b489c2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="">
               <div class="social">
                 <a href=""><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
@@ -57,7 +61,7 @@ include('include/navbar.php');
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
           <div class="member" data-aos="fade-up" data-aos-delay="100">
             <div class="member-img">
-              <img src="assets/img/team/doctorTeam.jpg" class="img-fluid" alt="">
+              <img src="https://images.unsplash.com/photo-1612349316228-5942a9b489c2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="">
               <div class="social">
                 <a href=""><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
@@ -75,7 +79,7 @@ include('include/navbar.php');
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
           <div class="member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
-              <img src="assets/img/team/doctorTeam.jpg" class="img-fluid" alt="">
+              <img src="https://images.unsplash.com/photo-1612349316228-5942a9b489c2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="">
               <div class="social">
                 <a href=""><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
@@ -93,7 +97,7 @@ include('include/navbar.php');
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
           <div class="member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-img">
-              <img src="assets/img/team/doctorTeam.jpg" class="img-fluid" alt="">
+              <img src="https://images.unsplash.com/photo-1612349316228-5942a9b489c2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="">
               <div class="social">
                 <a href=""><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
