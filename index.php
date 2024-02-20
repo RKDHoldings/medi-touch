@@ -32,7 +32,7 @@
     </div>
     
        
-          <img src="assets/img/polygon.png" class="polygon-icon" alt="">
+          <img src="assets/img/polygon.png" class="polygon-icon img-move" alt="">
       
 
   </section><!-- End Hero -->
@@ -71,6 +71,15 @@
                                       Who we are 
                                       <i class="bi bi-chevron-double-right"></i>
                                   </a>
+                                  <span class="call-box">
+                                        <div class="icon">
+                                           <img src="assets/img/call.png" alt="shape">
+                                        </div>
+                                        <div class="text">    
+                                            <strong>Call Us Anytime</strong>            
+                                            <a href="tel:+917052101786">+889 34044</a>
+                                        </div>
+                                  </span>
                              </div>
                         </div>
                 </div>
@@ -116,48 +125,7 @@
              </div>
          </div>
      </section>
-
-     <section id="main-services">
-         <div class="container">
-              <div class="row">
-                 <h3 class="text-center">What services we provide you</h3>
-                 <p  class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-                   Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
-
-                   <div class="col-lg-6">
-                        <img src="assets/img/services/1.png" alt="">
-                   </div>
-                   <div class="col-lg-6">
-                        <div class="service-content">
-                            <h5>Facial care treatment</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit aucto</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque.</p>   
-                        </div>
-                        <a href="" class="btn btn-primary">
-                            explore more
-                        </a>
-                      
-                   </div>
-                   <div class="col-lg-6">
-                        <div class="service-content">
-                            <h5>Facial care treatment</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit aucto</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque.</p>   
-                        </div>
-                        <a href="" class="btn btn-primary">
-                            explore more
-                        </a>
-                      
-                   </div>
-                   <div class="col-lg-6">
-                        <img src="assets/img/services/1.png" alt="">
-                   </div>
-              </div>
-         </div>
-     </section>
-    <!-- services section end  -->
-
-    <!-- ceo section start -->
+     <!-- ceo section start -->
     <section id="ceo-message" class="ceo-message">
       <div class="container" data-aos="fade-up">
 
@@ -255,6 +223,47 @@
 
       </div>
     </section>
+     <section id="main-services">
+         <div class="container">
+              <div class="row">
+                 <h3 class="text-center">What services we provide you</h3>
+                 <p  class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+                   Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
+
+                   <div class="col-lg-6">
+                        <img src="assets/img/services/1.png" alt="">
+                   </div>
+                   <div class="col-lg-6">
+                        <div class="service-content">
+                            <h5>Facial care treatment</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit aucto</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque.</p>   
+                        </div>
+                        <a href="" class="btn btn-primary">
+                            explore more
+                        </a>
+                      
+                   </div>
+                   <div class="col-lg-6">
+                        <div class="service-content">
+                            <h5>Facial care treatment</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque. Suspendisse mattis, neque sed blandit aucto</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque.</p>   
+                        </div>
+                        <a href="" class="btn btn-primary">
+                            explore more
+                        </a>
+                      
+                   </div>
+                   <div class="col-lg-6">
+                        <img src="assets/img/services/1.png" alt="">
+                   </div>
+              </div>
+         </div>
+     </section>
+    <!-- services section end  -->
+
+    
     <!-- <section id="ceo-message">
         <div class="container">
             <div class="row">
@@ -372,7 +381,7 @@
     <!-- End Testimonials Section -->
 
      <!-- Contact section -->
-     <section id="feedback" class="feedback contact">
+     <!-- <section id="feedback" class="feedback contact">
            <div class="container"  data-aos="fade-up">
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
                   
@@ -411,13 +420,13 @@
                      </div>
                 </div>
            </div>
-     </section>
+     </section> -->
 
 
   </main><!-- End #main -->
 
 
-  <!-- Book an appointment banner section Start  -->
+    <!-- Book an appointment banner section Start  -->
     <section id="appointment" class="appointment">
         <div class="container p-0">
             <div class="appointment-banner">
