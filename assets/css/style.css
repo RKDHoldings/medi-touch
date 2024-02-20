@@ -1709,7 +1709,7 @@ ul.story-list {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   height: 464px;
-  margin-left: 10px;
+  margin-left: -15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3140,6 +3140,33 @@ ul.story-list {
 }
 
 /* News and Articles End */
+
+/* <!-- FAQ Section Start --> */
+.faq .accordion-item{
+  margin-bottom: 1rem;
+  border-radius: 5px !important;
+  border: 1px solid #dee2e6;
+}
+.faq .accordion-button {
+  font-size: 1.1rem;
+}
+.faq .accordion-button:not(.collapsed) {
+  color: var(--color-dark-blue);
+  background-color:rgba(0, 121, 193, 0.4);
+}
+
+.faq .accordion .accordion-item .accordion-body{
+  background-color: rgba(0, 121, 193, 0.4) !important;
+}
+/* .faq .accordion .accordion-item .accordion-button:focus {
+  outline: 0 ;
+  border-color: none;
+} */
+.faq button:focus:not(:focus-visible) {
+  outline: none;
+}
+/* <!-- FAQ Section End --> */
+
 
 
 /* gallery section start */

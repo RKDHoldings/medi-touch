@@ -26,7 +26,7 @@ include('include/navbar.php');
 
 
   <!-- Before and After section Start  -->
-  <section class="before-after" id="before-after">
+  <section class="before-after before-after-page" id="before-after">
     <div class="container mb-5">
       <div class="row mt-5">
         <div class="col-lg-12">
@@ -67,8 +67,89 @@ include('include/navbar.php');
           </div>
         </div>
       </div>
+      <h4 class="page-title mb-3 text-center">
+        More Success Stories
+      </h4>
+      <div class="row mb-5 gx-5 gy-3">
+        <div class="col-md-6">
+          <div class="before-after-container">
+            <div class="row mt-5 images-container ">
+              <div class="col item" data-title="Before">
+                <a href="assets/img/before-after/wrinkle-before.jpg" class="fancybox" data-fancybox="gallery1">
+                  <img src="assets/img/before-after/wrinkle-before.jpg" alt="A picture of a woman's face before botox treatment" class="before" />
+                </a>
+              </div>
+              <div class="col item" data-title="After">
+                <a href="assets/img/before-after/no-wrinkle-after.jpg" class="fancybox" data-fancybox="gallery1">
+                  <img src="assets/img/before-after/no-wrinkle-after.jpg" alt="A picture of a woman's face after botox treatment" class="after" />
+                </a>
+              </div>
+            </div>
+            <h6 class="card-title text-center">Botox Treatment</h6>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="before-after-container">
+            <div class="row mt-5 images-container ">
+              <div class="col item" data-title="Before">
+                <a href="assets/img/before-after/wrinkle-before.jpg" class="fancybox" data-fancybox="gallery1">
+                  <img src="assets/img/before-after/wrinkle-before.jpg" alt="A picture of a woman's face before botox treatment" class="before" />
+                </a>
+              </div>
+              <div class="col item" data-title="After">
+                <a href="assets/img/before-after/no-wrinkle-after.jpg" class="fancybox" data-fancybox="gallery1">
+                  <img src="assets/img/before-after/no-wrinkle-after.jpg" alt="A picture of a woman's face after botox treatment" class="after" />
+                </a>
+              </div>
+            </div>
+            <h6 class="card-title text-center">Botox Treatment</h6>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="before-after-container">
+            <div class="row mt-5 images-container ">
+              <div class="col item" data-title="Before">
+                <a href="assets/img/before-after/wrinkle-before.jpg" class="fancybox" data-fancybox="gallery1">
+                  <img src="assets/img/before-after/wrinkle-before.jpg" alt="A picture of a woman's face before botox treatment" class="before" />
+                </a>
+              </div>
+              <div class="col item" data-title="After">
+                <a href="assets/img/before-after/no-wrinkle-after.jpg" class="fancybox" data-fancybox="gallery1">
+                  <img src="assets/img/before-after/no-wrinkle-after.jpg" alt="A picture of a woman's face after botox treatment" class="after" />
+                </a>
+              </div>
+            </div>
+            <h6 class="card-title text-center">Botox Treatment</h6>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="before-after-container">
+            <div class="row mt-5 images-container ">
+              <div class="col item" data-title="Before">
+                <a href="assets/img/before-after/wrinkle-before.jpg" class="fancybox" data-fancybox="gallery1">
+                  <img src="assets/img/before-after/wrinkle-before.jpg" alt="A picture of a woman's face before botox treatment" class="before" />
+                </a>
+              </div>
+              <div class="col item" data-title="After">
+                <a href="assets/img/before-after/no-wrinkle-after.jpg" class="fancybox" data-fancybox="gallery1">
+                  <img src="assets/img/before-after/no-wrinkle-after.jpg" alt="A picture of a woman's face after botox treatment" class="after" />
+                </a>
+              </div>
+            </div>
+            <h6 class="card-title text-center">Botox Treatment</h6>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
   </section>
   <!-- Before and After section end  -->
+
+
 
 </main><!-- End #main -->
 
