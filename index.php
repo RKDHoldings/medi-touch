@@ -287,7 +287,7 @@ include('include/navbar.php');
       </div>
     </div>
   </section>
-
+  
   <!-- ceo section start -->
   <section id="ceo-message" class="ceo-message">
     <div class="container" data-aos="fade-up">
