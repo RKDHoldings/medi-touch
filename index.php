@@ -736,10 +736,10 @@ include('include/navbar.php');
     <div class="container p-0">
       <div class="appointment-banner">
         <div class="row">
-          <div class="col-md-6 me-auto text-content">
+          <div class="me-auto text-content">
             <div class="px-4">
               <h3 class="title mb-3">Book an appointment today</h3>
-              <p class="subtitle">Transform your look with our expert care</p>
+              <p class="subtitle text-center">Transform your look with our expert care</p>
               <button type="button" onclick="window.location.href='appointment.php';" class="btn btn-primary">Book Now</button>
             </div>
           </div>
