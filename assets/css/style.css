@@ -1332,7 +1332,7 @@ ul.story-list {
   width: 100%;
   height: 500px;
   @media (min-width: 992px) {
-    width: 60%;
+    width: 100%;
   }
 }
 .video-background a {
