@@ -615,7 +615,51 @@ ul.top-contact i {
   }
 }
 
+@media (max-width: 468px){
+  .about-info{
+   margin-top: 1rem;
+  }
+  .call-box{
+    margin-top: 10px;
+    margin-left: 0!important;
+  }
+  .video-content .btn{
+    margin: auto;
+    display: flex;
+  }
+
+  .process-items .btn{
+    margin: auto;
+    display: flex;
+
+  }
+
+
+
+  
+}
+
+@media (max-width: 1200px) and (min-width: 992px){
+
+  .call-box{
+    margin-top: 10px;
+    margin-left: 0!important;
+  }
+  
+  #hero{
+    height:55vh;
+  }
+  
+
+}
+
+
+
+
+
 @media (max-height: 500px) {
+
+
   #hero {
     height: auto;
   }
@@ -642,6 +686,7 @@ ul.top-contact i {
   #hero .container {
     padding-top: 0;
   }
+ 
 }
 
 @keyframes pulsate-btn {
