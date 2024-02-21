@@ -212,7 +212,9 @@ ul.top-contact i {
   list-style: none;
   align-items: center;
 }
-
+.mobile-nav-toggle{
+  color: var(--color-primary) !important;
+}
 .navbar li {
   position: relative;
 }

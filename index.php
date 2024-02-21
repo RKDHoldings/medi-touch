@@ -228,9 +228,7 @@ include('include/navbar.php');
       <h3 class="text-center mt-3">What services we provide you</h3>
       <div class="row my-4">
         <div class="col-12 col-md-7 mx-auto">
-          <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-            Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
-            Donec libero justo,</p>
+          <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.</p>
         </div>
       </div>
       <div class="row">
@@ -325,9 +323,9 @@ include('include/navbar.php');
               </div>
               <div class="col-lg-6 pt-4 pt-lg-0 content">
                 <h3>John Doe</h3>
-                <div class="post">
+                <!-- <div class="post">
                   <p><span>Dr</span></p>
-                </div>
+                </div> -->
                 <p class="fst-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.
@@ -352,9 +350,9 @@ include('include/navbar.php');
               </div>
               <div class="col-lg-6 pt-4 pt-lg-0 content">
                 <h3>Rita doe </h3>
-                <div class="post">
+                <!-- <div class="post">
                   <p><span>Dr</span></p>
-                </div>
+                </div> -->
                 <p class="fst-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.
