@@ -44,7 +44,7 @@ include('include/navbar.php');
   <section class="about-wrapper">
     <div class="container" data-aos="fade-up">
       <div class="row align-items-center">
-        <div class="col-lg-7  d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12  d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
           <div class="image-stack text-end">
             <img src="assets/img/about-1.png" alt="" class="stack-front">
             <img src="assets/img/about-2.png" alt="" class="stack-front">
@@ -52,7 +52,7 @@ include('include/navbar.php');
           </div>
 
         </div>
-        <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12">
+        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
           <div class="about-info">
             <div class="heading-wrapper">
               <h2>
@@ -69,7 +69,7 @@ include('include/navbar.php');
                 consectetur adipisicing elit. Molestiae vitae porro rem commodi cum
                 earum est modi, eaque molestias ipsa!
               </p>
-              <a href="" class="btn btn-primary mb-4">
+              <a href="" class="btn btn-primary mb-0">
                 Who we are
                 <i class="bi bi-chevron-double-right"></i>
               </a>
@@ -88,26 +88,35 @@ include('include/navbar.php');
       </div>
   </section>
 
-
-
-  <!-- services section start  -->
   <section id="what-we-do">
     <div class="container">
+      <h3 class="text-center mt-3">What services we provide you</h3>
+      <div class="row my-4">
+        <div class="col-12 col-md-7 mx-auto">
+          <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+            Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
+            Donec libero justo,</p>
+        </div>
+      </div>
       <div class="row">
-        <div class="col-lg-12">
-          <h3 class="text-center mt-3">What we provide you</h3>
-          <div class="row my-4">
-            <div class="col-12 col-md-7 mx-auto">
-              <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-                Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
-                Donec libero justo,</p>
+        <div class="col-lg-4">
+          <div class="single-service-card">
+            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
+            <div class="service-content mt-0">
+              <h3>
+                <a href="/">OPD Service </a>
+              </h3>
+              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
+              <div class="bottom">
+                <a href="#"><i class="bi bi-arrow-right"></i></a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="single-service-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+          <div class="single-service-card">
             <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
-            <div class="service-content">
+            <div class="service-content mt-0">
               <h3>
                 <a href="/">Dermatosurgery</a>
               </h3>
@@ -118,17 +127,19 @@ include('include/navbar.php');
 
             </div>
           </div>
-          <div class="video-content">
-            <h3 class="text-start">What we make different <br /> from others</h3>
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-              Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-            </p>
-
-            <a href="" class="btn btn-secondary mt-4">
-              View More
-            </a>
+        </div>
+        <div class="col-lg-4">
+          <div class="single-service-card ">
+            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
+            <div class="service-content mt-0">
+              <h3>
+                <a href="/">Aesthetic Service</a>
+              </h3>
+              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
+              <div class="bottom">
+                <a href="#"><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -136,8 +147,8 @@ include('include/navbar.php');
   </section>
 
 
-  <!-- services section end  -->
 
+  
 
 
   <!-- why choose us section start  -->
@@ -198,7 +209,7 @@ include('include/navbar.php');
       </div>
 
       <div class="row">
-        <div class="d-flex video-wrapper w-100">
+        <div class="d-flex video-wrapper w-100 ">
           <div class="video-background">
             <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
           </div>
@@ -270,63 +281,7 @@ include('include/navbar.php');
       </div>
     </div>
   </section>
-  <section id="what-we-do">
-    <div class="container">
-      <h3 class="text-center mt-3">What services we provide you</h3>
-      <div class="row my-4">
-        <div class="col-12 col-md-7 mx-auto">
-          <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-            Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
-            Donec libero justo,</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="single-service-card">
-            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
-            <div class="service-content">
-              <h3>
-                <a href="/">OPD Service </a>
-              </h3>
-              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
-              <div class="bottom">
-                <a href="#"><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="single-service-card">
-            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
-            <div class="service-content">
-              <h3>
-                <a href="/">Dermatosurgery</a>
-              </h3>
-              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
-              <div class="bottom">
-                <a href="#"><i class="bi bi-arrow-right"></i></a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="single-service-card">
-            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
-            <div class="service-content">
-              <h3>
-                <a href="/">Aesthetic Service</a>
-              </h3>
-              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
-              <div class="bottom">
-                <a href="#"><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
   <!-- ceo section start -->
   <section id="ceo-message" class="ceo-message">
     <div class="container" data-aos="fade-up">
