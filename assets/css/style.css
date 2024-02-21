@@ -150,6 +150,9 @@ img {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  @media (max-width: 992px) {
+    padding: 0px;
+  }
   /* top: 40px; */
 }
 
@@ -653,6 +656,9 @@ ul.top-contact i {
 .img-move {
   -webkit-animation: mover 1s infinite alternate;
   animation: mover 1s infinite alternate;
+  @media (max-width: 992px) {
+    margin-top: 100px;
+  }
 }
 .img-move {
   -webkit-animation: mover 1s infinite alternate;
@@ -713,6 +719,12 @@ ul.top-contact i {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
+  }
+  #hero {
+    height: 800px !important;
+  }
+  #hero .container {
+    padding-top: 0;
   }
 }
 
@@ -1063,6 +1075,11 @@ ul.story-list {
   padding: 65px 30px;
   border: 1px solid var(--color-primary);
   border-radius: 5px;
+}
+.process-area .heading {
+  @media (max-width: 992px) {
+    padding: 1rem;
+  }
 }
 .process-area .item h5 {
   text-transform: capitalize;
@@ -2843,6 +2860,19 @@ ul.story-list {
 .ceo-message .swiper-pagination .swiper-pagination-eroullet-active {
   background-color: var(--color-primary);
 }
+@media (max-width: 992px) {
+  .ceo-message img.post-img {
+    height: 250px;
+    display: block;
+    margin: auto;
+  }
+  .ceo-message .content {
+    padding: 1rem;
+  }
+  .ceo-message .content h3 {
+    text-align: center;
+  }
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -3191,7 +3221,12 @@ ul.story-list {
 /* News and Articles End */
 
 /* <!-- FAQ Section Start --> */
-.faq .accordion-item{
+.faq .accordion {
+  @media (max-width: 992px) {
+    margin-top: 2.5rem;
+  }
+}
+.faq .accordion-item {
   margin-bottom: 1rem;
   border-radius: 5px !important;
   border: 1px solid #dee2e6;
@@ -3201,10 +3236,10 @@ ul.story-list {
 }
 .faq .accordion-button:not(.collapsed) {
   color: var(--color-dark-blue);
-  background-color:rgba(0, 121, 193, 0.4);
+  background-color: rgba(0, 121, 193, 0.4);
 }
 
-.faq .accordion .accordion-item .accordion-body{
+.faq .accordion .accordion-item .accordion-body {
   background-color: rgba(0, 121, 193, 0.4) !important;
 }
 /* .faq .accordion .accordion-item .accordion-button:focus {
@@ -3214,25 +3249,28 @@ ul.story-list {
 .faq button:focus:not(:focus-visible) {
   outline: none;
 }
+@media (max-width: 992px) {
+  .faq {
+    padding-bottom: 0 !important;
+  }
+}
 /* <!-- FAQ Section End --> */
 
-
-
 /* gallery section start */
-.gallery .gallery-row  div.img-container{
+.gallery .gallery-row div.img-container {
   height: 250px;
   /* border: 1px solid red; */
   margin-bottom: 1rem;
   transition: all 0.3s ease-in-out;
   position: relative;
 }
-.gallery .gallery-row div.img-container img{
+.gallery .gallery-row div.img-container img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.gallery .gallery-row div.img-container::after{
+.gallery .gallery-row div.img-container::after {
   position: absolute;
   right: 220px;
   bottom: 103px;
@@ -3241,19 +3279,18 @@ ul.story-list {
   content: url(../img/icon/show.png);
   z-index: 1;
   transition: all 0.3s ease-in-out;
- opacity: 0;
+  opacity: 0;
 }
-.gallery .gallery-row div.img-container:hover::after{
- opacity: 1;
+.gallery .gallery-row div.img-container:hover::after {
+  opacity: 1;
   content: url(../img/icon/show.png);
   z-index: 1;
 }
 
-.gallery .gallery-row div.img-container:hover{
+.gallery .gallery-row div.img-container:hover {
   filter: brightness(80%);
 }
 /* gallery section end */
-
 
 /*Detail Page of News and Articles Start */
 

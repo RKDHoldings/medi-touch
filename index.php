@@ -97,8 +97,7 @@ include('include/navbar.php');
           <div class="row my-4">
             <div class="col-12 col-md-7 mx-auto">
               <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-                Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
-                Donec libero justo,</p>
+                Suspendisse mattis</p>
             </div>
           </div>
         </div>
@@ -653,6 +652,7 @@ include('include/navbar.php');
 
 
     <div class="container">
+      <h3 class="text-center mt-3 mb-5">Frequently Asked Question</h3>
       <div class="row gx-5">
         <div class="col-12 col-lg-6">
           <div class="img-container my-auto ">
@@ -660,8 +660,7 @@ include('include/navbar.php');
           </div>
         </div>
         <div class="col-12 col-lg-6">
-        <h3 class="text-center mt-3 ">Frequently Asked Question</h3>
-          <div class="accordion mt-5" id="accordionExample">
+          <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
