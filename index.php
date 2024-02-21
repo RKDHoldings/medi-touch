@@ -12,7 +12,7 @@ include('include/navbar.php');
       <div class="col-lg-6">
         <h1>We Are Ready <span>For Your Skin</span>Care Help! </h1>
 
-        <p>Follow us to improve health, <br /> to enjoy and relax</p>
+        <p>Follow us to improve health, <br class="d-sm-none d-md-block" /> to enjoy and relax</p>
 
         <div class="btns">
           <a href="/" class="btn btn-primary animated fadeInUp scrollto">Contact now
@@ -54,11 +54,11 @@ include('include/navbar.php');
           <div class="about-info">
             <div class="heading-wrapper">
               <h2>
-                We have 7+ Years , <br />Experience.
+                We have 7+ Years , <br class="d-none d-md-block" />Experience.
               </h2>
             </div>
             <p class="mb-3">
-              Follow us to improve health, <br /> to enjoy and relax
+              Follow us to improve health, <br class="d-none d-md-block" /> to enjoy and relax
             </p>
             <div class="more-about">
               <h4>Our mission and Vision</h4>
@@ -109,7 +109,7 @@ include('include/navbar.php');
             <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
           </div>
           <div class="video-content">
-            <h3 class="text-start">What we make different <br /> from others</h3>
+            <h3 class="text-start">What we make different <br class="d-none d-md-block" /> from others</h3>
             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
               Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
             <p>
@@ -171,9 +171,6 @@ include('include/navbar.php');
         </div>
       </div>
 
-      <div class="row">
-
-      </div>
     </div>
   </section>
   <!-- why choose us section end  -->
@@ -191,7 +188,7 @@ include('include/navbar.php');
       <div class="process-items">
         <div class="row">
           <div class="col-lg-5 heading">
-            <h2>How to get a <br> consultation from us?</h2>
+            <h2>How to get a <br class="d-none d-md-block"> consultation from us?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eius nisi totam illo reiciendis us, beatae incidunt. Possimus, numquam!</p>
             <a class="btn btn-md btn-primary mb-4" href="#">Full Process <i class="fas fa-angle-right"></i></a>
           </div>

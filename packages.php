@@ -34,7 +34,7 @@ include('include/navbar.php');
       </h3>
       <div class="row mb-5">
         <div class="col-8 mx-auto">
-          <p class="page-subtitle text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae distinctio minus perferendias inventore recusandae laudantium corrus aperiam facilis molestias alias inventore recusandae laudantium corrupti?</p>
+          <p class="page-subtitle text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.ecusandae laudantium lrrupti</p>
         </div>
       </div>
       <div class="row gy-4">

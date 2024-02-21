@@ -140,6 +140,9 @@ img {
   #fact-stats .section {
     margin-bottom: 2rem;
   }
+  #hero p{
+    margin-left: 65px !important;
+  }
 }
 /*--------------------------------------------------------------
 # Header
@@ -748,6 +751,9 @@ ul.top-contact i {
 section {
   padding: 3rem 0 3rem 0;
   overflow: hidden;
+  @media (max-width: 992px) {
+    padding: 1rem 0  1rem 0;
+  }
 }
 
 /* .section-bg {
@@ -993,6 +999,9 @@ section {
 }
 .about-img img {
   border-radius: 13px;
+  @media (max-width: 992px) {
+    padding: 20px;
+  }
 }
 .heading-wrapper {
   text-align: left;
@@ -3372,6 +3381,9 @@ ul.story-list {
     rgba(1, 169, 242, 0.1023) 72.5%,
     rgba(194, 129, 107, 0.31) 112.41%
   );
+  @media (max-width:992px) {
+    padding: 2rem !important;
+  }
 }
 
 .all-packages .card {
