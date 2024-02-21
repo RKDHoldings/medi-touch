@@ -14,7 +14,7 @@ include('include/navbar.php');
          
           <p>Follow us to improve health, <br/> to enjoy and relax</p>
 
-        <p>Follow us to improve health, <br /> to enjoy and relax</p>
+        <p>Follow us to improve health, <br class="d-sm-none d-md-block" /> to enjoy and relax</p>
 
         <div class="btns">
           <a href="/" class="btn btn-primary animated fadeInUp scrollto">Contact now
@@ -56,11 +56,11 @@ include('include/navbar.php');
           <div class="about-info">
             <div class="heading-wrapper">
               <h2>
-                We have 7+ Years , <br />Experience.
+                We have 7+ Years , <br class="d-none d-md-block" />Experience.
               </h2>
             </div>
             <p class="mb-3">
-              Follow us to improve health, <br /> to enjoy and relax
+              Follow us to improve health, <br class="d-none d-md-block" /> to enjoy and relax
             </p>
             <div class="more-about">
               <h4>Our mission and Vision</h4>
@@ -93,26 +93,14 @@ include('include/navbar.php');
   <!-- services section start  -->
   <section id="what-we-do">
     <div class="container">
-      <h3 class="text-center mt-3">What services we provide you</h3>
-      <div class="row my-4">
-        <div class="col-7 mx-auto">
-          <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-            Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
-            Donec libero justo,</p>
-        </div>
-      </div>
       <div class="row">
-        <div class="col-lg-4">
-          <div class="single-service-card" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
-            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
-            <div class="service-content">
-              <h3>
-                <a href="/">OPD Service </a>
-              </h3>
-              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
-              <div class="bottom">
-                <a href="#"><i class="bi bi-arrow-right"></i></a>
-              </div>
+        <div class="col-lg-12">
+          <h3 class="text-center mt-3">What we provide you</h3>
+          <div class="row my-4">
+            <div class="col-12 col-md-7 mx-auto">
+              <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+                Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
+                Donec libero justo,</p>
             </div>
           </div>
         </div>
@@ -130,19 +118,17 @@ include('include/navbar.php');
 
             </div>
           </div>
-        </div>
-        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
-          <div class="single-service-card">
-            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
-            <div class="service-content">
-              <h3>
-                <a href="/">Aesthetic Service</a>
-              </h3>
-              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
-              <div class="bottom">
-                <a href="#"><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
+          <div class="video-content">
+            <h3 class="text-start">What we make different <br /> from others</h3>
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+              Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+            </p>
+
+            <a href="" class="btn btn-secondary mt-4">
+              View More
+            </a>
           </div>
         </div>
       </div>
@@ -193,9 +179,6 @@ include('include/navbar.php');
         </div>
       </div>
 
-      <div class="row">
-
-      </div>
     </div>
   </section>
   <!-- why choose us section end  -->
@@ -255,7 +238,7 @@ include('include/navbar.php');
       <div class="process-items">
         <div class="row">
           <div class="col-lg-5 heading">
-            <h2>How to get a <br> consultation from us?</h2>
+            <h2>How to get a <br class="d-none d-md-block"> consultation from us?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eius nisi totam illo reiciendis us, beatae incidunt. Possimus, numquam!</p>
             <a class="btn btn-md btn-primary mb-4" href="#">Full Process <i class="fas fa-angle-right"></i></a>
           </div>
@@ -287,7 +270,63 @@ include('include/navbar.php');
       </div>
     </div>
   </section>
-  
+  <section id="what-we-do">
+    <div class="container">
+      <h3 class="text-center mt-3">What services we provide you</h3>
+      <div class="row my-4">
+        <div class="col-12 col-md-7 mx-auto">
+          <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+            Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
+            Donec libero justo,</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="single-service-card">
+            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
+            <div class="service-content">
+              <h3>
+                <a href="/">OPD Service </a>
+              </h3>
+              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
+              <div class="bottom">
+                <a href="#"><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="single-service-card">
+            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
+            <div class="service-content">
+              <h3>
+                <a href="/">Dermatosurgery</a>
+              </h3>
+              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
+              <div class="bottom">
+                <a href="#"><i class="bi bi-arrow-right"></i></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="single-service-card">
+            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
+            <div class="service-content">
+              <h3>
+                <a href="/">Aesthetic Service</a>
+              </h3>
+              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
+              <div class="bottom">
+                <a href="#"><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- ceo section start -->
   <section id="ceo-message" class="ceo-message">
     <div class="container" data-aos="fade-up">
@@ -333,9 +372,9 @@ include('include/navbar.php');
               </div>
               <div class="col-lg-6 pt-4 pt-lg-0 content">
                 <h3>John Doe</h3>
-                <div class="post">
+                <!-- <div class="post">
                   <p><span>Dr</span></p>
-                </div>
+                </div> -->
                 <p class="fst-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.
@@ -360,9 +399,9 @@ include('include/navbar.php');
               </div>
               <div class="col-lg-6 pt-4 pt-lg-0 content">
                 <h3>Rita doe </h3>
-                <div class="post">
+                <!-- <div class="post">
                   <p><span>Dr</span></p>
-                </div>
+                </div> -->
                 <p class="fst-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.
@@ -664,6 +703,7 @@ include('include/navbar.php');
 
 
     <div class="container">
+      <h3 class="text-center mt-3 mb-5">Frequently Asked Question</h3>
       <div class="row gx-5">
         <div class="col-12 col-lg-6">
           <div class="img-container my-auto ">
@@ -671,8 +711,7 @@ include('include/navbar.php');
           </div>
         </div>
         <div class="col-12 col-lg-6">
-        <h3 class="text-center mt-3 ">Frequently Asked Question</h3>
-          <div class="accordion mt-5" id="accordionExample">
+          <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
