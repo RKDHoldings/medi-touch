@@ -144,7 +144,7 @@ include('include/navbar.php');
 
 
 
-  
+
 
 
   <!-- why choose us section start  -->
@@ -217,11 +217,11 @@ include('include/navbar.php');
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
             </p>
 
-           <div class="d-flex">
+            <div class="d-flex">
               <a href="" class="btn btn-primary mt-4">
                 View More
               </a>
-           </div>
+            </div>
           </div>
         </div>
 
@@ -240,7 +240,7 @@ include('include/navbar.php');
             <img src="assets/img/shape/1.png" alt="Shape">
         </div> -->
     <!-- End Shape -->
-    
+
     <div class="container">
       <div class="process-items">
         <div class="row">
@@ -596,14 +596,14 @@ include('include/navbar.php');
           </div>
           <div class="swiper-pagination"></div>
         </div>
-        
-        
+
+
       </div>
       <img src="assets/img/shape.png" class="bg-shape" alt="">
-    </section>
-    <!-- End Testimonials Section -->
+  </section>
+  <!-- End Testimonials Section -->
 
-    </div>
+  </div>
   </section>
   <!-- End Testimonials Section -->
 
@@ -654,74 +654,91 @@ include('include/navbar.php');
 
 
     <div class="container">
-      <h3 class="text-center mt-3 mb-5">Frequently Asked Question</h3>
       <div class="row gx-5">
         <div class="col-12 col-lg-6">
-          <div class="img-container my-auto ">
-            <img src="assets/img/ConsultantDoctor.jpg" class="rounded" alt="An image of senior doctor consulting patient" />
+          <div class="accordion" id="accordionExample">
+            <h2 class="text-start my-3 text-capitalize">Need to ask some questions or check some questions</h2>
+            <p class="faq-subtitle mb-4">There are Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, reiciendis!  Lorem ipsum dolor sit.</p>
+            <div class="faq-container">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    1. What services does your hair and skin clinic provide?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Our clinic offers a range of services tailored to meet your hair and skin needs. This includes dermatological consultations, hair restoration treatments, advanced skincare procedures, and personalized treatment plans for various conditions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    2. How do I schedule an appointment at your clinic?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Scheduling an appointment is easy. You can call our clinic during regular business hours or use our online appointment booking system on our website. We strive to accommodate your schedule and provide prompt and convenient consultations.
+                  </div>
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    3. Are your treatments safe and effective?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Yes, our clinic prioritizes the safety and effectiveness of all treatments. Our dermatologists utilize state-of-the-art technologies and evidence-based practices to ensure optimal results with minimal risk. We will discuss your treatment options, expected outcomes, and any potential side effects during your consultation.
+                  </div>
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    4. What conditions do your dermatologists commonly treat?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Our experienced dermatologists specialize in treating a variety of skin and hair conditions, including acne, eczema, psoriasis, hair loss, and more. Whether you have a specific concern or need general skincare advice, our team is here to help.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    5. Do you offer personalized skincare and haircare routines?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Absolutely. We understand that every individual's skin and hair are unique. Our dermatologists will assess your specific needs and create personalized routines that may include recommended products, lifestyle adjustments, and in-clinic treatments to promote the health and beauty of your skin and hair.
+                  </div>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-12 col-lg-6">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  What services does your hair and skin clinic provide?
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Our clinic offers a range of services tailored to meet your hair and skin needs. This includes dermatological consultations, hair restoration treatments, advanced skincare procedures, and personalized treatment plans for various conditions.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  How do I schedule an appointment at your clinic?
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Scheduling an appointment is easy. You can call our clinic during regular business hours or use our online appointment booking system on our website. We strive to accommodate your schedule and provide prompt and convenient consultations.</div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Are your treatments safe and effective?
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Yes, our clinic prioritizes the safety and effectiveness of all treatments. Our dermatologists utilize state-of-the-art technologies and evidence-based practices to ensure optimal results with minimal risk. We will discuss your treatment options, expected outcomes, and any potential side effects during your consultation.</div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  What conditions do your dermatologists commonly treat?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Our experienced dermatologists specialize in treating a variety of skin and hair conditions, including acne, eczema, psoriasis, hair loss, and more. Whether you have a specific concern or need general skincare advice, our team is here to help.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Do you offer personalized skincare and haircare routines?
-                </button>
-              </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Absolutely. We understand that every individual's skin and hair are unique. Our dermatologists will assess your specific needs and create personalized routines that may include recommended products, lifestyle adjustments, and in-clinic treatments to promote the health and beauty of your skin and hair.</div>
-              </div>
-            </div>
+          <div class="img-container my-auto ">
+            <img src="assets/img/doctor.png" class="rounded" alt="An image of senior doctor consulting patient" />
           </div>
         </div>
+
       </div>
     </div>
   </section>
