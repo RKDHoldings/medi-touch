@@ -1,5 +1,5 @@
 <?php
-    $basePath = "https://meditouch.com.np";
+    $basePath = "http://localhost/medi-touch";
 ?>
 <!-- ======= Header ======= -->
     <header class="">
@@ -22,7 +22,7 @@
                         <div class="topbar-right text-end">
                             <ul class="top-contact">
                                 <li>
-                                  <i class="bi bi-house-door"></i> <a href="tel:061-544440"> Newroad-09, Pokhara</a>
+                                  <i class="bi bi-house-door"></i> <a href=""> Newroad-09, Pokhara</a>
                                 </li>
                                 <li>
                                   <i class="bi bi-phone"></i> <a href="tel:061-590664">  061-590664</a>
