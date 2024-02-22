@@ -386,7 +386,7 @@ include('include/navbar.php');
         <div class="col-md-6 col-xl-4">
           <div onclick="window.location.href='article-detail.php';" class="card border-0 img-date">
             <div class="img-container">
-              <img src="assets/img/article/article.jpg" class="card-img-top rounded-0" alt="A female medical professional working on laptop">
+              <img src="assets/img/article/article.jpg" class="card-img-top rounded-2 shadow" alt="A female medical professional working on laptop">
               <div class="date">
                 <p class="day">16</p>
                 <p class="month-year">NOV 2019</p>
@@ -401,7 +401,7 @@ include('include/navbar.php');
         <div class="col-md-6 col-xl-4">
           <div onclick="window.location.href='article-detail.php';" class="card border-0">
             <div class="img-container">
-              <img src="assets/img/article/article.jpg" class="card-img-top rounded-0" alt="A female medical professional working on laptop">
+              <img src="assets/img/article/article.jpg" class="card-img-top rounded-2 shadow" alt="A female medical professional working on laptop">
               <div class="date">
                 <p class="day">16</p>
                 <p class="month-year">NOV 2019</p>
@@ -416,7 +416,7 @@ include('include/navbar.php');
         <div class="col-md-6 col-xl-4">
           <div onclick="window.location.href='article-detail.php';" class="card border-0">
             <div class="img-container">
-              <img src="assets/img/article/article.jpg" class="card-img-top rounded-0" alt="A female medical professional working on laptop">
+              <img src="assets/img/article/article.jpg" class="card-img-top rounded-2 shadow" alt="A female medical professional working on laptop">
               <div class="date">
                 <p class="day">16</p>
                 <p class="month-year">NOV 2019</p>
