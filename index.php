@@ -12,7 +12,7 @@ include('include/navbar.php');
       <div class="col-lg-6">
         <h1>We Are Ready <span>For Your Skin</span>Care Help! </h1>
 
-        <p>Follow us to improve health, <br /> to enjoy and relax</p>
+        <p>Follow us to improve health, <br class="d-sm-none d-md-block" /> to enjoy and relax</p>
 
         <div class="btns">
           <a href="/" class="btn btn-primary animated fadeInUp scrollto">Contact now
@@ -42,7 +42,7 @@ include('include/navbar.php');
   <section class="about-wrapper">
     <div class="container" data-aos="fade-up">
       <div class="row align-items-center">
-        <div class="col-lg-7  d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12  d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
           <div class="image-stack text-end">
             <img src="assets/img/about-1.png" alt="" class="stack-front">
             <img src="assets/img/about-2.png" alt="" class="stack-front">
@@ -50,15 +50,15 @@ include('include/navbar.php');
           </div>
 
         </div>
-        <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-12">
+        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
           <div class="about-info">
             <div class="heading-wrapper">
               <h2>
-                We have 7+ Years , <br />Experience.
+                We have 7+ Years , <br class="d-none d-md-block" />Experience.
               </h2>
             </div>
             <p class="mb-3">
-              Follow us to improve health, <br /> to enjoy and relax
+              Follow us to improve health, <br class="d-none d-md-block" /> to enjoy and relax
             </p>
             <div class="more-about">
               <h4>Our mission and Vision</h4>
@@ -67,7 +67,7 @@ include('include/navbar.php');
                 consectetur adipisicing elit. Molestiae vitae porro rem commodi cum
                 earum est modi, eaque molestias ipsa!
               </p>
-              <a href="" class="btn btn-primary mb-4">
+              <a href="" class="btn btn-primary mb-0">
                 Who we are
                 <i class="bi bi-chevron-double-right"></i>
               </a>
@@ -86,63 +86,75 @@ include('include/navbar.php');
       </div>
   </section>
 
-
-
-  <!-- services section start  -->
   <section id="what-we-do">
     <div class="container">
+      <h3 class="text-center mt-3">What services we provide you</h3>
+      <div class="row my-4">
+        <div class="col-12 col-md-7 mx-auto">
+          <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+            Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
+            Donec libero justo,</p>
+        </div>
+      </div>
       <div class="row">
-        <div class="col-lg-12">
-          <h3 class="text-center mt-3">What we provide you</h3>
-          <div class="row my-4">
-            <div class="col-12 col-md-7 mx-auto">
-              <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-                Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
-                Donec libero justo,</p>
+        <div class="col-lg-4">
+          <div class="single-service-card">
+            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
+            <div class="service-content mt-0">
+              <h3>
+                <a href="/">OPD Service </a>
+              </h3>
+              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
+              <div class="bottom">
+                <a href="#"><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="single-service-card">
+            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
+            <div class="service-content mt-0">
+              <h3>
+                <a href="/">Dermatosurgery</a>
+              </h3>
+              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
+              <div class="bottom">
+                <a href="#"><i class="bi bi-arrow-right"></i></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="single-service-card ">
+            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
+            <div class="service-content mt-0">
+              <h3>
+                <a href="/">Aesthetic Service</a>
+              </h3>
+              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
+              <div class="bottom">
+                <a href="#"><i class="bi bi-arrow-right"></i></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="d-flex video-wrapper w-100">
-          <div class="video-background">
-            <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
-          </div>
-          <div class="video-content">
-            <h3 class="text-start">What we make different <br /> from others</h3>
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-              Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-            </p>
-
-            <a href="" class="btn btn-secondary mt-4">
-              View More
-            </a>
-          </div>
-        </div>
-
-
-
-
-      </div>
     </div>
   </section>
-  <!-- services section end  -->
-
 
 
   <!-- why choose us section start  -->
   <section id="why-choose-us" class="why-choose-us">
     <div class="container px-4">
       <div class="inner-container ">
-        <div class=" text-container">
+        <div class=" text-container" data-aos="fade-right" data-aos-duration="1400" data-aos-delay="200">
           <div class="div text-sm-center text-md-start section-small-title">
             <img src="assets/img/meditouch-cropped.png" alt="meditouch logo" width="55px" class="" />
             <span class="text-uppercase">why choose us</span>
           </div>
-          <h2 class="section-title text-sm-center text-md-start">We Are Always Open For Your Health Services</h2>
+          <h3 class="section-title text-sm-center text-md-start">We Are Always Open For Your Health Services</h3>
           <div class="feature-list">
             <div class="feature row ">
               <div class="number-box me-4 col-2">01</div>
@@ -167,18 +179,56 @@ include('include/navbar.php');
             </div>
           </div>
         </div>
-        <div class="image-container">
+        <div class="image-container" data-aos="fade-left" data-aos-duration="1400" data-aos-delay="400">
           <img src="assets/img/Surgeon.jpg" alt="young-female-doctor-prepares-surgery-wears-blue-surgical-gloves-coat-mask" class="ms-md-5" />
         </div>
       </div>
 
+    </div>
+  </section>
+  <!-- why choose us section end  -->
+  <section id="what-we-do">
+    <div class="container">
       <div class="row">
+        <div class="col-lg-12">
+          <h3 class="text-center mt-3">What we provide you</h3>
+          <div class="row my-4">
+            <div class="col-12 col-md-7 mx-auto">
+              <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+                Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
+                Donec libero justo,</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="d-flex video-wrapper w-100 ">
+          <div class="video-background">
+            <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
+          </div>
+          <div class="video-content">
+            <h3 class="text-start">What we make different <br /> from others</h3>
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+              Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum. Donec libero justo,</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+            </p>
+
+           <div class="d-flex">
+              <a href="" class="btn btn-primary mt-4">
+                View More
+              </a>
+           </div>
+          </div>
+        </div>
+
+
+
 
       </div>
     </div>
   </section>
-  <!-- why choose us section end  -->
-
 
 
   <!-- appointment process -->
@@ -188,30 +238,31 @@ include('include/navbar.php');
             <img src="assets/img/shape/1.png" alt="Shape">
         </div> -->
     <!-- End Shape -->
+    
     <div class="container">
       <div class="process-items">
         <div class="row">
           <div class="col-lg-5 heading">
-            <h2>How to get a <br> consultation from us?</h2>
+            <h2>How to get a <br class="d-none d-md-block"> consultation from us?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eius nisi totam illo reiciendis us, beatae incidunt. Possimus, numquam!</p>
             <a class="btn btn-md btn-primary mb-4" href="#">Full Process <i class="fas fa-angle-right"></i></a>
           </div>
           <div class="col-lg-7">
             <div class="process-items text-center">
-              <div class="row gy-3">
-                <div class="col-lg-4 col-md-4 single-item">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 single-item" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                   <div class="item">
                     <img src="assets/img/icon/schedule.png" alt="">
                     <h5>Make Appointment</h5>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 single-item">
+                <div class="col-lg-4 col-md-4 single-item" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                   <div class="item">
                     <img src="assets/img/icon/doctor.png" alt="">
                     <h5>Select Expert Doctor</h5>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 single-item">
+                <div class="col-lg-4 col-md-4 single-item" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                   <div class="item">
                     <img src="assets/img/icon/consultation.png" alt="">
                     <h5>Confirm Consultation</h5>
@@ -224,63 +275,7 @@ include('include/navbar.php');
       </div>
     </div>
   </section>
-  <section id="what-we-do">
-    <div class="container">
-      <h3 class="text-center mt-3">What services we provide you</h3>
-      <div class="row my-4">
-        <div class="col-12 col-md-7 mx-auto">
-          <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
-            Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
-            Donec libero justo,</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="single-service-card">
-            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
-            <div class="service-content">
-              <h3>
-                <a href="/">OPD Service </a>
-              </h3>
-              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
-              <div class="bottom">
-                <a href="#"><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="single-service-card">
-            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
-            <div class="service-content">
-              <h3>
-                <a href="/">Dermatosurgery</a>
-              </h3>
-              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
-              <div class="bottom">
-                <a href="#"><i class="bi bi-arrow-right"></i></a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="single-service-card">
-            <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
-            <div class="service-content">
-              <h3>
-                <a href="/">Aesthetic Service</a>
-              </h3>
-              <p>Curabitur aliquet quam id dui posuere blandit. lacinia eget consectetur sed.</p>
-              <div class="bottom">
-                <a href="#"><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
   <!-- ceo section start -->
   <section id="ceo-message" class="ceo-message">
     <div class="container" data-aos="fade-up">
@@ -326,9 +321,9 @@ include('include/navbar.php');
               </div>
               <div class="col-lg-6 pt-4 pt-lg-0 content">
                 <h3>John Doe</h3>
-                <div class="post">
+                <!-- <div class="post">
                   <p><span>Dr</span></p>
-                </div>
+                </div> -->
                 <p class="fst-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.
@@ -353,9 +348,9 @@ include('include/navbar.php');
               </div>
               <div class="col-lg-6 pt-4 pt-lg-0 content">
                 <h3>Rita doe </h3>
-                <div class="post">
+                <!-- <div class="post">
                   <p><span>Dr</span></p>
-                </div>
+                </div> -->
                 <p class="fst-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.
@@ -391,7 +386,7 @@ include('include/navbar.php');
         <div class="col-md-6 col-xl-4">
           <div onclick="window.location.href='article-detail.php';" class="card border-0 img-date">
             <div class="img-container">
-              <img src="assets/img/article/article.jpg" class="card-img-top rounded-0" alt="A female medical professional working on laptop">
+              <img src="assets/img/article/article.jpg" class="card-img-top rounded-2 shadow" alt="A female medical professional working on laptop">
               <div class="date">
                 <p class="day">16</p>
                 <p class="month-year">NOV 2019</p>
@@ -406,7 +401,7 @@ include('include/navbar.php');
         <div class="col-md-6 col-xl-4">
           <div onclick="window.location.href='article-detail.php';" class="card border-0">
             <div class="img-container">
-              <img src="assets/img/article/article.jpg" class="card-img-top rounded-0" alt="A female medical professional working on laptop">
+              <img src="assets/img/article/article.jpg" class="card-img-top rounded-2 shadow" alt="A female medical professional working on laptop">
               <div class="date">
                 <p class="day">16</p>
                 <p class="month-year">NOV 2019</p>
@@ -421,7 +416,7 @@ include('include/navbar.php');
         <div class="col-md-6 col-xl-4">
           <div onclick="window.location.href='article-detail.php';" class="card border-0">
             <div class="img-container">
-              <img src="assets/img/article/article.jpg" class="card-img-top rounded-0" alt="A female medical professional working on laptop">
+              <img src="assets/img/article/article.jpg" class="card-img-top rounded-2 shadow" alt="A female medical professional working on laptop">
               <div class="date">
                 <p class="day">16</p>
                 <p class="month-year">NOV 2019</p>
@@ -516,7 +511,7 @@ include('include/navbar.php');
   <section id="testimonials" class="testimonials">
     <div class="container">
 
-    <div class="section-title pb-3">
+      <div class="section-title pb-3">
         <h2>Testimonials</h2>
       </div>
 
@@ -595,14 +590,18 @@ include('include/navbar.php');
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div>
-          </div><!-- End testimonial item -->
-
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
 
-    </div>
+
+      </div>
+      <img src="assets/img/shape.png" class="bg-shape" alt="">
+  </section>
+  <!-- End Testimonials Section -->
+
+  </div>
   </section>
   <!-- End Testimonials Section -->
 
@@ -648,27 +647,122 @@ include('include/navbar.php');
            </div>
      </section> -->
 
+  <!-- FAQ Section Start -->
+  <section class="faq" id="faq">
 
-</main><!-- End #main -->
 
+    <div class="container">
+      <div class="row gx-5">
+        <div class="col-12 col-lg-6">
+          <div class="accordion" id="accordionExample">
+            <h2 class="text-start my-3 text-capitalize">Need to ask some questions or check some questions</h2>
+            <p class="faq-subtitle mb-4">There are Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, reiciendis!  Lorem ipsum dolor sit.</p>
+            <div class="faq-container">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    1. What services does your hair and skin clinic provide?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Our clinic offers a range of services tailored to meet your hair and skin needs. This includes dermatological consultations, hair restoration treatments, advanced skincare procedures, and personalized treatment plans for various conditions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    2. How do I schedule an appointment at your clinic?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Scheduling an appointment is easy. You can call our clinic during regular business hours or use our online appointment booking system on our website. We strive to accommodate your schedule and provide prompt and convenient consultations.
+                  </div>
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    3. Are your treatments safe and effective?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Yes, our clinic prioritizes the safety and effectiveness of all treatments. Our dermatologists utilize state-of-the-art technologies and evidence-based practices to ensure optimal results with minimal risk. We will discuss your treatment options, expected outcomes, and any potential side effects during your consultation.
+                  </div>
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    4. What conditions do your dermatologists commonly treat?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Our experienced dermatologists specialize in treating a variety of skin and hair conditions, including acne, eczema, psoriasis, hair loss, and more. Whether you have a specific concern or need general skincare advice, our team is here to help.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    5. Do you offer personalized skincare and haircare routines?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>
+                      Absolutely. We understand that every individual's skin and hair are unique. Our dermatologists will assess your specific needs and create personalized routines that may include recommended products, lifestyle adjustments, and in-clinic treatments to promote the health and beauty of your skin and hair.
+                  </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="img-container my-auto ">
+            <img src="assets/img/doctor.png" class="rounded" alt="An image of senior doctor consulting patient" />
+          </div>
+        </div>
 
-<!-- Book an appointment banner section Start  -->
-<section id="appointment" class="appointment">
-  <div class="container p-0">
-    <div class="appointment-banner">
-      <div class="row">
-        <div class="col-md-6 me-auto text-content">
-          <div class="px-4">
-            <h3 class="title mb-3">Book an appointment today</h3>
-            <p class="subtitle">Transform your look with our expert care</p>
-            <button type="button" onclick="window.location.href='appointment.php';" class="btn btn-primary">Book Now</button>
+      </div>
+    </div>
+  </section>
+  <!-- FAQ Section End -->
+
+  <!-- Book an appointment banner section Start  -->
+  <section id="appointment" class="appointment">
+    <div class="container p-0">
+      <div class="appointment-banner">
+        <div class="row">
+          <div class="me-auto text-content">
+            <div class="px-4">
+              <h3 class="title mb-3">Book an appointment today</h3>
+              <p class="subtitle text-center">Transform your look with our expert care</p>
+              <button type="button" onclick="window.location.href='appointment.php';" class="btn btn-primary">Book Now</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- Book an appointment banner section end  -->
+  </section>
+  <!-- Book an appointment banner section end  -->
+</main><!-- End #main -->
+
+
+
 
 
 

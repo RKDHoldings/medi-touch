@@ -30,7 +30,7 @@ include('include/navbar.php');
 
 
 
-  <section id="contact" class="contact">
+  <section id="contact" class="contact py-0">
 
 
     <div class="row py-5 justify-content-center contact-form-section" >

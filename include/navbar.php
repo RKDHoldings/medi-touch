@@ -1,8 +1,8 @@
 <?php
-    $basePath = "https://meditouch.com.np";
+    $basePath = "http://localhost/medi-touch";
 ?>
 <!-- ======= Header ======= -->
-    <header id="header" class="">
+    <header class="">
       <div class="topbar-wrapper" id="">
             <div class="container">
                 <div class="row">
@@ -22,7 +22,7 @@
                         <div class="topbar-right text-end">
                             <ul class="top-contact">
                                 <li>
-                                  <i class="bi bi-house-door"></i> <a href="tel:061-544440"> Newroad-09, Pokhara</a>
+                                  <i class="bi bi-house-door"></i> <a href="contact.php"> Newroad-09, Pokhara</a>
                                 </li>
                                 <li>
                                   <i class="bi bi-phone"></i> <a href="tel:061-590664">  061-590664</a>
@@ -37,11 +37,11 @@
                </div>
             </div>
       </div>
-    <div  class="">
+    <div  class="" id="header">
           <div class="container d-flex align-items-center justify-content-lg-between nav-head ">
-            <a href="/" 
+              <a href="/" 
                 class="logo me-auto me-lg-0">
-              <img src="assets/img/logo.png" alt="" class="img-fluid">
+                <img src="assets/img/logo.png" alt="" class="img-fluid">
               </a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -68,21 +68,4 @@
     </div>
   </header><!-- End Header -->
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function(){
-		
-		window.addEventListener('scroll', function() {
-	       
-			if (window.scrollY > 200) {
-				document.getElementById('stickable-header').classList.add('fixed-top');
-				// add padding top to show content behind navbar
-				navbar_height = document.querySelector('.stickable-header').offsetHeight;
-				document.body.style.paddingTop = navbar_height + 'px';
-			} else {
-			 	document.getElementById('stickable-header').classList.remove('fixed-top');
-				 // remove padding top from body
-				document.body.style.paddingTop = '0';
-			} 
-		});
-	}); 
-</script>
+ 

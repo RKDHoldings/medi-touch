@@ -23,7 +23,7 @@
                </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-2 col-md-6 footer-contact">
             <h3>Useful Links</h3>
             <ul class="ps-0">
               <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
@@ -54,7 +54,7 @@
                             </tbody></table>
                         </div>
           </div>
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-4 col-md-6 footer-contact">
               <h3>Recent News</h3>
               <div class="footer-news-post">
                   <div class="footer-news">
