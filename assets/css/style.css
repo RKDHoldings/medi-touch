@@ -2836,7 +2836,7 @@ ul.story-list {
   opacity: 1;
 }
 
-.ceo-message .swiper-pagination .swiper-pagination-eroullet-active {
+.ceo-message .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
 }
 @media (max-width: 992px) {

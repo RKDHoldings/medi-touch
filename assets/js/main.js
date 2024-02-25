@@ -17,16 +17,22 @@
      /**
    * Events slider
    */
-  new Swiper('.events-slider', {
-    speed: 600,
-    loop: true,
+  // new Swiper('.events-slider', {
+  //   speed: 600,
+  //   loop: true,
    
-    slidesPerView: 'auto',
+  //   slidesPerView: 'auto',
+  //   pagination: {
+  //     el: '.swiper-pagination',
+  //     type: 'bullets',
+  //     clickable: true
+  //   }
+  // });
+
+  var swiper = new Swiper(".events-slider", {
     pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
+      el: ".swiper-pagination",
+    },
   });
   /**
    * Easy event listener function
