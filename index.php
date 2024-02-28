@@ -91,14 +91,16 @@ include('include/navbar.php');
       <h3 class="text-center mt-3">What services we provide you</h3>
       <div class="row my-4">
         <div class="col-12 col-md-7 mx-auto">
-          <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.</p>
+          <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
+            Suspendisse mattis, neque sed blandit auctor, dolor leo efficitur magna, id luctus erat massa nec ipsum.
+            Donec libero justo,</p>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-4">
           <div class="single-service-card">
             <a href=""><img src="assets/img/book-banner.jpg" alt="image"></a>
-            <div class="service-content">
+            <div class="service-content mt-0">
               <h3>
                 <a href="/">OPD Service </a>
               </h3>
@@ -141,10 +143,6 @@ include('include/navbar.php');
       </div>
     </div>
   </section>
-
-
-
-
 
 
   <!-- why choose us section start  -->
@@ -217,11 +215,11 @@ include('include/navbar.php');
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.
             </p>
 
-            <div class="d-flex">
+           <div class="d-flex">
               <a href="" class="btn btn-primary mt-4">
                 View More
               </a>
-            </div>
+           </div>
           </div>
         </div>
 
@@ -240,7 +238,7 @@ include('include/navbar.php');
             <img src="assets/img/shape/1.png" alt="Shape">
         </div> -->
     <!-- End Shape -->
-
+    
     <div class="container">
       <div class="process-items">
         <div class="row">
@@ -392,7 +390,7 @@ include('include/navbar.php');
         <div class="col-md-6 col-xl-4">
           <div onclick="window.location.href='article-detail.php';" class="card border-0 img-date">
             <div class="img-container">
-              <img src="assets/img/article/article.jpg" class="card-img-top rounded-0" alt="A female medical professional working on laptop">
+              <img src="assets/img/article/article.jpg" class="card-img-top rounded-2 shadow" alt="A female medical professional working on laptop">
               <div class="date">
                 <p class="day">16</p>
                 <p class="month-year">NOV 2019</p>
@@ -407,7 +405,7 @@ include('include/navbar.php');
         <div class="col-md-6 col-xl-4">
           <div onclick="window.location.href='article-detail.php';" class="card border-0">
             <div class="img-container">
-              <img src="assets/img/article/article.jpg" class="card-img-top rounded-0" alt="A female medical professional working on laptop">
+              <img src="assets/img/article/article.jpg" class="card-img-top rounded-2 shadow" alt="A female medical professional working on laptop">
               <div class="date">
                 <p class="day">16</p>
                 <p class="month-year">NOV 2019</p>
@@ -422,7 +420,7 @@ include('include/navbar.php');
         <div class="col-md-6 col-xl-4">
           <div onclick="window.location.href='article-detail.php';" class="card border-0">
             <div class="img-container">
-              <img src="assets/img/article/article.jpg" class="card-img-top rounded-0" alt="A female medical professional working on laptop">
+              <img src="assets/img/article/article.jpg" class="card-img-top rounded-2 shadow" alt="A female medical professional working on laptop">
               <div class="date">
                 <p class="day">16</p>
                 <p class="month-year">NOV 2019</p>

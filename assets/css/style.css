@@ -13,7 +13,6 @@
   --color-alternate-bg: #fff8f6;
   --color-text: #212529;
   --color-dark-blue: #084596;
-  --color-lighter-blue: #01a9f2;
   --color-grey-blue: #6c757d;
   --color-secondary-rgb: 50, 53, 58;
   --color-box-background: #ffffff;
@@ -613,35 +612,44 @@ ul.top-contact i {
   }
 }
 
-@media (max-width: 468px) {
-  .about-info {
-    margin-top: 1rem;
+@media (max-width: 468px){
+  .about-info{
+   margin-top: 1rem;
   }
-  .call-box {
+  .call-box{
     margin-top: 10px;
-    margin-left: 0 !important;
+    margin-left: 0!important;
   }
-  .video-content .btn {
+
+
+  .process-items .btn{
     margin: auto;
     display: flex;
+
   }
 
-  .process-items .btn {
-    margin: auto;
-    display: flex;
-  }
+
+
+  
 }
 
-@media (max-width: 1200px) and (min-width: 992px) {
-  .call-box {
+@media (max-width: 1200px) and (min-width: 992px){
+
+  .call-box{
     margin-top: 10px;
-    margin-left: 0 !important;
+    margin-left: 0!important;
   }
+  
+  #hero{
+    height:55vh;
+  }
+  
 
-  #hero {
-    height: 55vh;
-  }
 }
+
+
+
+
 
 @media (max-height: 500px) {
   #hero {
