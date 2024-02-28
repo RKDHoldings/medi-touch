@@ -372,9 +372,13 @@ include('include/navbar.php');
 
         </div>
         <div class="swiper-pagination"></div>
-      </div>
+        <!-- <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 
-    </div>
+  <div class="swiper-scrollbar"></div>
+      </div> -->
+
+      </div>
   </section>
 
 
@@ -658,7 +662,7 @@ include('include/navbar.php');
         <div class="col-12 col-lg-6">
           <div class="accordion" id="accordionExample">
             <h2 class="text-start my-3 text-capitalize">Need to ask some questions or check some questions</h2>
-            <p class="faq-subtitle mb-4">There are Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, reiciendis!  Lorem ipsum dolor sit.</p>
+            <p class="faq-subtitle mb-4">There are Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, reiciendis! Lorem ipsum dolor sit.</p>
             <div class="faq-container">
               <div class="accordion-item">
                 <h2 class="accordion-header">

@@ -540,9 +540,10 @@ ul.top-contact i {
   border: 1px solid var(--color-secondary);
   content: "";
   height: 100%;
-  width: 3px;
+  width: 4px;
   left: 0;
   top: 0;
+  border-radius: 0.375rem; 
   z-index: -1;
   transition: 0.5s;
 }
@@ -2835,7 +2836,7 @@ ul.story-list {
   opacity: 1;
 }
 
-.ceo-message .swiper-pagination .swiper-pagination-eroullet-active {
+.ceo-message .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
 }
 @media (max-width: 992px) {
@@ -3228,24 +3229,23 @@ ul.story-list {
 /* <!-- FAQ Section Start --> */
 .faq .accordion {
   height: 720px;
-  /* @media (max-width: 512px) {
-    margin-bottom: 9rem;
-  }
-  @media (max-width: 792px) {
-    margin-bottom: 7rem;
-  }
-   */
-  
+  /* border: 1px solid red; */
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .faq .accordion {
+    height: 800px;
+  }
+}
+
 @media (max-width: 792px) {
   .faq .accordion{
     /* margin-bottom: 7rem; */
-    height: 680px;
+    height: 690px;
   }
  }
  @media (max-width: 502px) {
   .faq .accordion{
-    height: 750px;
+    height: 780px;
 
   }
  }
@@ -3270,7 +3270,7 @@ ul.story-list {
 .faq .accordion-item {
   margin-bottom: 1.2rem;
   border-radius: 10px !important;
-  border: 1px solid #0cb8b6;
+  border: 1px solid #01a9f2;
 }
 .faq .accordion-item .accordion-button {
   font-size: 18px;

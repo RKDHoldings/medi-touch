@@ -55,7 +55,7 @@
           <li><a class="nav-link scrollto" href="<?php echo $basePath; ?>/articles.php">News & Blogs</a></li>
          
           <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
-          <li class="dropdown"><a href="doctors.php"><span>Doctors</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="team.php"><span>Team</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="doctors-detail.php">Doctors Details</a></li>
             </ul>

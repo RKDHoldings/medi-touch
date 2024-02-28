@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="icon" href="assets/img/logo.png" type="image/x-icon">
 
   <title>Meditouch</title>
   <meta content="Meditouch Hair & Skin Clinic" name="description">
