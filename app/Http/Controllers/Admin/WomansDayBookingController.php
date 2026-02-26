@@ -148,7 +148,7 @@ class WomansDayBookingController extends BaseController
             'Pragma' => 'public'
         ];
 
-        $list = WomansDayBooking::where('created_at', '>', '2025-01-01')->get();
+        $list = WomansDayBooking::where('type', 'womens day')->where('created_at', '>', '2025-01-01')->get();
 
         # add headers for each column in the CSV download
         $columns = array('S.N.', 'Name', 'Address', 'Appointment Date', 'Booked Dr.', 'Extra Details');
@@ -159,11 +159,11 @@ class WomansDayBookingController extends BaseController
             $FH = fopen('php://output', 'w');
             fputcsv($FH, $columns);
             foreach ($list as $k => $data) {
-                $dr_names = json_decode($data->bookingDocs->doctor_list ?? []);
+                $dr_names = json_decode($data->bookingDocs?->doctor_list ?? '[]');
                 $row['S.N.'] = $k + 1;
                 $row['Name'] = $data->name;
                 $row['Address'] = $data->address;
-                $row['Appointment Date'] = $data->bookingDocs->appointment_date ?? '--';
+                $row['Appointment Date'] = $data->bookingDocs?->appointment_date ?? '--';
                 $row['Booked Dr.'] = '';
                 if (!empty($dr_names)) {
                     foreach ($dr_names as $name) {

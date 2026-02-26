@@ -164,4 +164,14 @@ class PopupController extends BaseController
         }
         return redirect()->route($this->indexRoute());
     }
+
+    public function deleteImage($id)
+    {
+        if (!auth()->user()->can('popups.edit')) {
+            abort(403);
+        }
+        $item = Popup::findOrFail($id);
+        $item->clearMediaCollection();
+        return response()->json(['success' => true, 'message' => 'Image deleted successfully.']);
+    }
 }

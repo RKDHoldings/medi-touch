@@ -94,6 +94,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
     Route::resource('site-settings', \App\Http\Controllers\Admin\SiteSettingController::class)->only(['index', 'update']);
     Route::get('/profile', [UserController::class, 'profile'])->name('profile');
     Route::get('/womens-day-data', [WomansDayBookingController::class, 'download'])->name('data-download');
+    Route::delete('/popups/{id}/delete-image', [PopupController::class, 'deleteImage'])->name('popups.delete-image');
 });
 
 
