@@ -17,7 +17,7 @@
     </a>
 @endif
 
-@if (!isset($hide_delete))
+@if (!($hide_delete ?? false))
     <form class="d-inline" action="{{ route($route . 'destroy', $id ?? $item->id) }}" method="POST"
         onclick="return confirm('Are you sure?')">
         @csrf
