@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/$USER/meditouch.com.np
+    - /usr/local/bin/composer install --no-dev --optimize-autoloader --working-dir=$DEPLOYPATH
+    - $DEPLOYPATH/artisan migrate --force
+    - $DEPLOYPATH/artisan config:cache
+    - $DEPLOYPATH/artisan route:cache
+    - $DEPLOYPATH/artisan view:cache
+    - $DEPLOYPATH/artisan storage:link
