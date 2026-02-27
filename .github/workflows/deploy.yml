@@ -20,7 +20,7 @@ jobs:
           port: ${{ secrets.CPANEL_SSH_PORT }}   # usually 22 or 21098
           script_stop: true
           script: |
-            cd ~/public_html
+            cd ~/meditouch.com.np
             git pull origin main
             composer install --no-dev --optimize-autoloader
             php artisan migrate --force
