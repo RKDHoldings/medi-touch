@@ -5,44 +5,44 @@
     <!-- Modal -->
 
     <!-- <div class="modal fade myModal" id="myModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                  <div class="modal-dialog modal-dialog-centered modal-lg">
-                                    <div class="modal-content">
-                                      <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      <div class="modal-grid">
-                                        <div class=" text-content"> -->
+                                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content">
+                                          <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                          <div class="modal-grid">
+                                            <div class=" text-content"> -->
 
     <!-- <div class="text">
-                                            <p class="top-text">International</p>
-                                            <h5 class="occasion">Women's Day</h5>
-                                            <h5 class="offer">Discount</h5>
-                                            <div class="line mx-auto"></div>
-                                            <div class="discount d-flex justify-content-center">
-                                              <h2 class="percentsign">
-                                                <span>9</span>
-                                                <sup>%</sup>
-                                                <sub>OFF</sub>
-                                              </h2>
-                                            </div>
-                                            <p class="bottom-text">On all packages and services</p>
-                                          </div> -->
+                                                <p class="top-text">International</p>
+                                                <h5 class="occasion">Women's Day</h5>
+                                                <h5 class="offer">Discount</h5>
+                                                <div class="line mx-auto"></div>
+                                                <div class="discount d-flex justify-content-center">
+                                                  <h2 class="percentsign">
+                                                    <span>9</span>
+                                                    <sup>%</sup>
+                                                    <sub>OFF</sub>
+                                                  </h2>
+                                                </div>
+                                                <p class="bottom-text">On all packages and services</p>
+                                              </div> -->
 
     <!-- <img class="card-img-top" src="assets/img/womenday-offer.webp" alt="Women Day Offer">
-                                        </div>
-                                        <div class=" cta">
-                                          <div class="content">
-                                            <img src="{{ asset('assets/img/women-march.png') }}" alt="An illustration of group of women holding each others' hand as they climb up the ladder." />
-                                            <button class="btn btn-primary d-block mx-auto my-4" onclick="window.location.href='{{ route('offer-form') }}';">Book an Appointment</button>
+                                            </div>
+                                            <div class=" cta">
+                                              <div class="content">
+                                                <img src="{{ asset('assets/img/women-march.png') }}" alt="An illustration of group of women holding each others' hand as they climb up the ladder." />
+                                                <button class="btn btn-primary d-block mx-auto my-4" onclick="window.location.href='{{ route('offer-form') }}';">Book an Appointment</button>
+                                              </div>
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
-                                    </div>
-                                  </div>
-                                </div> -->
+                                    </div> -->
 
 
     @if ($popups && $popups->count() > 0)
         <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h1 class="modal-title fs-5" id="exampleModalLabel">
@@ -61,7 +61,7 @@
                                             </div>
                                         @endif
                                         <img class="card-img-top w-100 object-fit-cover"
-                                            style="max-height: 60vh; object-position: center;" src="{{ $popup->getImage() }}"
+                                            style="max-height: 80vh; object-position: center;" src="{{ $popup->getImage() }}"
                                             alt="{{ $popup->title }}">
                                         <div class="modal-footer justify-content-center border-0">
                                             <button class="btn btn-primary"
@@ -201,8 +201,8 @@
                         </a>
                     </div>
                     <!-- <div class="col-12 col-md-7 mx-auto">
-                                          <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.</p>
-                                        </div> -->
+                                              <p class="text-center ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus iaculis scelerisque.</p>
+                                            </div> -->
                     <div class="row">
                         @forelse($services as $service)
                             <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1200"
@@ -332,31 +332,31 @@
         </section>
         <!-- why choose us section end  -->
         <!-- <section id="what-we-do">
-                                    <div class="container">
-                                      <div class="row">
-                                        <div class="col-lg-12">
-                                          <h3 class="mt-3 text-start">What we provide you</h3>
-                                        </div>
-                                      </div>
-
-                                      <div class="row">
-                                        <div class="d-flex video-wrapper w-100 ">
-                                          <div class="video-background">
-                                            <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
+                                        <div class="container">
+                                          <div class="row">
+                                            <div class="col-lg-12">
+                                              <h3 class="mt-3 text-start">What we provide you</h3>
+                                            </div>
                                           </div>
 
+                                          <div class="row">
+                                            <div class="d-flex video-wrapper w-100 ">
+                                              <div class="video-background">
+                                                <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
+                                              </div>
+
+                                            </div>
+                                          </div>
                                         </div>
-                                      </div>
-                                    </div>
-                                  </section> -->
+                                      </section> -->
 
 
         <!-- appointment process -->
         <section class="process-area default-padding-bottom">
             <!-- Shape -->
             <!-- <div class="shape">
-                                            <img src="assets/img/shape/1.png" alt="Shape">
-                                        </div> -->
+                                                <img src="assets/img/shape/1.png" alt="Shape">
+                                            </div> -->
             <!-- End Shape -->
 
             <div class="container">
@@ -439,10 +439,10 @@
                     </div>
                     <div class="swiper-pagination"></div>
                     <!-- <div class="swiper-button-prev"></div>
-                                  <div class="swiper-button-next"></div>
+                                      <div class="swiper-button-next"></div>
 
-                                  <div class="swiper-scrollbar"></div>
-                                      </div> -->
+                                      <div class="swiper-scrollbar"></div>
+                                          </div> -->
 
                 </div>
         </section>
@@ -522,45 +522,45 @@
 
         <!-- Contact section -->
         <!-- <section id="feedback" class="feedback contact">
-                                           <div class="container"  data-aos="fade-up">
-                                                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                                               <div class="container"  data-aos="fade-up">
+                                                    <div class="row" data-aos="fade-up" data-aos-delay="100">
 
-                                                     <div class="col-lg-6">
+                                                         <div class="col-lg-6">
 
-                                                        <img src="assets/img/feedback.png" alt="">
-                                                     </div>
-                                                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-                                                          <div class="heading-wrapper">
-                                                                  <h2>
-                                                                    Give Us Suggestions
-                                                                  </h2>
-                                                                  <p>Please leave a  message of a suggestion </p>
-                                                          </div>
+                                                            <img src="assets/img/feedback.png" alt="">
+                                                         </div>
+                                                         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                                                              <div class="heading-wrapper">
+                                                                      <h2>
+                                                                        Give Us Suggestions
+                                                                      </h2>
+                                                                      <p>Please leave a  message of a suggestion </p>
+                                                              </div>
 
-                                                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                                                          <div class="row">
-                                                            <div class="form-group">
-                                                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-                                                            </div>
-                                                            <div class="form-group mt-3 mt-md-0">
-                                                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-                                                            </div>
-                                                          </div>
-                                                          <div class="form-group mt-3">
-                                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
-                                                          </div>
-                                                          <div class="form-group mt-3">
-                                                            <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
-                                                          </div>
+                                                            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                                              <div class="row">
+                                                                <div class="form-group">
+                                                                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                                                                </div>
+                                                                <div class="form-group mt-3 mt-md-0">
+                                                                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                                                                </div>
+                                                              </div>
+                                                              <div class="form-group mt-3">
+                                                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+                                                              </div>
+                                                              <div class="form-group mt-3">
+                                                                <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
+                                                              </div>
 
-                                                          <div class="mt-3">
-                                                            <button type="submit">Submit</button>
-                                                          </div>
-                                                        </form>
-                                                     </div>
-                                                </div>
-                                           </div>
-                                     </section> -->
+                                                              <div class="mt-3">
+                                                                <button type="submit">Submit</button>
+                                                              </div>
+                                                            </form>
+                                                         </div>
+                                                    </div>
+                                               </div>
+                                         </section> -->
 
         <!-- FAQ Section Start -->
         <section class="faq" id="faq">
